@@ -1,4 +1,4 @@
-# comdex-test-1
+# comets-test
 > This is comdex testnet chain
 > GENESIS NOT PUBLISHED
 > PEERS NOT PUBLISHED
@@ -58,10 +58,10 @@ or
 * [Install](#installation-steps) comdex core application
 * Initialize node
 ```shell
-comdex init {{NODE_NAME}} --chain-id comdex-test-1
+comdex init {{NODE_NAME}} --chain-id comets-test
 comdex add-genesis-account {{KEY_NAME}} 100000000000000ucmdx
 comdex gentx {{KEY_NAME}} 10000000ucmdx \
---chain-id comdex-test-1 \
+--chain-id comets-test \
 --moniker="{{VALIDATOR_NAME}}" \
 --commission-max-change-rate=0.01 \
 --commission-max-rate=1.0 \
@@ -72,13 +72,13 @@ comdex gentx {{KEY_NAME}} 10000000ucmdx \
 ```
 * Copy the contents of `${HOME}/.comdex/config/gentx/gentx-XXXXXXXX.json`.
 * Fork the [repository](https://github.com/comdex-official/networks/)
-* Create a file `gentx-{{VALIDATOR_NAME}}.json` under the testnet/comdex-test-1/gentxs folder in the forked repo, paste the copied text into the file. Find reference file gentx-examplexxxxxxxx.json in the same folder.
+* Create a file `gentx-{{VALIDATOR_NAME}}.json` under the testnet/comets-test/gentxs folder in the forked repo, paste the copied text into the file. Find reference file gentx-examplexxxxxxxx.json in the same folder.
 * Run `comdex tendermint show-node-id` and copy your nodeID.
 * Run `ifconfig` or `curl ipinfo.io/ip` and copy your publicly reachable IP address.
-* Create a file `peers-{{VALIDATOR_NAME}}.json` under the testnet/comdex-test-1/peers folder in the forked repo, paste the copied text from the last two steps into the file. Find reference file peers-examplexxxxxxxx.json in the same folder.
+* Create a file `peers-{{VALIDATOR_NAME}}.json` under the testnet/comets-test/peers folder in the forked repo, paste the copied text from the last two steps into the file. Find reference file peers-examplexxxxxxxx.json in the same folder.
 * Create a Pull Request to the `main` branch of the [repository](https://github.com/comdex-official/networks)
->**NOTE:** The Pull Request will be merged by the maintainers to confirm the inclusion of the validator at the genesis. The final genesis file will be published under the file testnet/comdex-test-1/final_genesis.json.
-* Replace the contents of your `${HOME}/.comdex/config/genesis.json` with that of testnet/comdex-test-1/genesis_final.json.
+>**NOTE:** The Pull Request will be merged by the maintainers to confirm the inclusion of the validator at the genesis. The final genesis file will be published under the file testnet/comets-test/final_genesis.json.
+* Replace the contents of your `${HOME}/.comdex/config/genesis.json` with that of testnet/comets-test/genesis_final.json.
 * Copy below node as `persistent_peers` or `seeds` in `${HOME}/.comdex/config/config.toml`
  
 ```shell
@@ -96,7 +96,7 @@ comdex start
 ```shell
 comdex init {{NODE_NAME}}
 ```
-* Replace the contents of your `${HOME}/.comdex/config/genesis.json` with that of testnet/comdex-test-1/genesis.json from the `main` branch of [repository](https://github.com/comdex-official/networks).
+* Replace the contents of your `${HOME}/.comdex/config/genesis.json` with that of testnet/comets-test/genesis.json from the `main` branch of [repository](https://github.com/comdex-official/networks).
 * Copy below node as `persistent_peers` or `seeds` in `${HOME}/.comdex/config/config.toml`
 ```shell
    TO BE PUBLISHED
@@ -113,7 +113,7 @@ comdex tx staking create-validator \
 --from {{KEY_NAME}} \
 --amount XXXXXXXXucmdx \
 --pubkey comdexvalconspubXXXXXXXX
---chain-id comdex-test-1 \
+--chain-id comets-test \
 --moniker="{{VALIDATOR_NAME}}" \
 --commission-max-change-rate=0.01 \
 --commission-max-rate=1.0 \
