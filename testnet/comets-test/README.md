@@ -35,7 +35,7 @@ git clone https://github.com/comdex-official/comdex.git
 ```shell
 cd comdex
 git fetch --tags
-git checkout v0.0.1
+git checkout v0.0.2
 ```
 * Install
 ```shell
