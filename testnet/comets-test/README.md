@@ -88,6 +88,10 @@ comdex gentx {{KEY_NAME}} 10000000ucmdx \
 ```shell
 comdex start
 ```
+* Copy below node as minimum-gas-prices in ${HOME}/.comdex/config/app.toml
+```shell
+0.2cmdx
+```
 
 ### Become a validator
 
@@ -123,6 +127,12 @@ comdex tx staking create-validator \
 --security-contact="XXXXXXXX" \
 --website="XXXXXXXX"
 ```
+
+* Copy below node as minimum-gas-prices in ${HOME}/.comdex/config/app.toml
+```shell
+0.2cmdx
+```
+
 ## Version
 This chain is currently running on Comdex [v0.0.2](https://github.com/comdex-official/comdex/releases/tag/v0.0.2)
 Commit Hash: 36e59abc8aff22a8eea2e851ee19e497c7f754ea
