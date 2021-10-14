@@ -77,7 +77,7 @@ comdex gentx {{KEY_NAME}} 10000000ucmdx \
 * Run `ifconfig` or `curl ipinfo.io/ip` and copy your publicly reachable IP address.
 * Create a file `peers-{{VALIDATOR_NAME}}.json` under the testnet/comets-test/peers folder in the forked repo, paste the copied text from the last two steps into the file. Find reference file peers-examplexxxxxxxx.json in the same folder.
 * Create a Pull Request to the `main` branch of the [repository](https://github.com/comdex-official/networks)
->**NOTE:** The Pull Request will be merged by the maintainers to confirm the inclusion of the validator at the genesis. The final genesis file will be published under the file testnet/comets-test/final_genesis.json.
+>**NOTE:** The Pull Request will be merged by the maintainers to confirm the inclusion of the validator at the genesis. The final genesis file will be published under the file testnet/comets-test/genesis_final.json.
 * Replace the contents of your `${HOME}/.comdex/config/genesis.json` with that of testnet/comets-test/genesis_final.json.
 * Copy below node as `persistent_peers` or `seeds` in `${HOME}/.comdex/config/config.toml`
  
@@ -135,4 +135,4 @@ The binary can be downloaded from [here](https://github.com/comdex-official/comd
 The explorer for this chain is hosted [here](::To be published)
 
 ## Genesis Time
-The genesis transactions sent before 1200HRS UTC 15th October 2021 will be used to publish the final_genesis.json at 1400HRS UTC 15th October 2021. 
+The genesis transactions sent before 1200HRS UTC 15th October 2021 will be used to publish the genesis_final.json at 1400HRS UTC 15th October 2021. 
