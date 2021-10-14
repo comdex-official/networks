@@ -117,7 +117,7 @@ comdex init {{NODE_NAME}}
 ```shell
 comdex start
 ```
-* Acquire $CMDX by sending a message to the developers channel in [Discord](https://discord.gg/gH6RTrnexk).
+* Acquire $ucmdx by sending a message to the validators channel in [Discord](https://discord.gg/gH6RTrnexk).
 * Run `comdex tendermint show-validator` and copy your consensus public key.
 * Send a create-validator transaction
 ```
