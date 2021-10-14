@@ -90,7 +90,7 @@ comdex start
 ```
 * Copy below node as minimum-gas-prices in ${HOME}/.comdex/config/app.toml
 ```shell
-0.2cmdx
+0.2ucmdx
 ```
 
 ### Become a validator
@@ -130,7 +130,7 @@ comdex tx staking create-validator \
 
 * Copy below node as minimum-gas-prices in ${HOME}/.comdex/config/app.toml
 ```shell
-0.2cmdx
+0.2ucmdx
 ```
 
 ## Version
