@@ -1,7 +1,7 @@
 # comets-test
 > This is comdex testnet chain
-> GENESIS NOT PUBLISHED
-> PEERS NOT PUBLISHED
+> GENESIS TO BE  PUBLISHED
+> PEERS TO BE PUBLISHED
 
 1st testnet for comdex-official/comdex application.
 
@@ -51,9 +51,9 @@ or
 `comdex keys add [key_name] --recover` to regenerate keys with your [BIP39](https://github.com/bitcoin/bips/tree/master/bip-0039) mnemonic
 
 
-## Validator setup
+## Validator setup instructions
 
-### Before genesis: Accepting Genesis Validators
+### GenTx : for genesis validators
 
 * [Install](#installation-steps) comdex core application
 * Initialize node
@@ -89,7 +89,7 @@ comdex gentx {{KEY_NAME}} 10000000ucmdx \
 comdex start
 ```
 
-### Post genesis
+### Become a validator
 
 * [Install](#installation-steps) comdex core application
 * Initialize node
