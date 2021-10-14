@@ -124,12 +124,12 @@ comdex tx staking create-validator \
 --website="XXXXXXXX"
 ```
 ## Version
-This chain is currently running on Comdex [v0.0.1](https://github.com/comdex-official/comdex/releases/tag/v0.0.1)
-Commit Hash: 92b28a8fa64d2b05e80456a8718d6b5ca516c999
+This chain is currently running on Comdex [v0.0.1](https://github.com/comdex-official/comdex/releases/tag/v0.0.2)
+Commit Hash: 36e59abc8aff22a8eea2e851ee19e497c7f754ea
 >Note: If your node is running on an older version of the application, please update it to this version at the earliest to avoid being exposed to security vulnerabilities /defects.
 
 ## Binary
-The binary can be downloaded from [here](https://github.com/comdex-official/comdex/releases/tag/v0.0.1).
+The binary can be downloaded from [here](https://github.com/comdex-official/comdex/releases/tag/v0.0.2).
 
 ## Explorer
 The explorer for this chain is hosted [here](::To be published)
