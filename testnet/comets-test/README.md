@@ -23,6 +23,14 @@
 ## Installation Steps
 >Prerequisite: go1.17+ required. [ref](https://golang.org/doc/install)
 
+   Append the below lines to the file ${HOME}/.bashrc and execute the command source ${HOME}/.bashrc to reflect in the current Terminal session
+   ```shell
+   export GOROOT=/usr/lib/go
+   export GOPATH=${HOME}/go
+   export GOBIN=${GOPATH}/bin
+   export PATH=${PATH}:${GOROOT}/bin:${GOBIN}
+   ```
+
 >Prerequisite: git. [ref](https://github.com/git/git)
 
 >Optional requirement: GNU make. [ref](https://www.gnu.org/software/make/manual/html_node/index.html)
@@ -84,7 +92,7 @@ comdex gentx {{KEY_NAME}} 10000000ucmdx \
 ```shell
    TO BE PUBLISHED
 ```
-* Start node
+* Start comdex by running below command or create a `systemd` service to run comdex in background.
 ```shell
 comdex start
 ```
@@ -105,7 +113,7 @@ comdex init {{NODE_NAME}}
 ```shell
    TO BE PUBLISHED
 ```
-* Start node
+* Start comdex by running below command or create a `systemd` service to run comdex in background.
 ```shell
 comdex start
 ```
