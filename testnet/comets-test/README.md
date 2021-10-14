@@ -59,7 +59,7 @@ or
 * Initialize node
 ```shell
 comdex init {{NODE_NAME}} --chain-id comets-test
-comdex add-genesis-account {{KEY_NAME}} 100000000000000ucmdx
+comdex add-genesis-account {{KEY_NAME}} 1000000000ucmdx
 comdex gentx {{KEY_NAME}} 10000000ucmdx \
 --chain-id comets-test \
 --moniker="{{VALIDATOR_NAME}}" \
@@ -96,7 +96,7 @@ comdex start
 ```shell
 comdex init {{NODE_NAME}}
 ```
-* Replace the contents of your `${HOME}/.comdex/config/genesis.json` with that of testnet/comets-test/genesis.json from the `main` branch of [repository](https://github.com/comdex-official/networks).
+* Replace the contents of your `${HOME}/.comdex/config/genesis.json` with that of testnet/comets-test/genesis_final.json from the `main` branch of [repository](https://github.com/comdex-official/networks).
 * Copy below node as `persistent_peers` or `seeds` in `${HOME}/.comdex/config/config.toml`
 ```shell
    TO BE PUBLISHED
