@@ -88,7 +88,7 @@ comdex gentx {{KEY_NAME}} 10000000ucmdx \
 ```shell
 comdex start
 ```
-* Copy below node as minimum-gas-prices in ${HOME}/.comdex/config/app.toml
+* Copy below value as minimum-gas-prices in ${HOME}/.comdex/config/app.toml
 ```shell
 0.2ucmdx
 ```
@@ -128,7 +128,7 @@ comdex tx staking create-validator \
 --website="XXXXXXXX"
 ```
 
-* Copy below node as minimum-gas-prices in ${HOME}/.comdex/config/app.toml
+* Copy below value as minimum-gas-prices in ${HOME}/.comdex/config/app.toml
 ```shell
 0.2ucmdx
 ```
