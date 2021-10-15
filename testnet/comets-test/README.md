@@ -94,14 +94,16 @@ comdex gentx {{KEY_NAME}} 10000000ucmdx \
 ```shell
    TO BE PUBLISHED
 ```
-* Start comdex by running below command or create a `systemd` service to run comdex in background.
-```shell
-comdex start
-```
 * Copy below value as minimum-gas-prices in ${HOME}/.comdex/config/app.toml
 ```shell
 0.2ucmdx
 ```
+
+* Start comdex by running below command or create a `systemd` service to run comdex in background.
+```shell
+comdex start
+```
+
 
 ### Become a validator
 
@@ -115,6 +117,12 @@ comdex init {{NODE_NAME}}
 ```shell
    TO BE PUBLISHED
 ```
+
+* Copy below value as minimum-gas-prices in ${HOME}/.comdex/config/app.toml
+```shell
+0.2ucmdx
+```
+
 * Start comdex by running below command or create a `systemd` service to run comdex in background.
 ```shell
 comdex start
@@ -136,11 +144,6 @@ comdex tx staking create-validator \
 --details="XXXXXXXX" \
 --security-contact="XXXXXXXX" \
 --website="XXXXXXXX"
-```
-
-* Copy below value as minimum-gas-prices in ${HOME}/.comdex/config/app.toml
-```shell
-0.2ucmdx
 ```
 
 ## Version
