@@ -155,4 +155,4 @@ The binary can be downloaded from [here](https://github.com/comdex-official/comd
 The explorer for this chain is hosted [here](::To be published)
 
 ## Genesis Time
-The genesis transactions sent before 1200HRS UTC 15th October 2021 will be used to publish the genesis_final.json at 1400HRS UTC 15th October 2021.
+The genesis transactions sent before 1200HRS UTC 15th October 2021 will be used to publish the genesis_final.json at 1400HRS UTC 15th October 2021 and then start the chain at 14.30UTC once the quorum is reached.
