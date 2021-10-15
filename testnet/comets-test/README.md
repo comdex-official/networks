@@ -92,7 +92,7 @@ comdex gentx {{KEY_NAME}} 10000000ucmdx \
 * Copy below node as `persistent_peers` or `seeds` in `${HOME}/.comdex/config/config.toml`
  
 ```shell
-479717ccfc49c626654b9a126adf73db2407365d@15.207.189.210:26656,9b85c06cc7e66a766784bb98b93539428011e76d@52.201.166.91:25565,b2315a0f1eab593a5761f5175be2d493b12cb57d@13.51.118.56:26656,9c25a7ab94a315f683c3693e17aec6b2c91c851c@52.77.115.73:26656
+3659590cd1466671a49421089e55f1392e1cad0e@15.207.189.210:26656,8b1ccf5cf3a3ba65ee074f46ea8c6c164d867104@52.201.166.91:26656,5307ce50bd8a6f7bb5a922e3f7109b5f3241c425@13.51.118.56:26656,9c25a7ab94a315f683c3693e17aec6b2c91c851c@52.77.115.73:26656
 ```
 * Copy below value as minimum-gas-prices in ${HOME}/.comdex/config/app.toml
 ```shell
@@ -115,7 +115,7 @@ comdex init {{NODE_NAME}}
 * Replace the contents of your `${HOME}/.comdex/config/genesis.json` with that of testnet/comets-test/genesis_final.json from the `main` branch of [repository](https://github.com/comdex-official/networks).
 * Copy below node as `persistent_peers` or `seeds` in `${HOME}/.comdex/config/config.toml`
 ```shell
-479717ccfc49c626654b9a126adf73db2407365d@15.207.189.210:26656,9b85c06cc7e66a766784bb98b93539428011e76d@52.201.166.91:25565,b2315a0f1eab593a5761f5175be2d493b12cb57d@13.51.118.56:26656,9c25a7ab94a315f683c3693e17aec6b2c91c851c@52.77.115.73:26656
+3659590cd1466671a49421089e55f1392e1cad0e@15.207.189.210:26656,8b1ccf5cf3a3ba65ee074f46ea8c6c164d867104@52.201.166.91:26656,5307ce50bd8a6f7bb5a922e3f7109b5f3241c425@13.51.118.56:26656,9c25a7ab94a315f683c3693e17aec6b2c91c851c@52.77.115.73:26656
 ```
 
 * Copy below value as minimum-gas-prices in ${HOME}/.comdex/config/app.toml
