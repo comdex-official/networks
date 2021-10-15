@@ -63,7 +63,7 @@ or
 
 ## Validator setup instructions
 
-### GenTx : for genesis validators
+### GenTx : No Accepting Now.
 
 * [Install](#installation-steps) comdex core application
 * Initialize node
