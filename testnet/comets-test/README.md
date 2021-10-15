@@ -134,7 +134,7 @@ comdex start
 comdex tx staking create-validator \
 --from {{KEY_NAME}} \
 --amount XXXXXXXXucmdx \
---pubkey $(gaiad tendermint show-validator) \
+--pubkey $(comdex tendermint show-validator) \
 --chain-id comets-test \
 --moniker="{{VALIDATOR_NAME}}" \
 --commission-max-change-rate=0.01 \
