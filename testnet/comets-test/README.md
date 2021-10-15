@@ -1,9 +1,9 @@
 # comets-test
 > This is comdex testnet chain
 
-> GENESIS TO BE  PUBLISHED
+> GENESIS PUBLISHED
 
-> PEERS TO BE PUBLISHED
+> PEERS PUBLISHED
 
 1st testnet for comdex-official/comdex application.
 
