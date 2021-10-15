@@ -1,1 +1,2001 @@
-
+{
+	"genesis_time": "2021-10-15T12:58:04.732137987Z",
+	"chain_id": "comets-test",
+	"initial_height": "1",
+	"consensus_params": {
+		"block": {
+			"max_bytes": "22020096",
+			"max_gas": "-1",
+			"time_iota_ms": "1000"
+		},
+		"evidence": {
+			"max_age_num_blocks": "100000",
+			"max_age_duration": "172800000000000",
+			"max_bytes": "1048576"
+		},
+		"validator": {
+			"pub_key_types": [
+				"ed25519"
+			]
+		},
+		"version": {}
+	},
+	"app_hash": "",
+	"app_state": {
+		"asset": {
+			"assets": [],
+			"pairs": [],
+			"params": {
+				"admin": "comdex1cgv0r6lfyakt44yrj8p4kyrymzpyhwlgqd7ke0"
+			}
+		},
+		"auth": {
+			"params": {
+				"max_memo_characters": "256",
+				"tx_sig_limit": "7",
+				"tx_size_cost_per_byte": "10",
+				"sig_verify_cost_ed25519": "590",
+				"sig_verify_cost_secp256k1": "1000"
+			},
+			"accounts": [
+				{
+					"@type": "/cosmos.auth.v1beta1.BaseAccount",
+					"address": "comdex18dpylqrepgnvvrkfehrlz280pvc05w3jfv9279",
+					"pub_key": null,
+					"account_number": "0",
+					"sequence": "0"
+				},
+				{
+					"@type": "/cosmos.auth.v1beta1.BaseAccount",
+					"address": "comdex1x5aw6vk570gd9ljt98xm0ce6zj3xma8e4svre0",
+					"pub_key": null,
+					"account_number": "1",
+					"sequence": "0"
+				},
+				{
+					"@type": "/cosmos.auth.v1beta1.BaseAccount",
+					"address": "comdex18mgzuztjv6a285llhp6awfdyur98k6uhm69e5g",
+					"pub_key": null,
+					"account_number": "2",
+					"sequence": "0"
+				},
+				{
+					"@type": "/cosmos.auth.v1beta1.BaseAccount",
+					"address": "comdex1cgv0r6lfyakt44yrj8p4kyrymzpyhwlgqd7ke0",
+					"pub_key": null,
+					"account_number": "3",
+					"sequence": "0"
+				},
+				{
+					"@type": "/cosmos.auth.v1beta1.BaseAccount",
+					"address": "comdex1rzckqk92qzyehch8xmsjmyszgsknwr6asxk660",
+					"pub_key": null,
+					"account_number": "4",
+					"sequence": "0"
+				},
+				{
+					"@type": "/cosmos.auth.v1beta1.BaseAccount",
+					"address": "comdex1dfsdsecpxycnf4rzt5f3h387d0aujvn3r2wfyy",
+					"pub_key": null,
+					"account_number": "5",
+					"sequence": "0"
+				},
+				{
+					"@type": "/cosmos.auth.v1beta1.BaseAccount",
+					"address": "comdex1flkgqpg85k6td0umjs4gd6f7ptr5030l7qt7ll",
+					"pub_key": null,
+					"account_number": "6",
+					"sequence": "0"
+				},
+				{
+					"@type": "/cosmos.auth.v1beta1.BaseAccount",
+					"address": "comdex1t9eqe90uaz4cj5kwacl5xaeg62wpmv7k3jvemr",
+					"pub_key": null,
+					"account_number": "7",
+					"sequence": "0"
+				},
+				{
+					"@type": "/cosmos.auth.v1beta1.BaseAccount",
+					"address": "comdex1jsu5920qlzeedjkv2lnwt56t6uanl92m9ycy4e",
+					"pub_key": null,
+					"account_number": "8",
+					"sequence": "0"
+				},
+				{
+					"@type": "/cosmos.auth.v1beta1.BaseAccount",
+					"address": "comdex1gq8dku5s6s4n4hrc2reqvxkepjvxqm4ykqa8cp",
+					"pub_key": null,
+					"account_number": "9",
+					"sequence": "0"
+				},
+				{
+					"@type": "/cosmos.auth.v1beta1.BaseAccount",
+					"address": "comdex1l6l2slnad3nmhvcgyjzdldc74wn08x7lj6gh2w",
+					"pub_key": null,
+					"account_number": "10",
+					"sequence": "0"
+				},
+				{
+					"@type": "/cosmos.auth.v1beta1.BaseAccount",
+					"address": "comdex1p6u2tv24pmmu2e4gav0h9zwhlc5sq364fk5th8",
+					"pub_key": null,
+					"account_number": "11",
+					"sequence": "0"
+				},
+				{
+					"@type": "/cosmos.auth.v1beta1.BaseAccount",
+					"address": "comdex15vmaef42u9npsjn8u3yj9l77qzu5972csyxt4a",
+					"pub_key": null,
+					"account_number": "12",
+					"sequence": "0"
+				},
+				{
+					"@type": "/cosmos.auth.v1beta1.BaseAccount",
+					"address": "comdex1gmxmx0xn7tgzs53ws8jmj8r4cfsfeg8svn9jd5",
+					"pub_key": null,
+					"account_number": "13",
+					"sequence": "0"
+				},
+				{
+					"@type": "/cosmos.auth.v1beta1.BaseAccount",
+					"address": "comdex1h72zezm5x93lqwkgx6tc45gpm67raal45qv34g",
+					"pub_key": null,
+					"account_number": "14",
+					"sequence": "0"
+				},
+				{
+					"@type": "/cosmos.auth.v1beta1.BaseAccount",
+					"address": "comdex1etw5jgse47ms64mjy583rkvk37dpmlauhcl5zw",
+					"pub_key": null,
+					"account_number": "15",
+					"sequence": "0"
+				},
+				{
+					"@type": "/cosmos.auth.v1beta1.BaseAccount",
+					"address": "comdex1p8q0qfs6hejauz6p3auccg7m7qr4sr8juv4838",
+					"pub_key": null,
+					"account_number": "16",
+					"sequence": "0"
+				},
+				{
+					"@type": "/cosmos.auth.v1beta1.BaseAccount",
+					"address": "comdex1zy7uuu6cd5fde3uunlh5l40jjf24ypd6sy9ej4",
+					"pub_key": null,
+					"account_number": "17",
+					"sequence": "0"
+				},
+				{
+					"@type": "/cosmos.auth.v1beta1.BaseAccount",
+					"address": "comdex1wc6e6lm383fcrjt0493cs6dmwwrurl9xqgj63n",
+					"pub_key": null,
+					"account_number": "18",
+					"sequence": "0"
+				},
+				{
+					"@type": "/cosmos.auth.v1beta1.BaseAccount",
+					"address": "comdex1vdnqr3y2chlmzkts5s9xrmrrhhlh0sd2h33e2r",
+					"pub_key": null,
+					"account_number": "19",
+					"sequence": "0"
+				},
+				{
+					"@type": "/cosmos.auth.v1beta1.BaseAccount",
+					"address": "comdex1t5580ttaawdqneu6eavyp04wtl794fjufnuwyt",
+					"pub_key": null,
+					"account_number": "20",
+					"sequence": "0"
+				},
+				{
+					"@type": "/cosmos.auth.v1beta1.BaseAccount",
+					"address": "comdex1zghur4w0gl3kgnl9rqhfs8qcx52yr4xav099y3",
+					"pub_key": null,
+					"account_number": "21",
+					"sequence": "0"
+				},
+				{
+					"@type": "/cosmos.auth.v1beta1.BaseAccount",
+					"address": "comdex1k3e9qkzetpqpgmk35rvwazvp2fce02x6uplm24",
+					"pub_key": null,
+					"account_number": "22",
+					"sequence": "0"
+				},
+				{
+					"@type": "/cosmos.auth.v1beta1.BaseAccount",
+					"address": "comdex1unvvj23q89dlgh82rdtk5su7akdl5932reqarg",
+					"pub_key": null,
+					"account_number": "23",
+					"sequence": "0"
+				}
+			]
+		},
+		"bank": {
+			"params": {
+				"send_enabled": [],
+				"default_send_enabled": true
+			},
+			"balances": [
+				{
+					"address": "comdex18dpylqrepgnvvrkfehrlz280pvc05w3jfv9279",
+					"coins": [
+						{
+							"denom": "ucmdx",
+							"amount": "25000000000000"
+						}
+					]
+				},
+				{
+					"address": "comdex1x5aw6vk570gd9ljt98xm0ce6zj3xma8e4svre0",
+					"coins": [
+						{
+							"denom": "ucmdx",
+							"amount": "25000000000000"
+						}
+					]
+				},
+				{
+					"address": "comdex18mgzuztjv6a285llhp6awfdyur98k6uhm69e5g",
+					"coins": [
+						{
+							"denom": "ucmdx",
+							"amount": "24500000000000"
+						}
+					]
+				},
+				{
+					"address": "comdex1cgv0r6lfyakt44yrj8p4kyrymzpyhwlgqd7ke0",
+					"coins": [
+						{
+							"denom": "ucmdx",
+							"amount": "24500000000000"
+						}
+					]
+				},
+				{
+					"address": "comdex1rzckqk92qzyehch8xmsjmyszgsknwr6asxk660",
+					"coins": [
+						{
+							"denom": "ucmdx",
+							"amount": "1000000000"
+						}
+					]
+				},
+				{
+					"address": "comdex1dfsdsecpxycnf4rzt5f3h387d0aujvn3r2wfyy",
+					"coins": [
+						{
+							"denom": "ucmdx",
+							"amount": "1000000000"
+						}
+					]
+				},
+				{
+					"address": "comdex1flkgqpg85k6td0umjs4gd6f7ptr5030l7qt7ll",
+					"coins": [
+						{
+							"denom": "ucmdx",
+							"amount": "1000000000"
+						}
+					]
+				},
+				{
+					"address": "comdex1t9eqe90uaz4cj5kwacl5xaeg62wpmv7k3jvemr",
+					"coins": [
+						{
+							"denom": "ucmdx",
+							"amount": "1000000000"
+						}
+					]
+				},
+				{
+					"address": "comdex1jsu5920qlzeedjkv2lnwt56t6uanl92m9ycy4e",
+					"coins": [
+						{
+							"denom": "ucmdx",
+							"amount": "1000000000"
+						}
+					]
+				},
+				{
+					"address": "comdex1gq8dku5s6s4n4hrc2reqvxkepjvxqm4ykqa8cp",
+					"coins": [
+						{
+							"denom": "ucmdx",
+							"amount": "1000000000"
+						}
+					]
+				},
+				{
+					"address": "comdex1l6l2slnad3nmhvcgyjzdldc74wn08x7lj6gh2w",
+					"coins": [
+						{
+							"denom": "ucmdx",
+							"amount": "1000000000"
+						}
+					]
+				},
+				{
+					"address": "comdex1p6u2tv24pmmu2e4gav0h9zwhlc5sq364fk5th8",
+					"coins": [
+						{
+							"denom": "ucmdx",
+							"amount": "1000000000"
+						}
+					]
+				},
+				{
+					"address": "comdex15vmaef42u9npsjn8u3yj9l77qzu5972csyxt4a",
+					"coins": [
+						{
+							"denom": "ucmdx",
+							"amount": "1000000000"
+						}
+					]
+				},
+				{
+					"address": "comdex1gmxmx0xn7tgzs53ws8jmj8r4cfsfeg8svn9jd5",
+					"coins": [
+						{
+							"denom": "ucmdx",
+							"amount": "1000000000"
+						}
+					]
+				},
+				{
+					"address": "comdex1h72zezm5x93lqwkgx6tc45gpm67raal45qv34g",
+					"coins": [
+						{
+							"denom": "ucmdx",
+							"amount": "1000000000"
+						}
+					]
+				},
+				{
+					"address": "comdex1etw5jgse47ms64mjy583rkvk37dpmlauhcl5zw",
+					"coins": [
+						{
+							"denom": "ucmdx",
+							"amount": "1000000000"
+						}
+					]
+				},
+				{
+					"address": "comdex1p8q0qfs6hejauz6p3auccg7m7qr4sr8juv4838",
+					"coins": [
+						{
+							"denom": "ucmdx",
+							"amount": "1000000000"
+						}
+					]
+				},
+				{
+					"address": "comdex1zy7uuu6cd5fde3uunlh5l40jjf24ypd6sy9ej4",
+					"coins": [
+						{
+							"denom": "ucmdx",
+							"amount": "1000000000"
+						}
+					]
+				},
+				{
+					"address": "comdex1wc6e6lm383fcrjt0493cs6dmwwrurl9xqgj63n",
+					"coins": [
+						{
+							"denom": "ucmdx",
+							"amount": "1000000000"
+						}
+					]
+				},
+				{
+					"address": "comdex1vdnqr3y2chlmzkts5s9xrmrrhhlh0sd2h33e2r",
+					"coins": [
+						{
+							"denom": "ucmdx",
+							"amount": "1000000000"
+						}
+					]
+				},
+				{
+					"address": "comdex1t5580ttaawdqneu6eavyp04wtl794fjufnuwyt",
+					"coins": [
+						{
+							"denom": "ucmdx",
+							"amount": "1000000000"
+						}
+					]
+				},
+				{
+					"address": "comdex1zghur4w0gl3kgnl9rqhfs8qcx52yr4xav099y3",
+					"coins": [
+						{
+							"denom": "ucmdx",
+							"amount": "1000000000"
+						}
+					]
+				},
+				{
+					"address": "comdex1k3e9qkzetpqpgmk35rvwazvp2fce02x6uplm24",
+					"coins": [
+						{
+							"denom": "ucmdx",
+							"amount": "490000000000"
+						}
+					]
+				},
+				{
+					"address": "comdex1unvvj23q89dlgh82rdtk5su7akdl5932reqarg",
+					"coins": [
+						{
+							"denom": "ucmdx",
+							"amount": "492000000000"
+						}
+					]
+				}
+			],
+			"supply": [
+				{
+					"denom": "ucmdx",
+					"amount": "100000000000000"
+				}
+			],
+			"denom_metadata": [
+				{
+					"base": "ucmdx",
+					"denom_units": [
+						{
+							"aliases": [
+								"microcmdx"
+							],
+							"denom": "ucmdx",
+							"exponent": 0
+						},
+						{
+							"aliases": [
+								"millicmdx"
+							],
+							"denom": "mcmdx",
+							"exponent": 3
+						},
+						{
+							"aliases": [],
+							"denom": "cmdx",
+							"exponent": 6
+						}
+					],
+					"description": "The native staking token of the Comdex.",
+					"display": "cmdx"
+				}
+			]
+		},
+		"capability": {
+			"index": "1",
+			"owners": []
+		},
+		"crisis": {
+			"constant_fee": {
+				"denom": "ucmdx",
+				"amount": "1000"
+			}
+		},
+		"distribution": {
+			"params": {
+				"community_tax": "0.020000000000000000",
+				"base_proposer_reward": "0.010000000000000000",
+				"bonus_proposer_reward": "0.040000000000000000",
+				"withdraw_addr_enabled": true
+			},
+			"fee_pool": {
+				"community_pool": []
+			},
+			"delegator_withdraw_infos": [],
+			"previous_proposer": "",
+			"outstanding_rewards": [],
+			"validator_accumulated_commissions": [],
+			"validator_historical_rewards": [],
+			"validator_current_rewards": [],
+			"delegator_starting_infos": [],
+			"validator_slash_events": []
+		},
+		"evidence": {
+			"evidence": []
+		},
+		"genutil": {
+			"gen_txs": [
+				{
+					"body": {
+						"messages": [
+							{
+								"@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+								"description": {
+									"moniker": "BlockProducer",
+									"identity": "",
+									"website": "",
+									"security_contact": "",
+									"details": ""
+								},
+								"commission": {
+									"rate": "0.070000000000000000",
+									"max_rate": "1.000000000000000000",
+									"max_change_rate": "0.010000000000000000"
+								},
+								"min_self_delegation": "1",
+								"delegator_address": "comdex1rzckqk92qzyehch8xmsjmyszgsknwr6asxk660",
+								"validator_address": "comdexvaloper1rzckqk92qzyehch8xmsjmyszgsknwr6ar3vgyw",
+								"pubkey": {
+									"@type": "/cosmos.crypto.ed25519.PubKey",
+									"key": "JMHt7Bd32Sw8W7DxtUqpQm002IT1IybCxOmcY7NfLWQ="
+								},
+								"value": {
+									"denom": "ucmdx",
+									"amount": "10000000"
+								}
+							}
+						],
+						"memo": "7c8cd712b8c634bf68bde9a03e74db5adfdc4b92@78.47.131.19:26656",
+						"timeout_height": "0",
+						"extension_options": [],
+						"non_critical_extension_options": []
+					},
+					"auth_info": {
+						"signer_infos": [
+							{
+								"public_key": {
+									"@type": "/cosmos.crypto.secp256k1.PubKey",
+									"key": "A48FYHsOh3c0K71fHoSPiK74cGZRrRRCyPwI0nisDoso"
+								},
+								"mode_info": {
+									"single": {
+										"mode": "SIGN_MODE_DIRECT"
+									}
+								},
+								"sequence": "0"
+							}
+						],
+						"fee": {
+							"amount": [],
+							"gas_limit": "200000",
+							"payer": "",
+							"granter": ""
+						}
+					},
+					"signatures": [
+						"34KWWT92Lh7CEU0fzPiDgl8DHsSPnRaB4fz0q6QgQ2tJNfraY8zqo4OvP9CXEiaRg5JPztCTKssFhRyn3Rf73A=="
+					]
+				},
+				{
+					"body": {
+						"messages": [
+							{
+								"@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+								"description": {
+									"moniker": "BotDotNet",
+									"identity": "",
+									"website": "",
+									"security_contact": "",
+									"details": "Vitconratran#7219"
+								},
+								"commission": {
+									"rate": "0.070000000000000000",
+									"max_rate": "1.000000000000000000",
+									"max_change_rate": "0.010000000000000000"
+								},
+								"min_self_delegation": "1",
+								"delegator_address": "comdex1dfsdsecpxycnf4rzt5f3h387d0aujvn3r2wfyy",
+								"validator_address": "comdexvaloper1dfsdsecpxycnf4rzt5f3h387d0aujvn3sa5m69",
+								"pubkey": {
+									"@type": "/cosmos.crypto.ed25519.PubKey",
+									"key": "ji6auO1IdkWx4J6gQqUErCkU/G94wtVaEr3+3cIfrlQ="
+								},
+								"value": {
+									"denom": "ucmdx",
+									"amount": "10000000"
+								}
+							}
+						],
+						"memo": "3ed0682f8ef93631ded0d1e103ac5579b8c2369f@65.108.91.217:26656",
+						"timeout_height": "0",
+						"extension_options": [],
+						"non_critical_extension_options": []
+					},
+					"auth_info": {
+						"signer_infos": [
+							{
+								"public_key": {
+									"@type": "/cosmos.crypto.secp256k1.PubKey",
+									"key": "AyZ1DACHOMtubZ2wtZfa8+DulC3eiT1BqYDhQyEC0bpz"
+								},
+								"mode_info": {
+									"single": {
+										"mode": "SIGN_MODE_DIRECT"
+									}
+								},
+								"sequence": "0"
+							}
+						],
+						"fee": {
+							"amount": [],
+							"gas_limit": "200000",
+							"payer": "",
+							"granter": ""
+						}
+					},
+					"signatures": [
+						"vPAhgQ4nr4d9t2oezZmWVD35CTc8dtxA9a32W3QphSxHzxX1kUW3AoyeQ15UFVQqZ55NVJc1d4oUzOwrFjxM6g=="
+					]
+				},
+				{
+					"body": {
+						"messages": [
+							{
+								"@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+								"description": {
+									"moniker": "EZStaking.io",
+									"identity": "1534523421A364DB",
+									"website": "https://www.ezstaking.io/",
+									"security_contact": "contact@ezstaking.io",
+									"details": "Staking Provider — https://ezstaking.io"
+								},
+								"commission": {
+									"rate": "0.200000000000000000",
+									"max_rate": "1.000000000000000000",
+									"max_change_rate": "1.000000000000000000"
+								},
+								"min_self_delegation": "1",
+								"delegator_address": "comdex1flkgqpg85k6td0umjs4gd6f7ptr5030l7qt7ll",
+								"validator_address": "comdexvaloper1flkgqpg85k6td0umjs4gd6f7ptr5030ldh3vp7",
+								"pubkey": {
+									"@type": "/cosmos.crypto.ed25519.PubKey",
+									"key": "kU7IYxSUCarbyqsOVpL3d3F/2x2jqFIlb3I2rdjnWYQ="
+								},
+								"value": {
+									"denom": "ucmdx",
+									"amount": "10000000"
+								}
+							}
+						],
+						"memo": "269101fab9e330e93866715c12c4d639fafe6732@142.44.139.180:26656",
+						"timeout_height": "0",
+						"extension_options": [],
+						"non_critical_extension_options": []
+					},
+					"auth_info": {
+						"signer_infos": [
+							{
+								"public_key": {
+									"@type": "/cosmos.crypto.secp256k1.PubKey",
+									"key": "AuR9p6qr6bm77IQrcRRv5EvsWv3DY2QZlru3yNLqdw9q"
+								},
+								"mode_info": {
+									"single": {
+										"mode": "SIGN_MODE_DIRECT"
+									}
+								},
+								"sequence": "0"
+							}
+						],
+						"fee": {
+							"amount": [],
+							"gas_limit": "200000",
+							"payer": "",
+							"granter": ""
+						}
+					},
+					"signatures": [
+						"c7nzPN36TBt0WFQqrdzSsKYwchXxJa/emrXptUVl4S4dthwaF3pWUPHzLBbuR55za5usoGZu34WbQIjV6BSrwg=="
+					]
+				},
+				{
+					"body": {
+						"messages": [
+							{
+								"@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+								"description": {
+									"moniker": "Enigma--commission-max-change-rate=0.01",
+									"identity": "6223697ACA24A4FF",
+									"website": "",
+									"security_contact": "",
+									"details": "Proof of Stake Validator on several blockchains--security-contact=enigma.validator@gmail.com--website=Coming soon"
+								},
+								"commission": {
+									"rate": "0.070000000000000000",
+									"max_rate": "1.000000000000000000",
+									"max_change_rate": "0.010000000000000000"
+								},
+								"min_self_delegation": "1",
+								"delegator_address": "comdex1t9eqe90uaz4cj5kwacl5xaeg62wpmv7k3jvemr",
+								"validator_address": "comdexvaloper1t9eqe90uaz4cj5kwacl5xaeg62wpmv7kz9kt9z",
+								"pubkey": {
+									"@type": "/cosmos.crypto.ed25519.PubKey",
+									"key": "pB9pFNocCol6MIrJsxEOLVmon7CItmuDMQYrcAjW3dg="
+								},
+								"value": {
+									"denom": "ucmdx",
+									"amount": "10000000"
+								}
+							}
+						],
+						"memo": "5529cb720b231af7b660ef5280ee5277bc349c48@185.137.122.68:26656",
+						"timeout_height": "0",
+						"extension_options": [],
+						"non_critical_extension_options": []
+					},
+					"auth_info": {
+						"signer_infos": [
+							{
+								"public_key": {
+									"@type": "/cosmos.crypto.secp256k1.PubKey",
+									"key": "AgibsQDT+feXQcQj4OTBc4isCYfJ+IPX0Q8byRc959M6"
+								},
+								"mode_info": {
+									"single": {
+										"mode": "SIGN_MODE_DIRECT"
+									}
+								},
+								"sequence": "0"
+							}
+						],
+						"fee": {
+							"amount": [],
+							"gas_limit": "200000",
+							"payer": "",
+							"granter": ""
+						}
+					},
+					"signatures": [
+						"vyHR3QoaxPRY4BNrKav1byQ3IqSySQ7dKkuj+ayXzfku+GnSek+HWfieDKnHWJLhYAi5LgRyhyaDwE/unCvSjw=="
+					]
+				},
+				{
+					"body": {
+						"messages": [
+							{
+								"@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+								"description": {
+									"moniker": "MTnode",
+									"identity": "",
+									"website": "",
+									"security_contact": "",
+									"details": ""
+								},
+								"commission": {
+									"rate": "0.070000000000000000",
+									"max_rate": "1.000000000000000000",
+									"max_change_rate": "0.010000000000000000"
+								},
+								"min_self_delegation": "1",
+								"delegator_address": "comdex1jsu5920qlzeedjkv2lnwt56t6uanl92m9ycy4e",
+								"validator_address": "comdexvaloper1jsu5920qlzeedjkv2lnwt56t6uanl92mknzktc",
+								"pubkey": {
+									"@type": "/cosmos.crypto.ed25519.PubKey",
+									"key": "SFbZO2wogEdDTo1E5u24nP/JRoZ/ftbJzG6pnKAP8Qc="
+								},
+								"value": {
+									"denom": "ucmdx",
+									"amount": "10000000"
+								}
+							}
+						],
+						"memo": "ff65c505401767aad981e394df53cfca91db4ecd@78.47.14.170:26656",
+						"timeout_height": "0",
+						"extension_options": [],
+						"non_critical_extension_options": []
+					},
+					"auth_info": {
+						"signer_infos": [
+							{
+								"public_key": {
+									"@type": "/cosmos.crypto.secp256k1.PubKey",
+									"key": "Aq3gqdyxDC3CqZSMUGZLoII9p3ZLWbdPIW47FpFZuObj"
+								},
+								"mode_info": {
+									"single": {
+										"mode": "SIGN_MODE_DIRECT"
+									}
+								},
+								"sequence": "0"
+							}
+						],
+						"fee": {
+							"amount": [],
+							"gas_limit": "200000",
+							"payer": "",
+							"granter": ""
+						}
+					},
+					"signatures": [
+						"8l4uKro/jNVlmj5L3I3lXwmTl73Ij1aLrLqkGsktn8xbpBPjz06VCsR/+G7S6VjqMn5aysGykabOE8zrtGWgNg=="
+					]
+				},
+				{
+					"body": {
+						"messages": [
+							{
+								"@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+								"description": {
+									"moniker": "PrithviDevs",
+									"identity": "A35D680518685FE4",
+									"website": "http://profile.prithvidevs.hns.to/",
+									"security_contact": "",
+									"details": "Focused on building web3 & p2p products and run infrastructure for multiple blockchain networks along with their communities."
+								},
+								"commission": {
+									"rate": "0.070000000000000000",
+									"max_rate": "1.000000000000000000",
+									"max_change_rate": "0.050000000000000000"
+								},
+								"min_self_delegation": "1",
+								"delegator_address": "comdex1gq8dku5s6s4n4hrc2reqvxkepjvxqm4ykqa8cp",
+								"validator_address": "comdexvaloper1gq8dku5s6s4n4hrc2reqvxkepjvxqm4y9h84xq",
+								"pubkey": {
+									"@type": "/cosmos.crypto.ed25519.PubKey",
+									"key": "ll/XSFK8YoEVwjYLWHoIBy7USbD42SaDG4x14T2LHZ4="
+								},
+								"value": {
+									"denom": "ucmdx",
+									"amount": "10000000"
+								}
+							}
+						],
+						"memo": "652d29528dd6b987b56631ced09be0775adced52@10.190.0.2:26656",
+						"timeout_height": "0",
+						"extension_options": [],
+						"non_critical_extension_options": []
+					},
+					"auth_info": {
+						"signer_infos": [
+							{
+								"public_key": {
+									"@type": "/cosmos.crypto.secp256k1.PubKey",
+									"key": "A4h0SRRcRHhPmE7rS7Yt5J7Oo/3ouUpBI99w4UTQGGvF"
+								},
+								"mode_info": {
+									"single": {
+										"mode": "SIGN_MODE_DIRECT"
+									}
+								},
+								"sequence": "0"
+							}
+						],
+						"fee": {
+							"amount": [],
+							"gas_limit": "200000",
+							"payer": "",
+							"granter": ""
+						}
+					},
+					"signatures": [
+						"0MQZ6QAnIOpFDHpJGQ99TC6OkPe4K87tTG0M0sMTK6wnzR7pd20l4rEQXO/1qomfxhfwKmlSH9+Tq5yO7+b7oA=="
+					]
+				},
+				{
+					"body": {
+						"messages": [
+							{
+								"@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+								"description": {
+									"moniker": "StakeChaos",
+									"identity": "",
+									"website": "",
+									"security_contact": "",
+									"details": ""
+								},
+								"commission": {
+									"rate": "0.070000000000000000",
+									"max_rate": "1.000000000000000000",
+									"max_change_rate": "0.010000000000000000"
+								},
+								"min_self_delegation": "1",
+								"delegator_address": "comdex1l6l2slnad3nmhvcgyjzdldc74wn08x7lj6gh2w",
+								"validator_address": "comdexvaloper1l6l2slnad3nmhvcgyjzdldc74wn08x7lpdj950",
+								"pubkey": {
+									"@type": "/cosmos.crypto.ed25519.PubKey",
+									"key": "onYt313yllKhqUQ9JFQb+aMVM05RQQDE/qEGp3M6NwM="
+								},
+								"value": {
+									"denom": "ucmdx",
+									"amount": "10000000"
+								}
+							}
+						],
+						"memo": "4707dda284b1714ddff6f8544b6ce5eaf4ca2a23@116.202.98.168:26656",
+						"timeout_height": "0",
+						"extension_options": [],
+						"non_critical_extension_options": []
+					},
+					"auth_info": {
+						"signer_infos": [
+							{
+								"public_key": {
+									"@type": "/cosmos.crypto.secp256k1.PubKey",
+									"key": "Ak3ne/KGrGbtYW9BaIaAIanvY7Ry3QY/l6JJS9QCXjys"
+								},
+								"mode_info": {
+									"single": {
+										"mode": "SIGN_MODE_DIRECT"
+									}
+								},
+								"sequence": "0"
+							}
+						],
+						"fee": {
+							"amount": [],
+							"gas_limit": "200000",
+							"payer": "",
+							"granter": ""
+						}
+					},
+					"signatures": [
+						"jc7nsT4GgDD7KcV1isZzwpTbcQhzyexFw/Mw6T2HksxoY7rRceHREqwsB+Zik/zkDy5qf/RnD3INhKuoEdfNQg=="
+					]
+				},
+				{
+					"body": {
+						"messages": [
+							{
+								"@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+								"description": {
+									"moniker": "StakeWithUs",
+									"identity": "",
+									"website": "https://stakewith.us",
+									"security_contact": "node@stakewith.us",
+									"details": "Secured Staking Made Easy. Put Your Crypto to Work - Hassle Free. Disclaimer: Delegators should understand that delegation comes with slashing risk. By delegating to StakeWithUs Pte Ltd, you acknowledge that StakeWithUs Pte Ltd is not liable for any losses on your investment."
+								},
+								"commission": {
+									"rate": "0.070000000000000000",
+									"max_rate": "1.000000000000000000",
+									"max_change_rate": "0.010000000000000000"
+								},
+								"min_self_delegation": "1",
+								"delegator_address": "comdex1p6u2tv24pmmu2e4gav0h9zwhlc5sq364fk5th8",
+								"validator_address": "comdexvaloper1p6u2tv24pmmu2e4gav0h9zwhlc5sq3646pwefx",
+								"pubkey": {
+									"@type": "/cosmos.crypto.ed25519.PubKey",
+									"key": "xf7oN75AovWyi+wbwkKXPxCI2ps4+VlZcDNZpOxeUwU="
+								},
+								"value": {
+									"denom": "ucmdx",
+									"amount": "10000000"
+								}
+							}
+						],
+						"memo": "04336b23169a4d871c6e4d3819444183eb285064@172.17.0.6:26656",
+						"timeout_height": "0",
+						"extension_options": [],
+						"non_critical_extension_options": []
+					},
+					"auth_info": {
+						"signer_infos": [
+							{
+								"public_key": {
+									"@type": "/cosmos.crypto.secp256k1.PubKey",
+									"key": "AqkCxBuPkVlygdtq7nUcoFFRJPwIaK5eVN7xVvu+tzs9"
+								},
+								"mode_info": {
+									"single": {
+										"mode": "SIGN_MODE_DIRECT"
+									}
+								},
+								"sequence": "0"
+							}
+						],
+						"fee": {
+							"amount": [],
+							"gas_limit": "200000",
+							"payer": "",
+							"granter": ""
+						}
+					},
+					"signatures": [
+						"oz+X9wsWCIEForFxjfHdN5mlOpsmdvi37jaA4blN451KkbP6ujsO1SmQ7ZYFasNwSASweIJ1vGST+YuMdeZd5w=="
+					]
+				},
+				{
+					"body": {
+						"messages": [
+							{
+								"@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+								"description": {
+									"moniker": "StakingCabin",
+									"identity": "",
+									"website": "https://stakingcabin.com",
+									"security_contact": "richard@stakingcabin.com",
+									"details": "StakingCabin"
+								},
+								"commission": {
+									"rate": "0.070000000000000000",
+									"max_rate": "1.000000000000000000",
+									"max_change_rate": "0.010000000000000000"
+								},
+								"min_self_delegation": "1",
+								"delegator_address": "comdex15vmaef42u9npsjn8u3yj9l77qzu5972csyxt4a",
+								"validator_address": "comdexvaloper15vmaef42u9npsjn8u3yj9l77qzu5972crnuetu",
+								"pubkey": {
+									"@type": "/cosmos.crypto.ed25519.PubKey",
+									"key": "EK7TzYb+ltzx15FOUPdp432CKWt4mCnBnLm7hYfT3y0="
+								},
+								"value": {
+									"denom": "ucmdx",
+									"amount": "10000000"
+								}
+							}
+						],
+						"memo": "72df394eda3682f0c058935c8fc5dab517cc4b67@172.31.15.86:26656",
+						"timeout_height": "0",
+						"extension_options": [],
+						"non_critical_extension_options": []
+					},
+					"auth_info": {
+						"signer_infos": [
+							{
+								"public_key": {
+									"@type": "/cosmos.crypto.secp256k1.PubKey",
+									"key": "A6y22Q2AMSsOo6r/WucnlPsWjhMrOjjZN2jLwfA4jb5o"
+								},
+								"mode_info": {
+									"single": {
+										"mode": "SIGN_MODE_DIRECT"
+									}
+								},
+								"sequence": "0"
+							}
+						],
+						"fee": {
+							"amount": [],
+							"gas_limit": "200000",
+							"payer": "",
+							"granter": ""
+						}
+					},
+					"signatures": [
+						"C57K8+JaiaKT/Sioynbaxa5djniy5QHPHwTsZDe4nXU0VZsDDinhGmFgDcTt4sYqm1KTwZUyPDugSrzoa5FKTA=="
+					]
+				},
+				{
+					"body": {
+						"messages": [
+							{
+								"@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+								"description": {
+									"moniker": "SyncScale.com",
+									"identity": "",
+									"website": "https://validator.syncscale.com",
+									"security_contact": "admin@syncscale.com",
+									"details": ""
+								},
+								"commission": {
+									"rate": "0.070000000000000000",
+									"max_rate": "1.000000000000000000",
+									"max_change_rate": "0.010000000000000000"
+								},
+								"min_self_delegation": "1",
+								"delegator_address": "comdex1gmxmx0xn7tgzs53ws8jmj8r4cfsfeg8svn9jd5",
+								"validator_address": "comdexvaloper1gmxmx0xn7tgzs53ws8jmj8r4cfsfeg8slylqn4",
+								"pubkey": {
+									"@type": "/cosmos.crypto.ed25519.PubKey",
+									"key": "duztFJkQZOzyJhrIeEdyAwa0NhsjxyHNfI0VvHgTAak="
+								},
+								"value": {
+									"denom": "ucmdx",
+									"amount": "10000000"
+								}
+							}
+						],
+						"memo": "55ef28a925fb806c8f64841d0736803392b2f81d@172.31.8.171:26656",
+						"timeout_height": "0",
+						"extension_options": [],
+						"non_critical_extension_options": []
+					},
+					"auth_info": {
+						"signer_infos": [
+							{
+								"public_key": {
+									"@type": "/cosmos.crypto.secp256k1.PubKey",
+									"key": "AyllOGVFJNiuNVI7RpLcjpkfJJVi7uHeMrwMJBnOwuM1"
+								},
+								"mode_info": {
+									"single": {
+										"mode": "SIGN_MODE_DIRECT"
+									}
+								},
+								"sequence": "0"
+							}
+						],
+						"fee": {
+							"amount": [],
+							"gas_limit": "200000",
+							"payer": "",
+							"granter": ""
+						}
+					},
+					"signatures": [
+						"DRCajmarzHeZM2RKck3xr9JuV0Y8jtc334wToHL/7qAZD+FoWIWD7tQ26b7/mHD+bYrzTMUaQtVvA7srMpiq5Q=="
+					]
+				},
+				{
+					"body": {
+						"messages": [
+							{
+								"@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+								"description": {
+									"moniker": "TND",
+									"identity": "",
+									"website": "",
+									"security_contact": "",
+									"details": ""
+								},
+								"commission": {
+									"rate": "0.070000000000000000",
+									"max_rate": "1.000000000000000000",
+									"max_change_rate": "0.010000000000000000"
+								},
+								"min_self_delegation": "1",
+								"delegator_address": "comdex1h72zezm5x93lqwkgx6tc45gpm67raal45qv34g",
+								"validator_address": "comdexvaloper1h72zezm5x93lqwkgx6tc45gpm67raal48hkrtf",
+								"pubkey": {
+									"@type": "/cosmos.crypto.ed25519.PubKey",
+									"key": "rSM0n/WbqXhmi+sPErsrI6rLtil4zO4VS9Yvk0K2WbE="
+								},
+								"value": {
+									"denom": "ucmdx",
+									"amount": "10000000"
+								}
+							}
+						],
+						"memo": "aaf4b5a201b96ceec12fc797cae7b89f1effb68f@65.21.106.221:26656",
+						"timeout_height": "0",
+						"extension_options": [],
+						"non_critical_extension_options": []
+					},
+					"auth_info": {
+						"signer_infos": [
+							{
+								"public_key": {
+									"@type": "/cosmos.crypto.secp256k1.PubKey",
+									"key": "A4vWBb0DyZmxV1Dc4ZQAQhxERHDANP52ZNzbDlbIdtgh"
+								},
+								"mode_info": {
+									"single": {
+										"mode": "SIGN_MODE_DIRECT"
+									}
+								},
+								"sequence": "0"
+							}
+						],
+						"fee": {
+							"amount": [],
+							"gas_limit": "200000",
+							"payer": "",
+							"granter": ""
+						}
+					},
+					"signatures": [
+						"fCSiaxF3GLObveGrlBmR2WwqbOoMcjSjTXCUoKlgHMUqG7LfSZ1T6/UFU+M1SRda6VurChNAoxk5eH0jAqwgVg=="
+					]
+				},
+				{
+					"body": {
+						"messages": [
+							{
+								"@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+								"description": {
+									"moniker": "TestNode",
+									"identity": "",
+									"website": "",
+									"security_contact": "",
+									"details": "TestNode Validator"
+								},
+								"commission": {
+									"rate": "0.070000000000000000",
+									"max_rate": "1.000000000000000000",
+									"max_change_rate": "0.010000000000000000"
+								},
+								"min_self_delegation": "1",
+								"delegator_address": "comdex1etw5jgse47ms64mjy583rkvk37dpmlauhcl5zw",
+								"validator_address": "comdexvaloper1etw5jgse47ms64mjy583rkvk37dpmlauy09xu0",
+								"pubkey": {
+									"@type": "/cosmos.crypto.ed25519.PubKey",
+									"key": "5ubdDbviqB4a+uyop7zSyu4a0wSjNbOetXAZXGwWXpk="
+								},
+								"value": {
+									"denom": "ucmdx",
+									"amount": "10000000"
+								}
+							}
+						],
+						"memo": "4a9e1fd3ed9e4cce6543a95c7e4d1877c8f237a3@49.12.223.232:26656",
+						"timeout_height": "0",
+						"extension_options": [],
+						"non_critical_extension_options": []
+					},
+					"auth_info": {
+						"signer_infos": [
+							{
+								"public_key": {
+									"@type": "/cosmos.crypto.secp256k1.PubKey",
+									"key": "A6QY9ONI5gJbdQO2tN2gE++6ucRXX8FWTDBq/vbbnq2T"
+								},
+								"mode_info": {
+									"single": {
+										"mode": "SIGN_MODE_DIRECT"
+									}
+								},
+								"sequence": "0"
+							}
+						],
+						"fee": {
+							"amount": [],
+							"gas_limit": "200000",
+							"payer": "",
+							"granter": ""
+						}
+					},
+					"signatures": [
+						"dcUN6oJ9eqJMYKtzG3lQ8KApDPp9nO+9v3arZ1Lkpct/wrzwtH47E4+yVlPvRgC+5RGU0MrDGaS0ZYSjPKsOzw=="
+					]
+				},
+				{
+					"body": {
+						"messages": [
+							{
+								"@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+								"description": {
+									"moniker": "ValidBlocks",
+									"identity": "",
+									"website": "https://validblocks.com",
+									"security_contact": "contact@validblocks.com",
+									"details": "Valid Blocks staking provider"
+								},
+								"commission": {
+									"rate": "0.070000000000000000",
+									"max_rate": "1.000000000000000000",
+									"max_change_rate": "0.010000000000000000"
+								},
+								"min_self_delegation": "1",
+								"delegator_address": "comdex1p8q0qfs6hejauz6p3auccg7m7qr4sr8juv4838",
+								"validator_address": "comdexvaloper1p8q0qfs6hejauz6p3auccg7m7qr4sr8j0m040x",
+								"pubkey": {
+									"@type": "/cosmos.crypto.ed25519.PubKey",
+									"key": "cIgesezsqO7W/KecFs4qlmdo7f+irGMKZOVXuYM2XyA="
+								},
+								"value": {
+									"denom": "ucmdx",
+									"amount": "10000000"
+								}
+							}
+						],
+						"memo": "28cba9aef60cb820ca4180dc8893cb4031d6d1c7@49.12.75.116:26656",
+						"timeout_height": "0",
+						"extension_options": [],
+						"non_critical_extension_options": []
+					},
+					"auth_info": {
+						"signer_infos": [
+							{
+								"public_key": {
+									"@type": "/cosmos.crypto.secp256k1.PubKey",
+									"key": "AnCQFflDax3MFCdBbMCY+6RFqXQcSR56nr5pYh8iEWFd"
+								},
+								"mode_info": {
+									"single": {
+										"mode": "SIGN_MODE_DIRECT"
+									}
+								},
+								"sequence": "0"
+							}
+						],
+						"fee": {
+							"amount": [],
+							"gas_limit": "200000",
+							"payer": "",
+							"granter": ""
+						}
+					},
+					"signatures": [
+						"srk1eg9ag/in7FJcmMbRT5YwKodg80AcCahmXKcqAcU6r2uiYTrlFsB0IJegC3PgeUwz+3hxPainAxjAOIQPww=="
+					]
+				},
+				{
+					"body": {
+						"messages": [
+							{
+								"@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+								"description": {
+									"moniker": "Vault Staking",
+									"identity": "",
+									"website": "",
+									"security_contact": "“Michael@vaultstaking.com”",
+									"details": "Vault Staking is a trusted validator serving the Cosmos community. Our team members are located around the world, always available to answer questions and keep the highest uptime."
+								},
+								"commission": {
+									"rate": "0.070000000000000000",
+									"max_rate": "1.000000000000000000",
+									"max_change_rate": "0.010000000000000000"
+								},
+								"min_self_delegation": "1",
+								"delegator_address": "comdex1zy7uuu6cd5fde3uunlh5l40jjf24ypd6sy9ej4",
+								"validator_address": "comdexvaloper1zy7uuu6cd5fde3uunlh5l40jjf24ypd6rnltv5",
+								"pubkey": {
+									"@type": "/cosmos.crypto.ed25519.PubKey",
+									"key": "Xg9379JoL7C/niTbwSkpQtpAm1d2lJ2TKBDh71I6728="
+								},
+								"value": {
+									"denom": "ucmdx",
+									"amount": "10000000"
+								}
+							}
+						],
+						"memo": "c299ff4127fa6694067b8620bfbfc5f595d25630@172.31.75.128:26656",
+						"timeout_height": "0",
+						"extension_options": [],
+						"non_critical_extension_options": []
+					},
+					"auth_info": {
+						"signer_infos": [
+							{
+								"public_key": {
+									"@type": "/cosmos.crypto.secp256k1.PubKey",
+									"key": "Am5UjZOBKth1pZRL8DSBJaRhJmo/mHjejLtBtGjTJfSp"
+								},
+								"mode_info": {
+									"single": {
+										"mode": "SIGN_MODE_DIRECT"
+									}
+								},
+								"sequence": "0"
+							}
+						],
+						"fee": {
+							"amount": [],
+							"gas_limit": "200000",
+							"payer": "",
+							"granter": ""
+						}
+					},
+					"signatures": [
+						"udL3zzyrRj9nk/XHUSsscyfOP27Fz74aP4eiarNarZg8Vt3HhPAv18ECb2L0mZtYbkpEZ1shYKOGMN5mIsk6Yw=="
+					]
+				},
+				{
+					"body": {
+						"messages": [
+							{
+								"@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+								"description": {
+									"moniker": "Witval",
+									"identity": "",
+									"website": "www.vitwit.com",
+									"security_contact": "918500192539",
+									"details": "Witval is the validator arm from Vitwit. Vitwit is into software consulting and services business since 2015. We are working closely with Cosmos ecosystem since 2018. We are also building tools for the ecosystem, Aneka is our explorer for the cosmos ecosystem."
+								},
+								"commission": {
+									"rate": "0.070000000000000000",
+									"max_rate": "1.000000000000000000",
+									"max_change_rate": "0.010000000000000000"
+								},
+								"min_self_delegation": "1",
+								"delegator_address": "comdex1wc6e6lm383fcrjt0493cs6dmwwrurl9xqgj63n",
+								"validator_address": "comdexvaloper1wc6e6lm383fcrjt0493cs6dmwwrurl9xnlgg0j",
+								"pubkey": {
+									"@type": "/cosmos.crypto.ed25519.PubKey",
+									"key": "sNNL6UVfdJLsD/B2Ogcc+YdWbtJ+d9ZiBorwBDD3nAY="
+								},
+								"value": {
+									"denom": "ucmdx",
+									"amount": "10000000"
+								}
+							}
+						],
+						"memo": "d21b6e199c076d291d4fed976985a41ea6abeafa@103.125.217.204:26656",
+						"timeout_height": "0",
+						"extension_options": [],
+						"non_critical_extension_options": []
+					},
+					"auth_info": {
+						"signer_infos": [
+							{
+								"public_key": {
+									"@type": "/cosmos.crypto.secp256k1.PubKey",
+									"key": "AjFf419xRMfHRS0jYkkO9nAxFFyVmFLvUK6WyQm87Sdc"
+								},
+								"mode_info": {
+									"single": {
+										"mode": "SIGN_MODE_DIRECT"
+									}
+								},
+								"sequence": "0"
+							}
+						],
+						"fee": {
+							"amount": [],
+							"gas_limit": "200000",
+							"payer": "",
+							"granter": ""
+						}
+					},
+					"signatures": [
+						"rf1sMwCdzhmsrwA9RWYU3wi0GdXikUet8cviezjWkrdcoORAXRl6nYUW8jy7YSkAGYIphtHS5cRscyoQD5WH/g=="
+					]
+				},
+				{
+					"body": {
+						"messages": [
+							{
+								"@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+								"description": {
+									"moniker": "azstake",
+									"identity": "",
+									"website": "",
+									"security_contact": "",
+									"details": ""
+								},
+								"commission": {
+									"rate": "0.070000000000000000",
+									"max_rate": "1.000000000000000000",
+									"max_change_rate": "0.010000000000000000"
+								},
+								"min_self_delegation": "1",
+								"delegator_address": "comdex1vdnqr3y2chlmzkts5s9xrmrrhhlh0sd2h33e2r",
+								"validator_address": "comdexvaloper1vdnqr3y2chlmzkts5s9xrmrrhhlh0sd2yxtt5z",
+								"pubkey": {
+									"@type": "/cosmos.crypto.ed25519.PubKey",
+									"key": "oLlzYMyUuzWruA61P/3qfkeP1v8E6csIwPELQ9/i87w="
+								},
+								"value": {
+									"denom": "ucmdx",
+									"amount": "10000000"
+								}
+							}
+						],
+						"memo": "d31f1da09fb7976a6aa09b5e247b26a39b1ee846@65.21.243.86:26656",
+						"timeout_height": "0",
+						"extension_options": [],
+						"non_critical_extension_options": []
+					},
+					"auth_info": {
+						"signer_infos": [
+							{
+								"public_key": {
+									"@type": "/cosmos.crypto.secp256k1.PubKey",
+									"key": "A2WPNn12SR9p1YqUgAeHt7Av5c5z2ap4MR4o0FQmgPKq"
+								},
+								"mode_info": {
+									"single": {
+										"mode": "SIGN_MODE_DIRECT"
+									}
+								},
+								"sequence": "0"
+							}
+						],
+						"fee": {
+							"amount": [],
+							"gas_limit": "200000",
+							"payer": "",
+							"granter": ""
+						}
+					},
+					"signatures": [
+						"wdmIiEpyyo+tydVJv3f9PQsbG3OrmJRtc4zTTEvZ0CxswDg5yrfRmfmDKSv7dvZFoLUmrh7/cbUCUglHqSCLxA=="
+					]
+				},
+				{
+					"body": {
+						"messages": [
+							{
+								"@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+								"description": {
+									"moniker": "comets-test-f1",
+									"identity": "",
+									"website": "https://comdex.one",
+									"security_contact": "XXXXXXXX",
+									"details": "admin@comdex.one"
+								},
+								"commission": {
+									"rate": "0.070000000000000000",
+									"max_rate": "1.000000000000000000",
+									"max_change_rate": "0.010000000000000000"
+								},
+								"min_self_delegation": "1",
+								"delegator_address": "comdex18dpylqrepgnvvrkfehrlz280pvc05w3jfv9279",
+								"validator_address": "comdexvaloper18dpylqrepgnvvrkfehrlz280pvc05w3j6mlcqy",
+								"pubkey": {
+									"@type": "/cosmos.crypto.ed25519.PubKey",
+									"key": "4o7LRsu83n9OIgWhZ0sHw1kkqNbCwBPW1D+lPjBxe7Q="
+								},
+								"value": {
+									"denom": "ucmdx",
+									"amount": "10000000"
+								}
+							}
+						],
+						"memo": "479717ccfc49c626654b9a126adf73db2407365d@10.1.103.244:26656",
+						"timeout_height": "0",
+						"extension_options": [],
+						"non_critical_extension_options": []
+					},
+					"auth_info": {
+						"signer_infos": [
+							{
+								"public_key": {
+									"@type": "/cosmos.crypto.secp256k1.PubKey",
+									"key": "A8wuu5S0IoSwKhDKyTBaoGM65pjt1yHykpTVfvXSGinJ"
+								},
+								"mode_info": {
+									"single": {
+										"mode": "SIGN_MODE_DIRECT"
+									}
+								},
+								"sequence": "0"
+							}
+						],
+						"fee": {
+							"amount": [],
+							"gas_limit": "200000",
+							"payer": "",
+							"granter": ""
+						}
+					},
+					"signatures": [
+						"fohu662xmu2LfgDfwTqJql45qF+FdfuRFrg9j0mQoUNpfYoypSsMfLdcxiRW4heOd716ZWOwNKuSh42cDGzAyw=="
+					]
+				},
+				{
+					"body": {
+						"messages": [
+							{
+								"@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+								"description": {
+									"moniker": "comets-test-f2",
+									"identity": "",
+									"website": "https://comdex.one",
+									"security_contact": "XXXXXXXX",
+									"details": "admin@comdex.one"
+								},
+								"commission": {
+									"rate": "0.070000000000000000",
+									"max_rate": "1.000000000000000000",
+									"max_change_rate": "0.010000000000000000"
+								},
+								"min_self_delegation": "1",
+								"delegator_address": "comdex1x5aw6vk570gd9ljt98xm0ce6zj3xma8e4svre0",
+								"validator_address": "comdexvaloper1x5aw6vk570gd9ljt98xm0ce6zj3xma8ex8k38w",
+								"pubkey": {
+									"@type": "/cosmos.crypto.ed25519.PubKey",
+									"key": "3EvM5VF4uY8h2mZSm5H7bl+RfeiEWoz+C1HIA5vOOBc="
+								},
+								"value": {
+									"denom": "ucmdx",
+									"amount": "10000000"
+								}
+							}
+						],
+						"memo": "9b85c06cc7e66a766784bb98b93539428011e76d@172.31.88.235:26656",
+						"timeout_height": "0",
+						"extension_options": [],
+						"non_critical_extension_options": []
+					},
+					"auth_info": {
+						"signer_infos": [
+							{
+								"public_key": {
+									"@type": "/cosmos.crypto.secp256k1.PubKey",
+									"key": "A/S6j6KCxYfRuNS7z3aYJ9pW4IO6Vorq7WbB9ITFJgxu"
+								},
+								"mode_info": {
+									"single": {
+										"mode": "SIGN_MODE_DIRECT"
+									}
+								},
+								"sequence": "0"
+							}
+						],
+						"fee": {
+							"amount": [],
+							"gas_limit": "200000",
+							"payer": "",
+							"granter": ""
+						}
+					},
+					"signatures": [
+						"0AvqE39wGqE+tVHA+SI+I7qEI3/0Ot/ZNhpwUBfEr4Rma4lLBDLUM4HNhMKvWydxV8nCi1h5DJTxMgwFTjRKIg=="
+					]
+				},
+				{
+					"body": {
+						"messages": [
+							{
+								"@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+								"description": {
+									"moniker": "comets-test-f3",
+									"identity": "",
+									"website": "https://comdex.one",
+									"security_contact": "XXXXXXXX",
+									"details": "XXXXXXXX"
+								},
+								"commission": {
+									"rate": "0.070000000000000000",
+									"max_rate": "1.000000000000000000",
+									"max_change_rate": "0.010000000000000000"
+								},
+								"min_self_delegation": "1",
+								"delegator_address": "comdex18mgzuztjv6a285llhp6awfdyur98k6uhm69e5g",
+								"validator_address": "comdexvaloper18mgzuztjv6a285llhp6awfdyur98k6uhgdlt2f",
+								"pubkey": {
+									"@type": "/cosmos.crypto.ed25519.PubKey",
+									"key": "miNgdWYDK8gikPi0NYh8D+zr3PKGEaIaE2vM12PftxU="
+								},
+								"value": {
+									"denom": "ucmdx",
+									"amount": "10000000"
+								}
+							}
+						],
+						"memo": "b2315a0f1eab593a5761f5175be2d493b12cb57d@172.31.11.192:26656",
+						"timeout_height": "0",
+						"extension_options": [],
+						"non_critical_extension_options": []
+					},
+					"auth_info": {
+						"signer_infos": [
+							{
+								"public_key": {
+									"@type": "/cosmos.crypto.secp256k1.PubKey",
+									"key": "AlG/1Ye4MoWU1Mzy2mvVe/2hKga3V16y3Wau98Bfh280"
+								},
+								"mode_info": {
+									"single": {
+										"mode": "SIGN_MODE_DIRECT"
+									}
+								},
+								"sequence": "0"
+							}
+						],
+						"fee": {
+							"amount": [],
+							"gas_limit": "200000",
+							"payer": "",
+							"granter": ""
+						}
+					},
+					"signatures": [
+						"cRX2Xjsp1Of+JU7Xp6x2XNB5dGMpMLYN0BrVLEzHF/1dVWoNnOEuWZhm03brjWyUSR5f5oTGvQCr2FyWgLUFWQ=="
+					]
+				},
+				{
+					"body": {
+						"messages": [
+							{
+								"@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+								"description": {
+									"moniker": "comets-test-f4",
+									"identity": "",
+									"website": "https://comdex.one",
+									"security_contact": "XXXXXXXX",
+									"details": "XXXXXXXX"
+								},
+								"commission": {
+									"rate": "0.070000000000000000",
+									"max_rate": "1.000000000000000000",
+									"max_change_rate": "0.010000000000000000"
+								},
+								"min_self_delegation": "1",
+								"delegator_address": "comdex1cgv0r6lfyakt44yrj8p4kyrymzpyhwlgqd7ke0",
+								"validator_address": "comdexvaloper1cgv0r6lfyakt44yrj8p4kyrymzpyhwlgn6yy8w",
+								"pubkey": {
+									"@type": "/cosmos.crypto.ed25519.PubKey",
+									"key": "VHz6Q5+PBGHMCBLDynfCF5O/RDfZISA5KEFur6Lb/FI="
+								},
+								"value": {
+									"denom": "ucmdx",
+									"amount": "10000000"
+								}
+							}
+						],
+						"memo": "f1e54404f28732e221bb11daf0de1900ab2c8b75@10.2.1.199:26656",
+						"timeout_height": "0",
+						"extension_options": [],
+						"non_critical_extension_options": []
+					},
+					"auth_info": {
+						"signer_infos": [
+							{
+								"public_key": {
+									"@type": "/cosmos.crypto.secp256k1.PubKey",
+									"key": "A4hhyqloprnnMweWWuR501M9rQrYZXeNJl7ujngd2OMs"
+								},
+								"mode_info": {
+									"single": {
+										"mode": "SIGN_MODE_DIRECT"
+									}
+								},
+								"sequence": "0"
+							}
+						],
+						"fee": {
+							"amount": [],
+							"gas_limit": "200000",
+							"payer": "",
+							"granter": ""
+						}
+					},
+					"signatures": [
+						"TH7+TRhZUVcI6GsWiV23ZqYME5sTonFVuEsbmcejUwNbSETEOX9oEXnNKna+tF9K6C8/WVGtsmPxeLOcmk6tfg=="
+					]
+				},
+				{
+					"body": {
+						"messages": [
+							{
+								"@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+								"description": {
+									"moniker": "Cryptonite",
+									"identity": "",
+									"website": "",
+									"security_contact": "",
+									"details": ""
+								},
+								"commission": {
+									"rate": "0.070000000000000000",
+									"max_rate": "1.000000000000000000",
+									"max_change_rate": "0.010000000000000000"
+								},
+								"min_self_delegation": "1",
+								"delegator_address": "comdex1t5580ttaawdqneu6eavyp04wtl794fjufnuwyt",
+								"validator_address": "comdexvaloper1t5580ttaawdqneu6eavyp04wtl794fju6yxu62",
+								"pubkey": {
+									"@type": "/cosmos.crypto.ed25519.PubKey",
+									"key": "sG1odM0CWEb9mLo01MmOD13appisexsw6YX9cT9rujk="
+								},
+								"value": {
+									"denom": "ucmdx",
+									"amount": "10000000"
+								}
+							}
+						],
+						"memo": "b94dc235fadd2902b7d01b59b5261996e883acc5@172.31.18.138:26656",
+						"timeout_height": "0",
+						"extension_options": [],
+						"non_critical_extension_options": []
+					},
+					"auth_info": {
+						"signer_infos": [
+							{
+								"public_key": {
+									"@type": "/cosmos.crypto.secp256k1.PubKey",
+									"key": "A+vk0nxt2uz4ePyfppLleyAHaw9kYnu4zVTL2Fav8sTf"
+								},
+								"mode_info": {
+									"single": {
+										"mode": "SIGN_MODE_DIRECT"
+									}
+								},
+								"sequence": "0"
+							}
+						],
+						"fee": {
+							"amount": [],
+							"gas_limit": "200000",
+							"payer": "",
+							"granter": ""
+						}
+					},
+					"signatures": [
+						"H/XdbUh3MCwKWcrbqvvwlx6rv8XTGW/NuRsxj2xHX8gIKlWNvr8k72aueagYcANcZGbZJyB2IvUJzBGQpYg9zg=="
+					]
+				},
+				{
+					"body": {
+						"messages": [
+							{
+								"@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+								"description": {
+									"moniker": "heis-en-berg",
+									"identity": "",
+									"website": "XXXXXXXX",
+									"security_contact": "XXXXXXXX",
+									"details": "XXXXXXXX"
+								},
+								"commission": {
+									"rate": "0.070000000000000000",
+									"max_rate": "1.000000000000000000",
+									"max_change_rate": "0.010000000000000000"
+								},
+								"min_self_delegation": "1",
+								"delegator_address": "comdex1zghur4w0gl3kgnl9rqhfs8qcx52yr4xav099y3",
+								"validator_address": "comdexvaloper1zghur4w0gl3kgnl9rqhfs8qcx52yr4xalclh6s",
+								"pubkey": {
+									"@type": "/cosmos.crypto.ed25519.PubKey",
+									"key": "Wx7AGyoknqwnzdhJzmthdNjE3WobHZFcroooVtUJoXc="
+								},
+								"value": {
+									"denom": "ucmdx",
+									"amount": "10000000"
+								}
+							}
+						],
+						"memo": "fd49074f69ebae4297fb84061eb96c9803179564@10.162.0.2:26656",
+						"timeout_height": "0",
+						"extension_options": [],
+						"non_critical_extension_options": []
+					},
+					"auth_info": {
+						"signer_infos": [
+							{
+								"public_key": {
+									"@type": "/cosmos.crypto.secp256k1.PubKey",
+									"key": "A1R5WNtsO6xtFUivtKvo7s4ZO9z2o45ktSnNKdKJVfft"
+								},
+								"mode_info": {
+									"single": {
+										"mode": "SIGN_MODE_DIRECT"
+									}
+								},
+								"sequence": "0"
+							}
+						],
+						"fee": {
+							"amount": [],
+							"gas_limit": "200000",
+							"payer": "",
+							"granter": ""
+						}
+					},
+					"signatures": [
+						"+BZvE/afUdOdqpkIVOdap/axKa6J01uh9TJiMPYSaaFSVhd/rfR8grGVsHByLmk8OPAV/X1aJe2rNSPLf+GYbA=="
+					]
+				}
+			]
+		},
+		"gov": {
+			"starting_proposal_id": "1",
+			"deposits": [],
+			"votes": [],
+			"proposals": [],
+			"deposit_params": {
+				"min_deposit": [
+					{
+						"denom": "ucmdx",
+						"amount": "10000000"
+					}
+				],
+				"max_deposit_period": "172800s"
+			},
+			"voting_params": {
+				"voting_period": "172800s"
+			},
+			"tally_params": {
+				"quorum": "0.334000000000000000",
+				"threshold": "0.500000000000000000",
+				"veto_threshold": "0.334000000000000000"
+			}
+		},
+		"ibc": {
+			"client_genesis": {
+				"clients": [],
+				"clients_consensus": [],
+				"clients_metadata": [],
+				"params": {
+					"allowed_clients": [
+						"06-solomachine",
+						"07-tendermint"
+					]
+				},
+				"create_localhost": false,
+				"next_client_sequence": "0"
+			},
+			"connection_genesis": {
+				"connections": [],
+				"client_connection_paths": [],
+				"next_connection_sequence": "0",
+				"params": {
+					"max_expected_time_per_block": "30000000000"
+				}
+			},
+			"channel_genesis": {
+				"channels": [],
+				"acknowledgements": [],
+				"commitments": [],
+				"receipts": [],
+				"send_sequences": [],
+				"recv_sequences": [],
+				"ack_sequences": [],
+				"next_channel_sequence": "0"
+			}
+		},
+		"liquidity": {
+			"params": {
+				"pool_types": [
+					{
+						"id": 1,
+						"name": "StandardLiquidityPool",
+						"min_reserve_coin_num": 2,
+						"max_reserve_coin_num": 2,
+						"description": "Standard liquidity pool with pool price function X/Y, ESPM constraint, and two kinds of reserve coins"
+					}
+				],
+				"min_init_deposit_amount": "1000000",
+				"init_pool_coin_mint_amount": "1000000",
+				"max_reserve_coin_amount": "0",
+				"pool_creation_fee": [
+					{
+						"denom": "ucmdx",
+						"amount": "40000000"
+					}
+				],
+				"swap_fee_rate": "0.003000000000000000",
+				"withdraw_fee_rate": "0.000000000000000000",
+				"max_order_amount_ratio": "0.100000000000000000",
+				"unit_batch_height": 1,
+				"circuit_breaker_enabled": false
+			},
+			"pool_records": []
+		},
+		"mint": {
+			"minter": {
+				"inflation": "0.130000000000000000",
+				"annual_provisions": "0.000000000000000000"
+			},
+			"params": {
+				"mint_denom": "ucmdx",
+				"inflation_rate_change": "0.130000000000000000",
+				"inflation_max": "0.200000000000000000",
+				"inflation_min": "0.070000000000000000",
+				"goal_bonded": "0.670000000000000000",
+				"blocks_per_year": "6311520"
+			}
+		},
+		"oracle": {
+			"markets": [],
+			"params": {
+				"ibc": {
+					"port": "oracle",
+					"version": "comdex-ics-01"
+				},
+				"oracle": {
+					"ask_count": "1",
+					"min_count": "1",
+					"multiplier": "9"
+				}
+			}
+		},
+		"params": null,
+		"slashing": {
+			"params": {
+				"signed_blocks_window": "100",
+				"min_signed_per_window": "0.500000000000000000",
+				"downtime_jail_duration": "600s",
+				"slash_fraction_double_sign": "0.050000000000000000",
+				"slash_fraction_downtime": "0.010000000000000000"
+			},
+			"signing_infos": [],
+			"missed_blocks": []
+		},
+		"staking": {
+			"params": {
+				"unbonding_time": "1814400s",
+				"max_validators": 100,
+				"max_entries": 7,
+				"historical_entries": 10000,
+				"bond_denom": "ucmdx"
+			},
+			"last_total_power": "0",
+			"last_validator_powers": [],
+			"validators": [],
+			"delegations": [],
+			"unbonding_delegations": [],
+			"redelegations": [],
+			"exported": false
+		},
+		"transfer": {
+			"port_id": "transfer",
+			"denom_traces": [],
+			"params": {
+				"send_enabled": true,
+				"receive_enabled": true
+			}
+		},
+		"upgrade": {},
+		"vault": {
+			"vaults": []
+		},
+		"vesting": {}
+	}
+}
