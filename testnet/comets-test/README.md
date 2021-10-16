@@ -155,7 +155,7 @@ Commit Hash: 36e59abc8aff22a8eea2e851ee19e497c7f754ea
 The binary can be downloaded from [here](https://github.com/comdex-official/comdex/releases/tag/v0.0.2).
 
 ## Explorer
-The explorer for this chain is hosted [here](::To be published)
+The explorer for this chain is hosted [TestNet Explorer](https://comets-test.comdex.one/)
 
 ## Genesis Time
 The genesis transactions sent before 1200HRS UTC 15th October 2021 will be used to publish the genesis_final.json at 1400HRS UTC 15th October 2021 and then start the chain at 14.30UTC once the quorum is reached.
