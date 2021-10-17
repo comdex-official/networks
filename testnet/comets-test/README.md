@@ -96,7 +96,7 @@ comdex gentx {{KEY_NAME}} 10000000ucmdx \
 ```
 * Copy below value as minimum-gas-prices in ${HOME}/.comdex/config/app.toml
 ```shell
-0.2cmdx
+0.2ucmdx
 ```
 
 * Start comdex by running below command or create a `systemd` service to run comdex in background.
@@ -120,7 +120,7 @@ comdex init {{NODE_NAME}}
 
 * Copy below value as minimum-gas-prices in ${HOME}/.comdex/config/app.toml
 ```shell
-0.2cmdx
+0.2ucmdx
 ```
 
 * Start comdex by running below command or create a `systemd` service to run comdex in background.
