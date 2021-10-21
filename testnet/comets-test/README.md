@@ -9,13 +9,13 @@
 
 ## Hardware Requirements
 * **Minimal**
-    * 1 GB RAM
-    * 25 GB HDD
-    * 1.4 GHz CPU
+    * 4 GB RAM
+    * 100 GB SSD
+    * 3.2 x4 GHz CPU
 * **Recommended**
-    * 2 GB RAM
-    * 100 GB HDD
-    * 2.0 GHz x2 CPU
+    * 8 GB RAM
+    * 100 GB NVME SSD
+    * 4.2 GHz x6 CPU
 
 ## Operating System
 * Linux/Windows/MacOS(x86)
