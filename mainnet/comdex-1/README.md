@@ -76,8 +76,8 @@ comdex gentx {{KEY_NAME}} 10000000ucmdx \
 --chain-id {{CHAIN-ID}} \
 --moniker="{{VALIDATOR_NAME}}" \
 --commission-max-change-rate=0.01 \
---commission-max-rate=0.2 \
---commission-rate=0.07 \
+--commission-max-rate=0.01 \
+--commission-rate=0.01 \
 --details="XXXXXXXX" \
 --security-contact="XXXXXXXX" \
 --website="XXXXXXXX"
