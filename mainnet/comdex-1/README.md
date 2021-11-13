@@ -16,11 +16,11 @@ Work under progress, Please wait for the official announcement to go ahead with 
     * 3.2 x4 GHz CPU
 * **Recommended**
     * 8 GB RAM
-    * 100 GB NVME SSD
-    * 4.2 GHz x6 CPU
+    * 100 TB NVME SSD
+    * 3.2 GHz x4 CPU
 
 ## Operating System
-* Linux/Windows/MacOS(x86)
+
 * **Recommended**
     * Linux(x86_64)
 
