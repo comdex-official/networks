@@ -69,6 +69,8 @@ or
 
 * [Install](#installation-steps) comdex core application
 * Initialize node
+* Replace the contents of your `${HOME}/.comdex/config/genesis.json` with that of mainnet/comdex-1/pre_genesis.json.
+
 ```shell
 comdex init {{NODE_NAME}} --chain-id comdex-1
 comdex add-genesis-account {{KEY_NAME}} 10000000ucmdx
