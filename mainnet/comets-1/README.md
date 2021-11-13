@@ -100,7 +100,7 @@ TO BE PUBLISHED
 ```
 * Copy below value as minimum-gas-prices in ${HOME}/.comdex/config/app.toml
 ```shell
-0.2ucmdx
+0.025ucmdx
 ```
 
 * Start comdex by running below command or create a `systemd` service to run comdex in background.
