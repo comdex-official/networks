@@ -103,9 +103,32 @@ TO BE PUBLISHED
 0.025ucmdx
 ```
 
-* Start comdex by running below command or create a `systemd` service to run comdex in background.
+* Start comdex by running below command
 ```shell
 comdex start
+```
+
+* Creating a `systemd` service to run comdex in background.
+
+Sample systemd file
+
+```toml
+# /etc/systemd/system/comdex.service
+[Unit]
+Description=Comdex Node
+After=network.target
+
+[Service]
+Type=simple
+User=ubuntu
+WorkingDirectory=/home/ubuntu
+ExecStart=/home/ubuntu/go/bin/comdex start
+Restart=on-failure
+RestartSec=3
+LimitNOFILE=4096
+
+[Install]
+WantedBy=multi-user.target
 ```
 
 ## Version
