@@ -65,7 +65,7 @@ or
 
 ## Validator setup instructions
 
-### GenTx : No Accepting Now.
+### GenTx : Accepting Now.
 
 * [Install](#installation-steps) comdex core application
 * Initialize node
@@ -83,7 +83,7 @@ comdex gentx {{KEY_NAME}} 10000000ucmdx \
 --website="XXXXXXXX"
 ```
 
-* Please do not add more than 10000000ucmdx
+* Please do not add more than 10000000ucmdx in the genesis account
 * Copy the contents of `${HOME}/.comdex/config/gentx/gentx-XXXXXXXX.json`.
 * Fork the [repository](https://github.com/comdex-official/networks/)
 * Create a file `gentx-{{VALIDATOR_NAME}}.json` under the mainnet/comets-001/gentxs folder in the forked repo, paste the copied text into the file. Find reference file gentx-examplexxxxxxxx.json in the same folder.
