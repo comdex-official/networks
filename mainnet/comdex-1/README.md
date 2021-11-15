@@ -72,7 +72,7 @@ or
 * Replace the contents of your `${HOME}/.comdex/config/genesis.json` with that of mainnet/comdex-1/pre_genesis.json.
 
 ```shell
-https://raw.githubusercontent.com/comdex-official/networks/main/mainnet/comdex-1/pre_genesis.json
+wget https://raw.githubusercontent.com/comdex-official/networks/main/mainnet/comdex-1/pre_genesis.json
 ```
 
 * Warning :: Please do not add more than ```10000000ucmdx``` in the genesis account and while gentx.
