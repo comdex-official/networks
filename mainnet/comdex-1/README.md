@@ -139,9 +139,6 @@ This chain is currently running on Comdex [v0.0.2](https://github.com/comdex-off
 Commit Hash: 
 >Note: If your node is running on an older version of the application, please update it to this version at the earliest to avoid being exposed to security vulnerabilities /defects.
 
-## Binary
-The binary can be downloaded from [here](https://github.com/comdex-official/comdex/releases/tag/v0.0.2).
-
 ## Explorer
 The explorer for this chain is hosted [MainNet Explorer](TO BE PUBLISHED)
 
