@@ -69,16 +69,18 @@ or
 
 * [Install](#installation-steps) comdex core application
 * Initialize node
-* Replace the contents of your `${HOME}/.comdex/config/genesis.json` with that of mainnet/comdex-1/pre_genesis.json.
-
-```shell
-wget https://raw.githubusercontent.com/comdex-official/networks/main/mainnet/comdex-1/pre_genesis.json
-```
 
 * Warning :: Please do not add more than ```10000000ucmdx``` in the genesis account and while gentx.
 
 ```shell
 comdex init "{{NODE_NAME}}" --chain-id comdex-1
+```
+
+* Replace the contents of your `${HOME}/.comdex/config/genesis.json` with that of mainnet/comdex-1/pre_genesis.json.
+
+```shell
+wget https://raw.githubusercontent.com/comdex-official/networks/main/mainnet/comdex-1/pre_genesis.json
+```
 comdex add-genesis-account "{{KEY_NAME}}" 10000000ucmdx
 comdex gentx "{{KEY_NAME}}" 10000000ucmdx \
 --chain-id comdex-1 \
