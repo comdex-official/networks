@@ -1,6 +1,8 @@
 # comdex-1
 > This is comdex Main net chain
 
+> PRE-GENESIS PUBLISHED :: Please use this genesis to generate gentx
+
 > GENESIS NOT PUBLISHED
 
 > PEERS NOT PUBLISHED
