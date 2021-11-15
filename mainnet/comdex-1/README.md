@@ -71,6 +71,8 @@ or
 * Initialize node
 * Replace the contents of your `${HOME}/.comdex/config/genesis.json` with that of mainnet/comdex-1/pre_genesis.json.
 
+* Warning :: Please do not add more than ```shell 10000000ucmdx``` in the genesis account
+
 ```shell
 comdex init {{NODE_NAME}} --chain-id comdex-1
 comdex add-genesis-account {{KEY_NAME}} 10000000ucmdx
@@ -85,7 +87,6 @@ comdex gentx {{KEY_NAME}} 10000000ucmdx \
 --website="XXXXXXXX"
 ```
 
-* Please do not add more than 10000000ucmdx in the genesis account
 * Copy the contents of `${HOME}/.comdex/config/gentx/gentx-XXXXXXXX.json`.
 * Fork the [repository](https://github.com/comdex-official/networks/)
 * Create a file `gentx-{{VALIDATOR_NAME}}.json` under the mainnet/comdex-1/gentxs folder in the forked repo, paste the copied text into the file. Find reference file gentx-examplexxxxxxxx.json in the same folder.
@@ -145,4 +146,4 @@ The binary can be downloaded from [here](https://github.com/comdex-official/comd
 The explorer for this chain is hosted [MainNet Explorer](TO BE PUBLISHED)
 
 ## Genesis Time
-The genesis transactions sent before 1200HRS UTC 19th November 2021 will be used to publish the genesis_final.json at 1400HRS UTC 20th november 2021 and then start the chain at 14.30UTC .
+The genesis transactions sent before 1200HRS UTC 18th November 2021 will be used to publish the genesis_final.json on or before 1200HRS UTC 20th november 2021 and then start the chain at 14.30UTC. We will be announcing on all the platforms for the same.
