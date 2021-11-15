@@ -63,7 +63,7 @@ or
 `comdex keys add [key_name] --recover` to regenerate keys with your [BIP39](https://github.com/bitcoin/bips/tree/master/bip-0039) mnemonic
 
 
-## Validator setup instructions
+## Validator setup instructions for validators participating in the genesis
 
 ### GenTx : Accepting Now.
 
