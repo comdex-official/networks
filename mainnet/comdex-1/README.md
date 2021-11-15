@@ -3,7 +3,7 @@
 
 > PRE-GENESIS PUBLISHED :: Please use this genesis to generate gentx
 
-> GENESIS NOT PUBLISHED
+> FINAL GENESIS NOT PUBLISHED
 
 > PEERS NOT PUBLISHED
 
@@ -140,7 +140,7 @@ WantedBy=multi-user.target
 
 ## Version
 This chain is currently running on Comdex [v0.0.3](https://github.com/comdex-official/comdex/releases/tag/v0.0.3)
-Commit Hash: 
+Commit Hash: c7c19f6366b859373c3ed8c06d4c760f2649feae
 >Note: If your node is running on an older version of the application, please update it to this version at the earliest to avoid being exposed to security vulnerabilities /defects.
 
 ## Binary
