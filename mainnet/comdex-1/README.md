@@ -81,6 +81,8 @@ comdex init "{{NODE_NAME}}" --chain-id comdex-1
 ```shell
 wget https://raw.githubusercontent.com/comdex-official/networks/main/mainnet/comdex-1/pre_genesis.json
 ```
+
+```shell
 comdex add-genesis-account "{{KEY_NAME}}" 10000000ucmdx
 comdex gentx "{{KEY_NAME}}" 10000000ucmdx \
 --chain-id comdex-1 \
