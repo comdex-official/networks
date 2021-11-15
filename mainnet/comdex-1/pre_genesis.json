@@ -1,1 +1,1221 @@
-
+{
+    "genesis_time": "2021-11-20T14:30:00Z",
+    "chain_id": "comdex-1",
+    "initial_height": "1",
+    "consensus_params": {
+        "block": {
+            "max_bytes": "22020096",
+            "max_gas": "-1",
+            "time_iota_ms": "1000"
+        },
+        "evidence": {
+            "max_age_num_blocks": "100000",
+            "max_age_duration": "172800000000000",
+            "max_bytes": "1048576"
+        },
+        "validator": {
+            "pub_key_types": [
+                "ed25519"
+            ]
+        },
+        "version": {}
+    },
+    "app_hash": "",
+    "app_state": {
+        "auth": {
+            "params": {
+                "max_memo_characters": "256",
+                "tx_sig_limit": "7",
+                "tx_size_cost_per_byte": "10",
+                "sig_verify_cost_ed25519": "590",
+                "sig_verify_cost_secp256k1": "1000"
+            },
+            "accounts": [
+                {
+                    "@type": "/cosmos.vesting.v1beta1.PeriodicVestingAccount",
+                    "base_vesting_account": {
+                        "base_account": {
+                            "address": "comdex17v8l0chv3qcy4n9u8gc09v5qvkedp497ryx82q",
+                            "pub_key": null,
+                            "account_number": "0",
+                            "sequence": "0"
+                        },
+                        "original_vesting": [
+                            {
+                                "denom": "ucmdx",
+                                "amount": "10000000000000"
+                            }
+                        ],
+                        "delegated_free": [],
+                        "delegated_vesting": [],
+                        "end_time": "1668902400"
+                    },
+                    "start_time": "1645315200",
+                    "vesting_periods": [
+                        {
+                            "length": "0",
+                            "amount": [
+                                {
+                                    "denom": "ucmdx",
+                                    "amount": "2500000000000"
+                                }
+                            ]
+                        },
+                        {
+                            "length": "7689600",
+                            "amount": [
+                                {
+                                    "denom": "ucmdx",
+                                    "amount": "2500000000000"
+                                }
+                            ]
+                        },
+                        {
+                            "length": "7948800",
+                            "amount": [
+                                {
+                                    "denom": "ucmdx",
+                                    "amount": "2500000000000"
+                                }
+                            ]
+                        },
+                        {
+                            "length": "7948800",
+                            "amount": [
+                                {
+                                    "denom": "ucmdx",
+                                    "amount": "2500000000000"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "@type": "/cosmos.vesting.v1beta1.PeriodicVestingAccount",
+                    "base_vesting_account": {
+                        "base_account": {
+                            "address": "comdex1vznneuwlnqw7ugrapkc50z6kq022erjmuy3fml",
+                            "pub_key": null,
+                            "account_number": "0",
+                            "sequence": "0"
+                        },
+                        "original_vesting": [
+                            {
+                                "denom": "ucmdx",
+                                "amount": "12500000000000"
+                            }
+                        ],
+                        "delegated_free": [],
+                        "delegated_vesting": [],
+                        "end_time": "1716163200"
+                    },
+                    "start_time": "1645315200",
+                    "vesting_periods": [
+                        {
+                            "length": "0",
+                            "amount": [
+                                {
+                                    "denom": "ucmdx",
+                                    "amount": "1250000000000"
+                                }
+                            ]
+                        },
+                        {
+                            "length": "7689600",
+                            "amount": [
+                                {
+                                    "denom": "ucmdx",
+                                    "amount": "1250000000000"
+                                }
+                            ]
+                        },
+                        {
+                            "length": "7948800",
+                            "amount": [
+                                {
+                                    "denom": "ucmdx",
+                                    "amount": "1250000000000"
+                                }
+                            ]
+                        },
+                        {
+                            "length": "7948800",
+                            "amount": [
+                                {
+                                    "denom": "ucmdx",
+                                    "amount": "1250000000000"
+                                }
+                            ]
+                        },
+                        {
+                            "length": "7948800",
+                            "amount": [
+                                {
+                                    "denom": "ucmdx",
+                                    "amount": "1250000000000"
+                                }
+                            ]
+                        },
+                        {
+                            "length": "7689600",
+                            "amount": [
+                                {
+                                    "denom": "ucmdx",
+                                    "amount": "1250000000000"
+                                }
+                            ]
+                        },
+                        {
+                            "length": "7948800",
+                            "amount": [
+                                {
+                                    "denom": "ucmdx",
+                                    "amount": "1250000000000"
+                                }
+                            ]
+                        },
+                        {
+                            "length": "7948800",
+                            "amount": [
+                                {
+                                    "denom": "ucmdx",
+                                    "amount": "1250000000000"
+                                }
+                            ]
+                        },
+                        {
+                            "length": "7948800",
+                            "amount": [
+                                {
+                                    "denom": "ucmdx",
+                                    "amount": "1250000000000"
+                                }
+                            ]
+                        },
+                        {
+                            "length": "7776000",
+                            "amount": [
+                                {
+                                    "denom": "ucmdx",
+                                    "amount": "1250000000000"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "@type": "/cosmos.vesting.v1beta1.PeriodicVestingAccount",
+                    "base_vesting_account": {
+                        "base_account": {
+                            "address": "comdex1xplzxyv72tu057nxrynyj8txp6x59m9hl85qeg",
+                            "pub_key": null,
+                            "account_number": "0",
+                            "sequence": "0"
+                        },
+                        "original_vesting": [
+                            {
+                                "denom": "ucmdx",
+                                "amount": "22000000000000"
+                            }
+                        ],
+                        "delegated_free": [],
+                        "delegated_vesting": [],
+                        "end_time": "1732060800"
+                    },
+                    "start_time": "1645315200",
+                    "vesting_periods": [
+                        {
+                            "length": "0",
+                            "amount": [
+                                {
+                                    "denom": "ucmdx",
+                                    "amount": "3000000000000"
+                                }
+                            ]
+                        },
+                        {
+                            "length": "7689600",
+                            "amount": [
+                                {
+                                    "denom": "ucmdx",
+                                    "amount": "3000000000000"
+                                }
+                            ]
+                        },
+                        {
+                            "length": "7948800",
+                            "amount": [
+                                {
+                                    "denom": "ucmdx",
+                                    "amount": "2000000000000"
+                                }
+                            ]
+                        },
+                        {
+                            "length": "7948800",
+                            "amount": [
+                                {
+                                    "denom": "ucmdx",
+                                    "amount": "2000000000000"
+                                }
+                            ]
+                        },
+                        {
+                            "length": "7948800",
+                            "amount": [
+                                {
+                                    "denom": "ucmdx",
+                                    "amount": "2000000000000"
+                                }
+                            ]
+                        },
+                        {
+                            "length": "7689600",
+                            "amount": [
+                                {
+                                    "denom": "ucmdx",
+                                    "amount": "2000000000000"
+                                }
+                            ]
+                        },
+                        {
+                            "length": "7948800",
+                            "amount": [
+                                {
+                                    "denom": "ucmdx",
+                                    "amount": "2000000000000"
+                                }
+                            ]
+                        },
+                        {
+                            "length": "7948800",
+                            "amount": [
+                                {
+                                    "denom": "ucmdx",
+                                    "amount": "2000000000000"
+                                }
+                            ]
+                        },
+                        {
+                            "length": "7948800",
+                            "amount": [
+                                {
+                                    "denom": "ucmdx",
+                                    "amount": "1000000000000"
+                                }
+                            ]
+                        },
+                        {
+                            "length": "7776000",
+                            "amount": [
+                                {
+                                    "denom": "ucmdx",
+                                    "amount": "1000000000000"
+                                }
+                            ]
+                        },
+                        {
+                            "length": "7948800",
+                            "amount": [
+                                {
+                                    "denom": "ucmdx",
+                                    "amount": "1000000000000"
+                                }
+                            ]
+                        },
+                        {
+                            "length": "7948800",
+                            "amount": [
+                                {
+                                    "denom": "ucmdx",
+                                    "amount": "1000000000000"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "@type": "/cosmos.vesting.v1beta1.PeriodicVestingAccount",
+                    "base_vesting_account": {
+                        "base_account": {
+                            "address": "comdex1m68datfdff8ag9zlahekvlfgskgcqa0k3ge5ns",
+                            "pub_key": null,
+                            "account_number": "0",
+                            "sequence": "0"
+                        },
+                        "original_vesting": [
+                            {
+                                "denom": "ucmdx",
+                                "amount": "22000000000000"
+                            }
+                        ],
+                        "delegated_free": [],
+                        "delegated_vesting": [],
+                        "end_time": "1763596800"
+                    },
+                    "start_time": "1645315200",
+                    "vesting_periods": [
+                        {
+                            "length": "0",
+                            "amount": [
+                                {
+                                    "denom": "ucmdx",
+                                    "amount": "1500000000000"
+                                }
+                            ]
+                        },
+                        {
+                            "length": "7689600",
+                            "amount": [
+                                {
+                                    "denom": "ucmdx",
+                                    "amount": "1500000000000"
+                                }
+                            ]
+                        },
+                        {
+                            "length": "7948800",
+                            "amount": [
+                                {
+                                    "denom": "ucmdx",
+                                    "amount": "1500000000000"
+                                }
+                            ]
+                        },
+                        {
+                            "length": "7948800",
+                            "amount": [
+                                {
+                                    "denom": "ucmdx",
+                                    "amount": "1500000000000"
+                                }
+                            ]
+                        },
+                        {
+                            "length": "7948800",
+                            "amount": [
+                                {
+                                    "denom": "ucmdx",
+                                    "amount": "1500000000000"
+                                }
+                            ]
+                        },
+                        {
+                            "length": "7689600",
+                            "amount": [
+                                {
+                                    "denom": "ucmdx",
+                                    "amount": "1500000000000"
+                                }
+                            ]
+                        },
+                        {
+                            "length": "7948800",
+                            "amount": [
+                                {
+                                    "denom": "ucmdx",
+                                    "amount": "1500000000000"
+                                }
+                            ]
+                        },
+                        {
+                            "length": "7948800",
+                            "amount": [
+                                {
+                                    "denom": "ucmdx",
+                                    "amount": "1500000000000"
+                                }
+                            ]
+                        },
+                        {
+                            "length": "7948800",
+                            "amount": [
+                                {
+                                    "denom": "ucmdx",
+                                    "amount": "1250000000000"
+                                }
+                            ]
+                        },
+                        {
+                            "length": "7776000",
+                            "amount": [
+                                {
+                                    "denom": "ucmdx",
+                                    "amount": "1250000000000"
+                                }
+                            ]
+                        },
+                        {
+                            "length": "7948800",
+                            "amount": [
+                                {
+                                    "denom": "ucmdx",
+                                    "amount": "1250000000000"
+                                }
+                            ]
+                        },
+                        {
+                            "length": "7948800",
+                            "amount": [
+                                {
+                                    "denom": "ucmdx",
+                                    "amount": "1250000000000"
+                                }
+                            ]
+                        },
+                        {
+                            "length": "7948800",
+                            "amount": [
+                                {
+                                    "denom": "ucmdx",
+                                    "amount": "1250000000000"
+                                }
+                            ]
+                        },
+                        {
+                            "length": "7689600",
+                            "amount": [
+                                {
+                                    "denom": "ucmdx",
+                                    "amount": "1250000000000"
+                                }
+                            ]
+                        },
+                        {
+                            "length": "7948800",
+                            "amount": [
+                                {
+                                    "denom": "ucmdx",
+                                    "amount": "1250000000000"
+                                }
+                            ]
+                        },
+                        {
+                            "length": "7948800",
+                            "amount": [
+                                {
+                                    "denom": "ucmdx",
+                                    "amount": "1250000000000"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "@type": "/cosmos.vesting.v1beta1.PeriodicVestingAccount",
+                    "base_vesting_account": {
+                        "base_account": {
+                            "address": "comdex1vmeycugjdfmne49pmy435v9zdjg83m067r6046",
+                            "pub_key": null,
+                            "account_number": "0",
+                            "sequence": "0"
+                        },
+                        "original_vesting": [
+                            {
+                                "denom": "ucmdx",
+                                "amount": "3125000000000"
+                            }
+                        ],
+                        "delegated_free": [],
+                        "delegated_vesting": [],
+                        "end_time": "1674172800"
+                    },
+                    "start_time": "1668902400",
+                    "vesting_periods": [
+                        {
+                            "length": "0",
+                            "amount": [
+                                {
+                                    "denom": "ucmdx",
+                                    "amount": "1041666666668"
+                                }
+                            ]
+                        },
+                        {
+                            "length": "2592000",
+                            "amount": [
+                                {
+                                    "denom": "ucmdx",
+                                    "amount": "1041666666666"
+                                }
+                            ]
+                        },
+                        {
+                            "length": "2678400",
+                            "amount": [
+                                {
+                                    "denom": "ucmdx",
+                                    "amount": "1041666666666"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "@type": "/cosmos.vesting.v1beta1.PeriodicVestingAccount",
+                    "base_vesting_account": {
+                        "base_account": {
+                            "address": "comdex1ndj6wgpg6a6qarf9sw0l5e8376k6x6gh4frhfa",
+                            "pub_key": null,
+                            "account_number": "0",
+                            "sequence": "0"
+                        },
+                        "original_vesting": [
+                            {
+                                "denom": "ucmdx",
+                                "amount": "3125000000000"
+                            }
+                        ],
+                        "delegated_free": [],
+                        "delegated_vesting": [],
+                        "end_time": "1681948800"
+                    },
+                    "start_time": "1676851200",
+                    "vesting_periods": [
+                        {
+                            "length": "0",
+                            "amount": [
+                                {
+                                    "denom": "ucmdx",
+                                    "amount": "1041666666668"
+                                }
+                            ]
+                        },
+                        {
+                            "length": "2419200",
+                            "amount": [
+                                {
+                                    "denom": "ucmdx",
+                                    "amount": "1041666666666"
+                                }
+                            ]
+                        },
+                        {
+                            "length": "2678400",
+                            "amount": [
+                                {
+                                    "denom": "ucmdx",
+                                    "amount": "1041666666666"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "@type": "/cosmos.vesting.v1beta1.PeriodicVestingAccount",
+                    "base_vesting_account": {
+                        "base_account": {
+                            "address": "comdex1lzhprh54999hw5jh8uz4pwnjhjv4lk3jkn6j6q",
+                            "pub_key": null,
+                            "account_number": "0",
+                            "sequence": "0"
+                        },
+                        "original_vesting": [
+                            {
+                                "denom": "ucmdx",
+                                "amount": "3125000000000"
+                            }
+                        ],
+                        "delegated_free": [],
+                        "delegated_vesting": [],
+                        "end_time": "1689811200"
+                    },
+                    "start_time": "1684540800",
+                    "vesting_periods": [
+                        {
+                            "length": "0",
+                            "amount": [
+                                {
+                                    "denom": "ucmdx",
+                                    "amount": "1041666666668"
+                                }
+                            ]
+                        },
+                        {
+                            "length": "2678400",
+                            "amount": [
+                                {
+                                    "denom": "ucmdx",
+                                    "amount": "1041666666666"
+                                }
+                            ]
+                        },
+                        {
+                            "length": "2592000",
+                            "amount": [
+                                {
+                                    "denom": "ucmdx",
+                                    "amount": "1041666666666"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "@type": "/cosmos.vesting.v1beta1.PeriodicVestingAccount",
+                    "base_vesting_account": {
+                        "base_account": {
+                            "address": "comdex16ete05g4dqdnwjpv9e3tldhga9mzhjgggmz3n3",
+                            "pub_key": null,
+                            "account_number": "0",
+                            "sequence": "0"
+                        },
+                        "original_vesting": [
+                            {
+                                "denom": "ucmdx",
+                                "amount": "3125000000000"
+                            }
+                        ],
+                        "delegated_free": [],
+                        "delegated_vesting": [],
+                        "end_time": "1697760000"
+                    },
+                    "start_time": "1692489600",
+                    "vesting_periods": [
+                        {
+                            "length": "0",
+                            "amount": [
+                                {
+                                    "denom": "ucmdx",
+                                    "amount": "1041666666668"
+                                }
+                            ]
+                        },
+                        {
+                            "length": "2678400",
+                            "amount": [
+                                {
+                                    "denom": "ucmdx",
+                                    "amount": "1041666666666"
+                                }
+                            ]
+                        },
+                        {
+                            "length": "2592000",
+                            "amount": [
+                                {
+                                    "denom": "ucmdx",
+                                    "amount": "1041666666666"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "@type": "/cosmos.vesting.v1beta1.PeriodicVestingAccount",
+                    "base_vesting_account": {
+                        "base_account": {
+                            "address": "comdex1xpqsk6l6ld63jz8z4th4hd9rw2t99hnzqqf9td",
+                            "pub_key": null,
+                            "account_number": "0",
+                            "sequence": "0"
+                        },
+                        "original_vesting": [
+                            {
+                                "denom": "ucmdx",
+                                "amount": "3125000000000"
+                            }
+                        ],
+                        "delegated_free": [],
+                        "delegated_vesting": [],
+                        "end_time": "1705708800"
+                    },
+                    "start_time": "1700438400",
+                    "vesting_periods": [
+                        {
+                            "length": "0",
+                            "amount": [
+                                {
+                                    "denom": "ucmdx",
+                                    "amount": "1041666666668"
+                                }
+                            ]
+                        },
+                        {
+                            "length": "2592000",
+                            "amount": [
+                                {
+                                    "denom": "ucmdx",
+                                    "amount": "1041666666666"
+                                }
+                            ]
+                        },
+                        {
+                            "length": "2678400",
+                            "amount": [
+                                {
+                                    "denom": "ucmdx",
+                                    "amount": "1041666666666"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "@type": "/cosmos.vesting.v1beta1.PeriodicVestingAccount",
+                    "base_vesting_account": {
+                        "base_account": {
+                            "address": "comdex1cfazleqsjl573c02475v4st90etzuyfjdf08lw",
+                            "pub_key": null,
+                            "account_number": "0",
+                            "sequence": "0"
+                        },
+                        "original_vesting": [
+                            {
+                                "denom": "ucmdx",
+                                "amount": "3125000000000"
+                            }
+                        ],
+                        "delegated_free": [],
+                        "delegated_vesting": [],
+                        "end_time": "1713571200"
+                    },
+                    "start_time": "1708387200",
+                    "vesting_periods": [
+                        {
+                            "length": "0",
+                            "amount": [
+                                {
+                                    "denom": "ucmdx",
+                                    "amount": "1041666666668"
+                                }
+                            ]
+                        },
+                        {
+                            "length": "2505600",
+                            "amount": [
+                                {
+                                    "denom": "ucmdx",
+                                    "amount": "1041666666666"
+                                }
+                            ]
+                        },
+                        {
+                            "length": "2678400",
+                            "amount": [
+                                {
+                                    "denom": "ucmdx",
+                                    "amount": "1041666666666"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "@type": "/cosmos.vesting.v1beta1.PeriodicVestingAccount",
+                    "base_vesting_account": {
+                        "base_account": {
+                            "address": "comdex18u7xhn0vv38zpesyusw522gqyc3kyj6hlxpqj8",
+                            "pub_key": null,
+                            "account_number": "0",
+                            "sequence": "0"
+                        },
+                        "original_vesting": [
+                            {
+                                "denom": "ucmdx",
+                                "amount": "3125000000000"
+                            }
+                        ],
+                        "delegated_free": [],
+                        "delegated_vesting": [],
+                        "end_time": "1721433600"
+                    },
+                    "start_time": "1716163200",
+                    "vesting_periods": [
+                        {
+                            "length": "0",
+                            "amount": [
+                                {
+                                    "denom": "ucmdx",
+                                    "amount": "1041666666668"
+                                }
+                            ]
+                        },
+                        {
+                            "length": "2678400",
+                            "amount": [
+                                {
+                                    "denom": "ucmdx",
+                                    "amount": "1041666666666"
+                                }
+                            ]
+                        },
+                        {
+                            "length": "2592000",
+                            "amount": [
+                                {
+                                    "denom": "ucmdx",
+                                    "amount": "1041666666666"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "@type": "/cosmos.vesting.v1beta1.PeriodicVestingAccount",
+                    "base_vesting_account": {
+                        "base_account": {
+                            "address": "comdex105uttvcl9y3449llw06es4nmtjr0j36tnw33fu",
+                            "pub_key": null,
+                            "account_number": "0",
+                            "sequence": "0"
+                        },
+                        "original_vesting": [
+                            {
+                                "denom": "ucmdx",
+                                "amount": "3125000000000"
+                            }
+                        ],
+                        "delegated_free": [],
+                        "delegated_vesting": [],
+                        "end_time": "1729382400"
+                    },
+                    "start_time": "1724112000",
+                    "vesting_periods": [
+                        {
+                            "length": "0",
+                            "amount": [
+                                {
+                                    "denom": "ucmdx",
+                                    "amount": "1041666666668"
+                                }
+                            ]
+                        },
+                        {
+                            "length": "2678400",
+                            "amount": [
+                                {
+                                    "denom": "ucmdx",
+                                    "amount": "1041666666666"
+                                }
+                            ]
+                        },
+                        {
+                            "length": "2592000",
+                            "amount": [
+                                {
+                                    "denom": "ucmdx",
+                                    "amount": "1041666666666"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "@type": "/cosmos.auth.v1beta1.BaseAccount",
+                    "address": "comdex1k68anvs9fy44czmv3248n8l3449pqf80tgtye7",
+                    "pub_key": null,
+                    "account_number": "0",
+                    "sequence": "0"
+                },
+                {
+                    "@type": "/cosmos.auth.v1beta1.BaseAccount",
+                    "address": "comdex16zjhtemjhu6n0hcxp2pc8jxutjkrufphyym5k4",
+                    "pub_key": null,
+                    "account_number": "0",
+                    "sequence": "0"
+                },
+                {
+                    "@type": "/cosmos.auth.v1beta1.BaseAccount",
+                    "address": "comdex1338tv7mtkh5jkx7qktkgnr65qkcqzzhdgp3gha",
+                    "pub_key": null,
+                    "account_number": "0",
+                    "sequence": "0"
+                }
+            ]
+        },
+        "bank": {
+            "params": {
+                "send_enabled": [],
+                "default_send_enabled": true
+            },
+            "balances": [
+                {
+                    "address": "comdex1xpqsk6l6ld63jz8z4th4hd9rw2t99hnzqqf9td",
+                    "coins": [
+                        {
+                            "denom": "ucmdx",
+                            "amount": "3125000000000"
+                        }
+                    ]
+                },
+                {
+                    "address": "comdex1xplzxyv72tu057nxrynyj8txp6x59m9hl85qeg",
+                    "coins": [
+                        {
+                            "denom": "ucmdx",
+                            "amount": "22000000000000"
+                        }
+                    ]
+                },
+                {
+                    "address": "comdex18u7xhn0vv38zpesyusw522gqyc3kyj6hlxpqj8",
+                    "coins": [
+                        {
+                            "denom": "ucmdx",
+                            "amount": "3125000000000"
+                        }
+                    ]
+                },
+                {
+                    "address": "comdex1vznneuwlnqw7ugrapkc50z6kq022erjmuy3fml",
+                    "coins": [
+                        {
+                            "denom": "ucmdx",
+                            "amount": "12500000000000"
+                        }
+                    ]
+                },
+                {
+                    "address": "comdex1vmeycugjdfmne49pmy435v9zdjg83m067r6046",
+                    "coins": [
+                        {
+                            "denom": "ucmdx",
+                            "amount": "3125000000000"
+                        }
+                    ]
+                },
+                {
+                    "address": "comdex105uttvcl9y3449llw06es4nmtjr0j36tnw33fu",
+                    "coins": [
+                        {
+                            "denom": "ucmdx",
+                            "amount": "3125000000000"
+                        }
+                    ]
+                },
+                {
+                    "address": "comdex1338tv7mtkh5jkx7qktkgnr65qkcqzzhdgp3gha",
+                    "coins": [
+                        {
+                            "denom": "ucmdx",
+                            "amount": "3000000000000"
+                        }
+                    ]
+                },
+                {
+                    "address": "comdex1ndj6wgpg6a6qarf9sw0l5e8376k6x6gh4frhfa",
+                    "coins": [
+                        {
+                            "denom": "ucmdx",
+                            "amount": "3125000000000"
+                        }
+                    ]
+                },
+                {
+                    "address": "comdex1k68anvs9fy44czmv3248n8l3449pqf80tgtye7",
+                    "coins": [
+                        {
+                            "denom": "ucmdx",
+                            "amount": "2500000000000"
+                        }
+                    ]
+                },
+                {
+                    "address": "comdex1cfazleqsjl573c02475v4st90etzuyfjdf08lw",
+                    "coins": [
+                        {
+                            "denom": "ucmdx",
+                            "amount": "3125000000000"
+                        }
+                    ]
+                },
+                {
+                    "address": "comdex16zjhtemjhu6n0hcxp2pc8jxutjkrufphyym5k4",
+                    "coins": [
+                        {
+                            "denom": "ucmdx",
+                            "amount": "3000000000000"
+                        }
+                    ]
+                },
+                {
+                    "address": "comdex16ete05g4dqdnwjpv9e3tldhga9mzhjgggmz3n3",
+                    "coins": [
+                        {
+                            "denom": "ucmdx",
+                            "amount": "3125000000000"
+                        }
+                    ]
+                },
+                {
+                    "address": "comdex1m68datfdff8ag9zlahekvlfgskgcqa0k3ge5ns",
+                    "coins": [
+                        {
+                            "denom": "ucmdx",
+                            "amount": "22000000000000"
+                        }
+                    ]
+                },
+                {
+                    "address": "comdex17v8l0chv3qcy4n9u8gc09v5qvkedp497ryx82q",
+                    "coins": [
+                        {
+                            "denom": "ucmdx",
+                            "amount": "10000000000000"
+                        }
+                    ]
+                },
+                {
+                    "address": "comdex1lzhprh54999hw5jh8uz4pwnjhjv4lk3jkn6j6q",
+                    "coins": [
+                        {
+                            "denom": "ucmdx",
+                            "amount": "3125000000000"
+                        }
+                    ]
+                }
+            ],
+            "supply": [
+                {
+                    "denom": "ucmdx",
+                    "amount": "100000000000000"
+                }
+            ],
+            "denom_metadata": []
+        },
+        "capability": {
+            "index": "1",
+            "owners": []
+        },
+        "crisis": {
+            "constant_fee": {
+                "denom": "ucmdx",
+                "amount": "100000000"
+            }
+        },
+        "distribution": {
+            "params": {
+                "community_tax": "0.020000000000000000",
+                "base_proposer_reward": "0.010000000000000000",
+                "bonus_proposer_reward": "0.040000000000000000",
+                "withdraw_addr_enabled": true
+            },
+            "fee_pool": {
+                "community_pool": []
+            },
+            "delegator_withdraw_infos": [],
+            "previous_proposer": "",
+            "outstanding_rewards": [],
+            "validator_accumulated_commissions": [],
+            "validator_historical_rewards": [],
+            "validator_current_rewards": [],
+            "delegator_starting_infos": [],
+            "validator_slash_events": []
+        },
+        "evidence": {
+            "evidence": []
+        },
+        "genutil": {
+            "gen_txs": []
+        },
+        "gov": {
+            "starting_proposal_id": "1",
+            "deposits": [],
+            "votes": [],
+            "proposals": [],
+            "deposit_params": {
+                "min_deposit": [
+                    {
+                        "denom": "ucmdx",
+                        "amount": "100000000"
+                    }
+                ],
+                "max_deposit_period": "604800s"
+            },
+            "voting_params": {
+                "voting_period": "604800s"
+            },
+            "tally_params": {
+                "quorum": "0.334000000000000000",
+                "threshold": "0.500000000000000000",
+                "veto_threshold": "0.334000000000000000"
+            }
+        },
+        "ibc": {
+            "client_genesis": {
+                "clients": [],
+                "clients_consensus": [],
+                "clients_metadata": [],
+                "params": {
+                    "allowed_clients": [
+                        "06-solomachine",
+                        "07-tendermint"
+                    ]
+                },
+                "create_localhost": false,
+                "next_client_sequence": "0"
+            },
+            "connection_genesis": {
+                "connections": [],
+                "client_connection_paths": [],
+                "next_connection_sequence": "0",
+                "params": {
+                    "max_expected_time_per_block": "30000000000"
+                }
+            },
+            "channel_genesis": {
+                "channels": [],
+                "acknowledgements": [],
+                "commitments": [],
+                "receipts": [],
+                "send_sequences": [],
+                "recv_sequences": [],
+                "ack_sequences": [],
+                "next_channel_sequence": "0"
+            }
+        },
+        "mint": {
+            "minter": {
+                "inflation": "0.300000000000000000",
+                "annual_provisions": "0.000000000000000000"
+            },
+            "params": {
+                "mint_denom": "ucmdx",
+                "inflation_rate_change": "0.060000000000000000",
+                "inflation_max": "0.360000000000000000",
+                "inflation_min": "0.300000000000000000",
+                "goal_bonded": "0.670000000000000000",
+                "blocks_per_year": "5259600"
+            }
+        },
+        "params": null,
+        "slashing": {
+            "params": {
+                "signed_blocks_window": "1000",
+                "min_signed_per_window": "0.500000000000000000",
+                "downtime_jail_duration": "600s",
+                "slash_fraction_double_sign": "0.050000000000000000",
+                "slash_fraction_downtime": "0.000100000000000000"
+            },
+            "signing_infos": [],
+            "missed_blocks": []
+        },
+        "staking": {
+            "params": {
+                "unbonding_time": "1209600s",
+                "max_validators": 64,
+                "max_entries": 7,
+                "historical_entries": 0,
+                "bond_denom": "ucmdx"
+            },
+            "last_total_power": "0",
+            "last_validator_powers": [],
+            "validators": [],
+            "delegations": [],
+            "unbonding_delegations": [],
+            "redelegations": [],
+            "exported": false
+        },
+        "transfer": {
+            "port_id": "transfer",
+            "denom_traces": [],
+            "params": {
+                "send_enabled": true,
+                "receive_enabled": true
+            }
+        },
+        "upgrade": {},
+        "vesting": {}
+    }
+}
