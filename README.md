@@ -4,4 +4,4 @@
   * [TestNet](https://github.com/comdex-official/networks/tree/main/testnet/comets-test)
 
 * **Main Net** 
-  * To Be announced soon
+  * [MainNet](https://github.com/comdex-official/networks/tree/main/mainnet/comdex-1)
