@@ -1,5 +1,3 @@
-Work under progress, Please wait for the official announcement to go ahead with the below steps
-
 # comdex-1
 > This is comdex Main net chain
 
@@ -47,7 +45,7 @@ git clone https://github.com/comdex-official/comdex.git
 ```shell
 cd comdex
 git fetch --tags
-git checkout //TO-DO
+git checkout v0.0.3
 ```
 * Install
 ```shell
@@ -135,7 +133,7 @@ WantedBy=multi-user.target
 ```
 
 ## Version
-This chain is currently running on Comdex [v0.0.2](https://github.com/comdex-official/comdex/releases/tag/v0.0.2)
+This chain is currently running on Comdex [v0.0.3](https://github.com/comdex-official/comdex/releases/tag/v0.0.3)
 Commit Hash: 
 >Note: If your node is running on an older version of the application, please update it to this version at the earliest to avoid being exposed to security vulnerabilities /defects.
 
