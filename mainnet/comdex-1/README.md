@@ -103,7 +103,7 @@ comdex gentx "{{KEY_NAME}}" 10000000ucmdx \
 * Create a file `peers-{{VALIDATOR_NAME}}.json` under the mainnet/comdex-1/peers folder in the forked repo, paste the copied text from the last two steps into the file. Find reference file sample-peers.json in the same folder. (e.g. fd4351c2e9928213b3d6ddce015c4664e6138@3.127.204.206)
 
 * Create a Pull Request to the `main` branch of the [repository](https://github.com/comdex-official/networks)
->**NOTE:** The Pull Request will be merged by the maintainers to confirm the inclusion of the validator at the genesis. The final genesis file will be published under the file mainnet/comdex-1/genesis_final.json.
+>**NOTE:** The Pull Request will be merged by the maintainers to confirm the inclusion of the validator at the genesis.Maximum number of validators - 64. The final genesis file will be published under the file mainnet/comdex-1/genesis_final.json.
 * Replace the contents of your `${HOME}/.comdex/config/genesis.json` with that of mainnet/comdex-1/genesis_final.json.
 * Copy below node as `persistent_peers` or `seeds` in `${HOME}/.comdex/config/config.toml`
  
