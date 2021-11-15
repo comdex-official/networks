@@ -14,7 +14,7 @@
     * 3.2 x4 GHz CPU
 * **Recommended**
     * 8 GB RAM
-    * 100 TB NVME SSD
+    * 1 TB NVME SSD
     * 3.2 GHz x4 CPU
 
 ## Operating System
