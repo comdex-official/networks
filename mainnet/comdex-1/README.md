@@ -71,13 +71,17 @@ or
 * Initialize node
 * Replace the contents of your `${HOME}/.comdex/config/genesis.json` with that of mainnet/comdex-1/pre_genesis.json.
 
-* Warning :: Please do not add more than ```10000000ucmdx``` in the genesis account
+```shell
+https://raw.githubusercontent.com/comdex-official/networks/main/mainnet/comdex-1/pre_genesis.json
+```
+
+* Warning :: Please do not add more than ```10000000ucmdx``` in the genesis account and while gentx.
 
 ```shell
-comdex init {{NODE_NAME}} --chain-id comdex-1
-comdex add-genesis-account {{KEY_NAME}} 10000000ucmdx
-comdex gentx {{KEY_NAME}} 10000000ucmdx \
---chain-id {{CHAIN-ID}} \
+comdex init "{{NODE_NAME}}" --chain-id comdex-1
+comdex add-genesis-account "{{KEY_NAME}}" 10000000ucmdx
+comdex gentx "{{KEY_NAME}}" 10000000ucmdx \
+--chain-id comdex-1 \
 --moniker="{{VALIDATOR_NAME}}" \
 --commission-max-change-rate=0.01 \
 --commission-max-rate=0.01 \
