@@ -150,4 +150,4 @@ We will be publishing binary for the mainnet.
 The explorer for this chain is hosted [MainNet Explorer](TO BE PUBLISHED)
 
 ## Genesis Time
-The genesis transactions sent before 1200HRS UTC 18th November 2021 will be used to publish the genesis_final.json on or before 1200HRS UTC 20th november 2021 and then start the chain at 14.30UTC. We will be announcing on all the platforms for the same.
+The genesis transactions sent before 1200HRS UTC 18th November 2021 will be used to publish the genesis_final.json on or before 1200HRS UTC 20th november 2021 and then start the chain at 14.30UTC (Tentative). We will be announcing on all the platforms for the same.
