@@ -82,8 +82,15 @@ wget https://raw.githubusercontent.com/comdex-official/networks/main/mainnet/com
 
 * Warning :: Please do not add more than ```10000000ucmdx``` in the genesis account and while gentx.
 
+* Add the genesis account
+
 ```shell
 comdex add-genesis-account "{{KEY_NAME}}" 10000000ucmdx
+```
+
+* Create gentx transaction
+
+```shell
 comdex gentx "{{KEY_NAME}}" 10000000ucmdx \
 --chain-id comdex-1 \
 --moniker="{{VALIDATOR_NAME}}" \
