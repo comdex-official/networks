@@ -1,0 +1,61 @@
+{
+  "body": {
+    "messages": [
+      {
+        "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+        "description": {
+          "moniker": "AUDIT.one",
+          "identity": "5736C325251A8046",
+          "website": "https://audit.one",
+          "security_contact": "hello@audit.one",
+          "details": "Validators of today, Auditors of tomorrow"
+        },
+        "commission": {
+          "rate": "0.070000000000000000",
+          "max_rate": "0.200000000000000000",
+          "max_change_rate": "0.010000000000000000"
+        },
+        "min_self_delegation": "1",
+        "delegator_address": "comdex1jqd9gjhuk9gzgq2c25escp2zpp3y4q46dyupw4",
+        "validator_address": "comdexvaloper1jqd9gjhuk9gzgq2c25escp2zpp3y4q467nxns5",
+        "pubkey": {
+          "@type": "/cosmos.crypto.ed25519.PubKey",
+          "key": "Q2/IDllCo1Uz7Yk+PDKTuhWEGqXBk29mh3SUylEw5kg="
+        },
+        "value": {
+          "denom": "ucmdx",
+          "amount": "10000000"
+        }
+      }
+    ],
+    "memo": "e7855670b65ee8bb3436a3a081e289b33f8ec3ff@192.168.0.122:26656",
+    "timeout_height": "0",
+    "extension_options": [],
+    "non_critical_extension_options": []
+  },
+  "auth_info": {
+    "signer_infos": [
+      {
+        "public_key": {
+          "@type": "/cosmos.crypto.secp256k1.PubKey",
+          "key": "A/boS1iqZDbc4gjIGI5AOxNhicKhAwUptwprerxyWcAv"
+        },
+        "mode_info": {
+          "single": {
+            "mode": "SIGN_MODE_DIRECT"
+          }
+        },
+        "sequence": "0"
+      }
+    ],
+    "fee": {
+      "amount": [],
+      "gas_limit": "200000",
+      "payer": "",
+      "granter": ""
+    }
+  },
+  "signatures": [
+    "Cn/7VmrEke28uJju8F0QCeddFrZbb6SvRz3aEpRd9kkkK/dzWSSaHlPXSpfcu4jXKuXdg5QgeoE7xvgTO7N7gg=="
+  ]
+}
