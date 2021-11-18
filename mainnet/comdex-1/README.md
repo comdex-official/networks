@@ -5,7 +5,7 @@
 
 > FINAL GENESIS NOT PUBLISHED
 
-> PEERS NOT PUBLISHED
+> PEERS AND SEEDS NOT PUBLISHED
 
 
 Thank you all for submiting the gentxs. We have received {} gentxs, reviwed and accepted the gentxs of the validators as per the discussion out team had with individuals.
