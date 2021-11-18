@@ -13,10 +13,6 @@ Thank you all for submiting the gentxs. We have received {} gentxs, reviwed and 
 * First part was to submit the gentx. WHICH IS CLOSED NOW.
 * Please follow instructions in [Part-2](#launch-instructions) for the next steps.
 
-## Genesis Time
-The genesis transactions sent before 1200HRS UTC 18th November 2021 will be used to publish the genesis.json on or before 1200HRS UTC 20th november 2021 and then start the chain at 14.30UTC (Tentative). We will be announcing on all the platforms for the same.
-
-
 1st main net for comdex-official/comdex application.
 
 ## Hardware Requirements
@@ -181,6 +177,10 @@ TO BE PUBLISHED
 ```shell
 comdex start
 ```
+
+## Genesis Time
+The genesis transactions sent before 1200HRS UTC 18th November 2021 will be used to publish the genesis.json on or before 1200HRS UTC 20th november 2021 and then start the chain at 14.30UTC (Tentative). We will be announcing on all the platforms for the same.
+
 
 * Creating a `systemd` service to run comdex in background.
 
