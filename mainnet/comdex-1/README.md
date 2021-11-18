@@ -172,7 +172,7 @@ TO BE PUBLISHED
 TO BE PUBLISHED
 ```
 
-* Copy below value as minimum-gas-prices in ${HOME}/.comdex/config/app.toml
+* Copy below value as `minimum-gas-prices` in ${HOME}/.comdex/config/app.toml
 ```shell
 2500ucmdx
 ```
