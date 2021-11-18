@@ -124,7 +124,7 @@ Update comdex to v0.0.4
 For the gentx creation, we used the v.0.03 tag.
 
 For launch, please update to the v0.0.4 tag and rebuild your binaries. Changes in versions 
- - make file refactor to dislpay version and include ldflags.
+ - make file refactor to display version and include ldflags.
  - updated IBC version.
 
 * Checkout latest tag
