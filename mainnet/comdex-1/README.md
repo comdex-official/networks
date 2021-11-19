@@ -123,6 +123,8 @@ For launch, please update to the v0.0.4 tag and rebuild your binaries. Changes i
  - make file refactor to display version and include ldflags.
  - updated IBC version.
 
+* Go to the comdex code repository location. If you are at /home/{username} then below command should work,assuming code was cloned at home location.
+
 * Checkout latest tag
 ```shell
 cd comdex
@@ -179,7 +181,7 @@ comdex start
 ```
 
 ## Genesis Time
-The genesis transactions sent before 1200HRS UTC 18th November 2021 will be used to publish the genesis.json on or before 1200HRS UTC 20th november 2021 and then start the chain at 14.30UTC (Tentative). We will be announcing on all the platforms for the same.
+The genesis transactions sent before 1200HRS UTC 18th November 2021 will be used to publish the genesis.json on or before 1000HRS UTC 20th november 2021 and then start the chain at 1330UTC. We will be announcing on all the platforms for the same. Please join our [Discord](https://discord.gg/gH6RTrnexk) and [Comdex-Validators-Group](https://t.me/joinchat/d3WeO-OzYG0zZGFl) to stay updated.
 
 
 * Creating a `systemd` service to run comdex in background.
