@@ -1,8 +1,6 @@
-# comdex-1
+# comdex-1 :: First main net.
 
-> This is comdex Main net chain
-
-1st main net for comdex-official/comdex application.
+Thank you all for submiting the gentxs. We have received more than 75 gentxs, reviewed and accepted the gentxs of the validators as per the discussion our team had with validators.
 
 > PRE-GENESIS PUBLISHED :: Make sure to replace this genesis with the final genesis, after following the instructions on [Part-2](#launch-instructions).
 
@@ -12,11 +10,8 @@
 
 > SEEDS YET TO PUBLISHED
 
-Thank you all for submiting the gentxs. We have received more than 75 gentxs, reviewed and accepted the gentxs of the validators as per the discussion our team had with validators.
-
 ## First part was to submit the gentx. WHICH IS CLOSED NOW.
 ## Please follow instructions in [Part-2](#launch-instructions) for the next steps.
-
 
 ## Hardware Requirements
 * **Minimal**
@@ -183,7 +178,7 @@ TO BE PUBLISHED
 
 * Copy below value as `minimum-gas-prices` in ${HOME}/.comdex/config/app.toml
 ```shell
-2500ucmdx
+25000ucmdx
 ```
 
 * Start comdex by running below command
