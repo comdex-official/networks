@@ -126,7 +126,10 @@ For launch, please update to the v0.0.4 tag and rebuild your binaries. Changes i
  - make file refactor to display version and include ldflags.
  - updated IBC version.
 
-* Go to the comdex code repository location. If you are at /home/{username} then below command should work,assuming code was cloned at home location.
+* Go to the comdex code repository location. If you are at /home/{username} then below command should work,assuming code was cloned at home location. OR YOU CAN ALSO CHECKOUT OUT THE LATEST CODE BY
+```shell
+git clone https://github.com/comdex-official/comdex.git
+```
 
 * Checkout latest tag
 ```shell
@@ -151,7 +154,7 @@ v0.0.4
 ```
 If the software version does not match, then please check your $PATH to ensure the correct comdex is running.
 
-## Remove old genesi file
+## Remove old genesis file
 
 ```shell
 rm ~/.comdex/config/genesis.json
