@@ -1,7 +1,7 @@
 # comdex-1 :: First main net.
 
 ## Genesis Time
-The genesis transactions sent before 1200HRS UTC 18th November 2021 will be used to publish the genesis.json on or before 1000HRS UTC 20th november 2021 and then start the chain at 1400UTC. We will be announcing on all the platforms for the same. Please join our [Discord](https://discord.gg/gH6RTrnexk) and [Comdex-Validators-Group](https://t.me/joinchat/d3WeO-OzYG0zZGFl) to stay updated.
+The genesis transactions sent before 1200HRS UTC 18th November 2021 will be used to publish the genesis.json on or before 1805HRS UTC 19th november 2021 and then start the chain at 1400UTC. We will be announcing on all the platforms for the same. Please join our [Discord](https://discord.gg/gH6RTrnexk) and [Comdex-Validators-Group](https://t.me/joinchat/d3WeO-OzYG0zZGFl) to stay updated.
 
 Thank you all for submiting the gentxs. We have received more than 75 gentxs, reviewed and accepted the gentxs of the validators as per the discussion our team had with validators.
 
@@ -129,7 +129,7 @@ For launch, please update to the v0.0.4 tag and rebuild your binaries. Changes i
 git clone https://github.com/comdex-official/comdex.git
 ```
 
-* Checkout latest tag
+* Checkout latest tag : Commit Hash: 43b5ff06c05556b33628dce56cf6b8f9fc92d72e
 ```shell
 cd comdex
 git fetch --tags
@@ -184,8 +184,9 @@ aef35f45db2d9f5590baa088c27883ac3d5e0b33@3.108.102.92:26656
 0.025ucmdx
 ```
 
-* Start comdex by running below command
+* Start comdex by running below command. There won't be any data, but to be sure please run reset-unsafe as mentioned below.
 ```shell
+comdex unsafe-reset-all
 comdex start
 ```
 
