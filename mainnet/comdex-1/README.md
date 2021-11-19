@@ -178,7 +178,7 @@ TO BE PUBLISHED
 
 * Copy below value as `minimum-gas-prices` in ${HOME}/.comdex/config/app.toml
 ```shell
-25000ucmdx
+0.0125ucmdx
 ```
 
 * Start comdex by running below command
