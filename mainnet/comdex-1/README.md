@@ -12,7 +12,7 @@
 
 > SEEDS YET TO PUBLISHED
 
-Thank you all for submiting the gentxs. We have received more than 75 gentxs, reviewed and accepted the gentxs of the validators as per the discussion we team had with individuals.
+Thank you all for submiting the gentxs. We have received more than 75 gentxs, reviewed and accepted the gentxs of the validators as per the discussion our team had with validators.
 
 ## First part was to submit the gentx. WHICH IS CLOSED NOW.
 ## Please follow instructions in [Part-2](#launch-instructions) for the next steps.
