@@ -4,7 +4,7 @@
 
 1st main net for comdex-official/comdex application.
 
-> PRE-GENESIS PUBLISHED :: Make sure to replace this genesis with the final genesis, after following the instructions on [Part-2](#launch-instructions)).
+> PRE-GENESIS PUBLISHED :: Make sure to replace this genesis with the final genesis, after following the instructions on [Part-2](#launch-instructions).
 
 > FINAL GENESIS NOT PUBLISHED
 
