@@ -161,10 +161,15 @@ rm ~/.comdex/config/genesis.json
 ## Download Final Genesis file
 
 You can now download the "genesis" file for the chain. It is pre-filled with the entire genesis state and gentxs. 
-Verify Hash 88b5e9c2dc1b258791ea1fbbe0110b408f36fef7c62ffd2459b44cb000fb16d0
 
 ```shell
 curl https://raw.githubusercontent.com/comdex-official/networks/main/mainnet/comdex-1/genesis.json > ~/.comdex/config/genesis.json
+```
+
+Verify Hash `88b5e9c2dc1b258791ea1fbbe0110b408f36fef7c62ffd2459b44cb000fb16d0`
+
+```shell
+jq -S -c -M ' ' ~/.comdex/config/genesis.json | shasum -a 256
 ```
 
 * Verify the genesis at location `${HOME}/.comdex/config/genesis.json` is replaced with that of mainnet/comdex-1/genesis.json.
