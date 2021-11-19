@@ -1,19 +1,22 @@
 # comdex-1
+
 > This is comdex Main net chain
 
-> PRE-GENESIS PUBLISHED :: Not required. Make sure to replace this genesis with the final genesis, after following the instructions below.
+1st main net for comdex-official/comdex application.
+
+> PRE-GENESIS PUBLISHED :: Make sure to replace this genesis with the final genesis, after following the instructions below.
 
 > FINAL GENESIS NOT PUBLISHED
 
-> PEERS AND SEEDS NOT PUBLISHED
+> PEERS NOT PUBLISHED
 
+> SEEDS YET TO PUBLISHED
 
-Thank you all for submiting the gentxs. We have received {} gentxs, reviwed and accepted the gentxs of the validators as per the discussion out team had with individuals.
+Thank you all for submiting the gentxs. We have received more than 75 gentxs, reviewed and accepted the gentxs of the validators as per the discussion we team had with individuals.
 
-* First part was to submit the gentx. WHICH IS CLOSED NOW.
-* Please follow instructions in [Part-2](#launch-instructions) for the next steps.
+## First part was to submit the gentx. WHICH IS CLOSED NOW.
+## Please follow instructions in [Part-2](#launch-instructions) for the next steps.
 
-1st main net for comdex-official/comdex application.
 
 ## Hardware Requirements
 * **Minimal**
