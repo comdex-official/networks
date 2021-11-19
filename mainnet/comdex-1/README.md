@@ -116,7 +116,7 @@ comdex gentx "{{KEY_NAME}}" 10000000ucmdx \
 
 ## Launch Instructions
 
-Update comdex to v0.0.4
+Update comdex to v0.0.4. Pleae update all you sentry and validators node.
 
 For the gentx creation, we used the v.0.03 tag.
 
