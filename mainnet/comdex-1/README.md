@@ -228,7 +228,7 @@ sudo -S systemctl stop comdex
 ## Version
 This chain is currently running on Comdex [v0.0.4](https://github.com/comdex-official/comdex/releases/tag/v0.0.4)
 
-Commit Hash: 
+Commit Hash: 43b5ff06c05556b33628dce56cf6b8f9fc92d72e
 >Note: If your node is running on an older version of the application, please update it to this version at the earliest to avoid being exposed to security vulnerabilities /defects.
 
 ## Explorer
