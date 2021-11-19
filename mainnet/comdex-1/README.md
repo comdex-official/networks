@@ -176,7 +176,7 @@ f74518ad134630da8d2405570f6a3639954c985f@65.0.173.217:26656,d478882a80674fa10a32
 
 * Copy below node as `seeds` in `${HOME}/.comdex/config/config.toml`
 ```shell
-aef35f45db2d9f5590baa088c27883ac3d5e0b33@3.108.102.92:26656
+aef35f45db2d9f5590baa088c27883ac3d5e0b33@3.108.102.92:26656,7ca14a1d156299999eba9c394ca060368022d52f@54.194.178.110:26656
 ```
 
 * Copy below value as `minimum-gas-prices` in ${HOME}/.comdex/config/app.toml
