@@ -4,11 +4,11 @@ Thank you all for submiting the gentxs. We have received more than 75 gentxs, re
 
 > PRE-GENESIS PUBLISHED :: Make sure to replace this genesis with the final genesis, after following the instructions on [Part-2](#launch-instructions).
 
-> FINAL GENESIS NOT PUBLISHED
+> FINAL GENESIS :: PUBLISHED
 
-> PEERS NOT PUBLISHED
+> PEERS :: PUBLISHED
 
-> SEEDS YET TO PUBLISHED
+> SEEDS :: PUBLISHED
 
 ## First part was to submit the gentx. WHICH IS CLOSED NOW.
 ## Please follow instructions in [Part-2](#launch-instructions) for the next steps.
