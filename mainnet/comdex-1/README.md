@@ -1,5 +1,8 @@
 # comdex-1 :: First main net.
 
+## Genesis Time
+The genesis transactions sent before 1200HRS UTC 18th November 2021 will be used to publish the genesis.json on or before 1000HRS UTC 20th november 2021 and then start the chain at 1400UTC. We will be announcing on all the platforms for the same. Please join our [Discord](https://discord.gg/gH6RTrnexk) and [Comdex-Validators-Group](https://t.me/joinchat/d3WeO-OzYG0zZGFl) to stay updated.
+
 Thank you all for submiting the gentxs. We have received more than 75 gentxs, reviewed and accepted the gentxs of the validators as per the discussion our team had with validators.
 
 > PRE-GENESIS PUBLISHED :: Make sure to replace this genesis with the final genesis, after following the instructions on [Part-2](#launch-instructions).
@@ -185,10 +188,6 @@ aef35f45db2d9f5590baa088c27883ac3d5e0b33@3.108.102.92:26656
 ```shell
 comdex start
 ```
-
-## Genesis Time
-The genesis transactions sent before 1200HRS UTC 18th November 2021 will be used to publish the genesis.json on or before 1000HRS UTC 20th november 2021 and then start the chain at 1400UTC. We will be announcing on all the platforms for the same. Please join our [Discord](https://discord.gg/gH6RTrnexk) and [Comdex-Validators-Group](https://t.me/joinchat/d3WeO-OzYG0zZGFl) to stay updated.
-
 
 * Creating a `systemd` service to run comdex in background.
 
