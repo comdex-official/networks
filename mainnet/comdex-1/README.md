@@ -151,7 +151,13 @@ v0.0.4
 ```
 If the software version does not match, then please check your $PATH to ensure the correct comdex is running.
 
-## Download Genesis file
+## Remove old genesi file
+
+```shell
+rm ~/.comdex/config/genesis.json
+```
+
+## Download Final Genesis file
 
 You can now download the "genesis" file for the chain. It is pre-filled with the entire genesis state and gentxs.
 
@@ -160,7 +166,6 @@ curl https://raw.githubusercontent.com/comdex-official/networks/main/mainnet/com
 ```
 
 * Verify the genesis at location `${HOME}/.comdex/config/genesis.json` is replaced with that of mainnet/comdex-1/genesis.json.
-
 
 * Copy below node as `seeds` in `${HOME}/.comdex/config/config.toml`
  
