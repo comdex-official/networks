@@ -6,6 +6,6 @@
 * **Main Net** 
   * [MainNet](https://github.com/comdex-official/networks/tree/main/mainnet/comdex-1)
 
-* **Explorer**
+* **Mainet Explorer**
   * [Mintscan](https://www.mintscan.io/comdex/)
   * [Ankea](https://comdex.aneka.io/)
