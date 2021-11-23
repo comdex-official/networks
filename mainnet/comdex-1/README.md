@@ -190,6 +190,39 @@ aef35f45db2d9f5590baa088c27883ac3d5e0b33@3.108.102.92:26656,7ca14a1d156299999eba
 0.025ucmdx
 ```
 
+### Bootstrap node from state-sync snapshot
+
+```
+curl -s https://rpc.comdex.one/status | \ 
+ jq '.result .sync_info | {trust_height: .latest_block_height, trust_hash: .latest_block_hash} | values'
+```
+
+* Example output:
+```
+{
+  "trust_height": "3549879",
+  "trust_hash": "461420F85D8A7A9833B5A1C1E7FCC461AC10247B840C7DD3BB53AC687E3AC0BB"
+}
+```
+
+##### Set options in config.toml
+
+* Set seeds in config.toml. Seeds node provide list of peers on which there is a snapshots.
+```
+seeds = "08ab4552a74dd7e211fc79432918d35818a67189@52.69.58.231:26656,449a0f1b7dafc142cf23a1f6166bbbf035edfb10@13.232.85.66:26656,5b27a6d4cf33909c0e5b217789e7455e261941d1@15.222.29.207:26656"
+```
+
+* Set trust_height and trust_hash values from rpc/status output:
+```
+[statesync]
+enable = true
+rpc_servers = "https://rpc.comdex.one,https://rpc.comdex.one"
+trust_height = 3549879
+trust_hash = "461420F85D8A7A9833B5A1C1E7FCC461AC10247B840C7DD3BB53AC687E3AC0BB"
+trust_period = "168h0m0s"
+```
+### Start comdex node
+
 * Start comdex by running below command. There won't be any data, but to be sure please run reset-unsafe as mentioned below.
 ```shell
 comdex unsafe-reset-all
