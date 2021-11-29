@@ -8,4 +8,4 @@
 
 * **Mainet Explorer**
   * [Mintscan](https://www.mintscan.io/comdex/)
-  * [Ankea](https://comdex.aneka.io/)
+  * [Aneka - Vitwit](https://comdex.aneka.io/)
