@@ -274,4 +274,4 @@ Commit Hash: 43b5ff06c05556b33628dce56cf6b8f9fc92d72e
 The explorer for this chain is hosted [MainNet Explorer]
 
 * [Mintscan](https://www.mintscan.io/comdex/)
-* [Ankea](https://comdex.aneka.io/)
+* [Aneka - Vitwit](https://comdex.aneka.io/)
