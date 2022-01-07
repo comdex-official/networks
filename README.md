@@ -9,3 +9,4 @@
 * **Mainet Explorer**
   * [Mintscan](https://www.mintscan.io/comdex/)
   * [Aneka - Vitwit](https://comdex.aneka.io/)
+  * [Look.Chill](https://look.chillvalidation.com/comdex)
