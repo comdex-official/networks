@@ -275,3 +275,5 @@ The explorer for this chain is hosted [MainNet Explorer]
 
 * [Mintscan](https://www.mintscan.io/comdex/)
 * [Aneka - Vitwit](https://comdex.aneka.io/)
+* [Look.Chill](https://look.chillvalidation.com/comdex)
+* [Atomscan](https://atomscan.com/comdex)
