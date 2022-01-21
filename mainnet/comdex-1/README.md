@@ -91,6 +91,9 @@ wget https://raw.githubusercontent.com/comdex-official/networks/main/mainnet/com
 
 ```shell
 comdex add-genesis-account "{{KEY_NAME}}" 10000000ucmdx
+```
+
+```shell
 comdex gentx "{{KEY_NAME}}" 10000000ucmdx \
 --chain-id comdex-1 \
 --moniker="{{VALIDATOR_NAME}}" \
