@@ -193,7 +193,7 @@ aef35f45db2d9f5590baa088c27883ac3d5e0b33@3.108.102.92:26656,7ca14a1d156299999eba
 0.025ucmdx
 ```
 
-### Bootstrap node from state-sync snapshot
+### Bootstrap node from state-sync snapshot (Not recommended, use archive snapshots for quicksyncing it)
 
 ```
 curl -s https://rpc.comdex.one/status | \ 
@@ -224,6 +224,30 @@ trust_height = 3549879
 trust_hash = "461420F85D8A7A9833B5A1C1E7FCC461AC10247B840C7DD3BB53AC687E3AC0BB"
 trust_period = "168h0m0s"
 ```
+
+### Downloading Archive snapshots
+* Download any retrieving package such as `wget` or `aria2c`
+```
+wget 'paste your link here'
+```
+
+* For faster downloads and needs double the storage space (multi-threaded download)
+```
+aria2c -x5 'paste your link here'
+```
+
+* Download archive from our servers. Edit the URL for downloading latest snapshot based on the format (ie.,comdex-1-archive-YYYY/MM/DD.tar.gz)
+```
+https://comdex-archive-minio.s3.ap-south-1.amazonaws.com/comdex-1-archive-20220124.tar.gz
+```
+
+* Extract the archive containing /data folder inside it. It is best to extract it inside `./comdex/` directory to avoid issues related to permissions.
+```
+lz4 -d 'archivename' | tar xf -
+```
+
+* Start the node
+
 ### Start comdex node
 
 * Start comdex by running below command. There won't be any data, but to be sure please run reset-unsafe as mentioned below.
