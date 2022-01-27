@@ -155,6 +155,13 @@ v0.0.4
 ```
 If the software version does not match, then please check your $PATH to ensure the correct comdex is running.
 
+
+## Initialize your node
+
+```shell
+comdex init "{{NODE_NAME}}" --chain-id comdex-1
+```
+
 ## Remove old genesis file
 
 ```shell
