@@ -233,7 +233,7 @@ trust_period = "168h0m0s"
 ```
 
 ### Downloading Archive snapshots
-* Download any retrieving package such as `wget` or `aria2c`
+* Download any retrieving package tool such as `wget` or `aria2c`
 ```
 wget 'paste your link here'
 ```
@@ -243,7 +243,7 @@ wget 'paste your link here'
 aria2c -x5 'paste your link here'
 ```
 
-* Download archive from our servers. Edit the URL for downloading latest snapshot based on the format (ie.,comdex-1-archive-YYYY/MM/DD.tar.gz)
+* Download the archives from our servers. Edit the URL suffix for downloading latest snapshot based on the given format (ie.,comdex-1-archive-YYYY/MM/DD.tar.gz)
 
 For example :
 ```
