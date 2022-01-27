@@ -244,6 +244,8 @@ aria2c -x5 'paste your link here'
 ```
 
 * Download archive from our servers. Edit the URL for downloading latest snapshot based on the format (ie.,comdex-1-archive-YYYY/MM/DD.tar.gz)
+
+For example :
 ```
 https://comdex-archive-minio.s3.ap-south-1.amazonaws.com/comdex-1-archive-20220124.tar.gz
 ```
@@ -253,11 +255,9 @@ https://comdex-archive-minio.s3.ap-south-1.amazonaws.com/comdex-1-archive-202201
 lz4 -d 'archivename' | tar xf -
 ```
 
-* Start the node
-
 ### Start comdex node
 
-* Start comdex by running below command. There won't be any data, but to be sure please run reset-unsafe as mentioned below.
+* Start comdex by running below command for fresh node. If you have used state-sync or archive, don't use unsafe-reset-all. There won't be any data for fresh node, but to be sure please run reset-unsafe as mentioned below.
 ```shell
 comdex unsafe-reset-all
 comdex start
