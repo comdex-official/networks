@@ -146,6 +146,7 @@ persistent_peers = "3659590cd1466671a49421089e55f1392e1cad0e@15.207.189.210:2665
 ```
 
 * Set trust_height and trust_hash values from rpc/status output:
+(If it throws a port error, append :443 to each rpc url's suffix)
 ```
 [statesync]
 enable = true
