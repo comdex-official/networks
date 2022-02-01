@@ -123,6 +123,39 @@ comdex init {{NODE_NAME}}
 0.2ucmdx
 ```
 
+### Bootstrap node from state-sync snapshot 
+
+```
+curl -s https://comets.rpc.comdex.one/status | \ 
+ jq '.result .sync_info | {trust_height: .latest_block_height, trust_hash: .latest_block_hash} | values'
+```
+
+* Example output:
+```
+{
+  "trust_height": "3549879",
+  "trust_hash": "461420F85D8A7A9833B5A1C1E7FCC461AC10247B840C7DD3BB53AC687E3AC0BB"
+}
+```
+
+##### Set options in config.toml
+
+* Set persistent-peers in config.toml. These are the list of peers in which there are snapshots.
+```
+persistent_peers = "3659590cd1466671a49421089e55f1392e1cad0e@15.207.189.210:26656,8b1ccf5cf3a3ba65ee074f46ea8c6c164d867104@52.201.166.91:26656,5307ce50bd8a6f7bb5a922e3f7109b5f3241c425@13.51.118.56:26656,9c25a7ab94a315f683c3693e17aec6b2c91c851c@52.77.115.73:26656"
+```
+
+* Set trust_height and trust_hash values from rpc/status output:
+(If it throws a port error, append :443 to each rpc url's suffix)
+```
+[statesync]
+enable = true
+rpc_servers = "https://comets.rpc.comdex.one,https://comets.rpc.comdex.one"
+trust_height = 3549879
+trust_hash = "461420F85D8A7A9833B5A1C1E7FCC461AC10247B840C7DD3BB53AC687E3AC0BB"
+trust_period = "168h0m0s"
+```
+
 * Start comdex by running below command or create a `systemd` service to run comdex in background.
 ```shell
 comdex start
