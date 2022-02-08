@@ -50,7 +50,7 @@
     cosmovisor version
     comdex version
 
-== Set Up Comdex Service
+== Set Up Cosmovisor Service
 
 Set up a service to allow cosmovisor to run in the background as well as restart automatically if it runs into any problems:
 
