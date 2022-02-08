@@ -63,7 +63,6 @@ Set up a service to allow cosmovisor to run in the background as well as restart
     [Unit]
     Description=cosmovisor
     After=network-online.target
-
     [Service]
     User=ubuntu
     ExecStart=/home/ubuntu/go/bin/cosmovisor start
@@ -75,7 +74,6 @@ Set up a service to allow cosmovisor to run in the background as well as restart
     Environment="DAEMON_ALLOW_DOWNLOAD_BINARIES=false"
     Environment="DAEMON_RESTART_AFTER_UPGRADE=true"
     Environment="DAEMON_LOG_BUFFER_SIZE=512"
-
     [Install]
     WantedBy=multi-user.target
 
@@ -84,7 +82,7 @@ Set up a service to allow cosmovisor to run in the background as well as restart
     sudo -S systemctl daemon-reload
     sudo -S systemctl enable cosmovisor
 
-. stop the comdex chain and start using cosmovisor
+. STOP THE COMDEX CHAIN and START USING COSMOVISOR
 
     sudo systemctl start cosmovisor
 
