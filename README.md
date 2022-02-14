@@ -11,3 +11,4 @@
   * [Aneka - Vitwit](https://comdex.aneka.io/)
   * [Look.Chill](https://look.chillvalidation.com/comdex)
   * [Atomscan](https://atomscan.com/comdex)
+  * [ZenChainLabs](https://comdex.zenscan.io/)
