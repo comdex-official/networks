@@ -7,7 +7,7 @@
 ```shell
 cd comdex
 git fetch --tags
-git checkout v0.0.2
+git checkout v0.0.7
 ```
 * Install
 ```shell
