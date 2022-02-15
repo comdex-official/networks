@@ -1,4 +1,4 @@
-== Steps to upgrade comdex chain ( This is to fix the oracle module in testnet)
+# Steps to upgrade comdex chain ( This is to fix the oracle module in testnet)
 
 * stop the comdex chain
 
@@ -27,32 +27,32 @@ Verify that everything is OK. If you get something like the following, you've su
 ```shell
 v0.0.7
 ```
-If the software version does not match, then please check your $PATH to ensure the correct comdex is running.
+If the software version does not match, then please check your $PATH to ensure the correct comdex is installed.
 
 * Build the binary and copy the binary to ~/.comdex/cosmovisor/genesis/bin path.
 
 * Further follow the cosmovisor setup guide.
 
-*Setup Cosmovisor
+# Setup Cosmovisor
 
 1. Install the latest version of cosmovisor,using the below command:
 
-    go install github.com/cosmos/cosmos-sdk/cosmovisor/cmd/cosmovisor@latest
+    go install github.com/cosmos/cosmos-sdk/cosmovisor/cmd/cosmovisor@v1.0.0
 
 2. Copy the cosmovisor binary to Go path bin directory.
 
     cp cosmovisor/cosmovisor $GOPATH/bin/cosmovisor
 
-== Set up folder structure
+## Set up folder structure
 
-. Create the required directories
+## Create the required directories
 
     mkdir -p ~/.comdex/cosmovisor
     mkdir -p ~/.comdex/cosmovisor/genesis
     mkdir -p ~/.comdex/cosmovisor/genesis/bin
     mkdir -p ~/.comdex/cosmovisor/upgrades
 
-. Cosmovisor expects a certain folder structure:
+## Cosmovisor expects a certain folder structure:
 
     .
     ├── current -> genesis or upgrades/<name>
@@ -65,7 +65,7 @@ If the software version does not match, then please check your $PATH to ensure t
                 └── $DAEMON_NAME
 
 
-. Set up the environment variables:
+## Set up the environment variables:
 
     echo "# Setup Cosmovisor" >> ~/.profile
     echo "export DAEMON_NAME=comdex" >> ~/.profile
@@ -76,24 +76,24 @@ If the software version does not match, then please check your $PATH to ensure t
     echo "export UNSAFE_SKIP_BACKUP=true" >> ~/.profile
     source ~/.profile
 
-. Copy the running comdex binary into the cosmovisor/genesis folder
+## Copy the running comdex binary into the cosmovisor/genesis folder
 
     cp $GOPATH/bin/comdex ~/.comdex/cosmovisor/genesis/bin
 
-. To check your work, ensure the version of cosmovisor and comdex should be same:
+## To check your work, ensure the version of cosmovisor and comdex should be same:
 
     cosmovisor version
     comdex version
 
-== Set Up Cosmovisor Service
+# Set Up Cosmovisor Service
 
 Set up a service to allow cosmovisor to run in the background as well as restart automatically if it runs into any problems:
 
-. create the service file
+## create the service file
 
     sudo nano /etc/systemd/system/cosmovisor.service
 
-.  Change the contents of the below to match your setup - cosmovisor is likely at ~/go/bin/cosmovisor regardless of which installation path you took above, but it's worth checking.
+## Change the contents of the below to match your setup - cosmovisor is likely at ~/go/bin/cosmovisor regardless of which installation path you took above, but it's worth checking.
 
     [Unit]
     Description=cosmovisor
@@ -112,28 +112,28 @@ Set up a service to allow cosmovisor to run in the background as well as restart
     [Install]
     WantedBy=multi-user.target
 
-. Finally, enable the service and start it.
+## Finally, enable the service and start it.
 
     sudo -S systemctl daemon-reload
     sudo -S systemctl enable cosmovisor
 
-. STOP THE COMDEX CHAIN and START USING COSMOVISOR
+## STOP THE COMDEX CHAIN and START USING COSMOVISOR
 
     sudo systemctl start cosmovisor
 
-. Check it is running using
+## Check it is running using
 
     sudo systemctl status cosmovisor
 
-. To view logs of the service
+## To view logs of the service
 
     journalctl -u cosmovisor -f
 
-. To stop cosmovisor using
+## To stop cosmovisor using
 
     sudo systemctl stop cosmovisor
 
-== Update Comdex chain to v0.1.0 using Cosmovisor
+# Update Comdex chain to v0.1.0 using Cosmovisor
 
     mkdir -p ~/.comdex/cosmovisor/upgrades/v0.1.0/bin
     cd $HOME/comdex
@@ -142,11 +142,11 @@ Set up a service to allow cosmovisor to run in the background as well as restart
     make install
     make all
 
-.   check the upgraded version:
+## check the upgraded version:
 
     comdex version
 
-.   copy the upgraded comdex version to cosmovisor upgraded directory
+## copy the upgraded comdex version to cosmovisor upgraded directory
 
     cp $GOPATH/bin/comdex ~/.comdex/cosmovisor/upgrades/v0.1.0/bin
 
