@@ -85,7 +85,7 @@ If the software version does not match, then please check your $PATH to ensure t
 
 # Set Up Cosmovisor Service
 
-Set up a service to allow cosmovisor to run in the background as well as restart automatically if it runs into any problems:
+# Set up a service to allow cosmovisor to run in the background as well as restart automatically if it runs into any problems:
 
 ## create the service file
 
