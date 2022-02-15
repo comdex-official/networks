@@ -25,7 +25,7 @@ comdex version
 Verify that everything is OK. If you get something like the following, you've successfully installed comdex on your system.
 
 ```shell
-v0.0.4
+v0.0.7
 ```
 If the software version does not match, then please check your $PATH to ensure the correct comdex is running.
 
