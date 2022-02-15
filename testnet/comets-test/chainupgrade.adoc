@@ -1,6 +1,0 @@
-== Steps to upgrade comdex chain
-
-. stop the comdex chain
-. checkout this branch{{BRANCH_NAME}}
-. Build the binary and copy the binary to ~/.comdex/cosmovisor/genesis/bin path.
-. Further follow the cosmovisor setup guide.
