@@ -29,8 +29,6 @@ v0.0.7
 ```
 If the software version does not match, then please check your $PATH to ensure the correct comdex is installed.
 
-* Build the binary and copy the binary to ~/.comdex/cosmovisor/genesis/bin path.
-
 * Further follow the cosmovisor setup guide.
 
 # Setup Cosmovisor
@@ -76,7 +74,7 @@ If the software version does not match, then please check your $PATH to ensure t
     echo "export UNSAFE_SKIP_BACKUP=true" >> ~/.profile
     source ~/.profile
 
-## Copy the running comdex binary into the cosmovisor/genesis folder
+## Copy the current(v0.0.7) comdex binary into the cosmovisor/genesis folder
 
     cp $GOPATH/bin/comdex ~/.comdex/cosmovisor/genesis/bin
 
@@ -117,7 +115,7 @@ Set up a service to allow cosmovisor to run in the background as well as restart
     sudo -S systemctl daemon-reload
     sudo -S systemctl enable cosmovisor
 
-## STOP THE COMDEX CHAIN and START USING COSMOVISOR
+## Start the Comdex chain Using Cosmovisor
 
     sudo systemctl start cosmovisor
 
@@ -133,20 +131,21 @@ Set up a service to allow cosmovisor to run in the background as well as restart
 
     sudo systemctl stop cosmovisor
 
-# Update Comdex chain to v0.1.0 using Cosmovisor
+# Create the updated Comdex binary of v0.1.0
 
     mkdir -p ~/.comdex/cosmovisor/upgrades/v0.1.0/bin
     cd $HOME/comdex
     git pull
-    git checkout {{NewBranch}}
+    git fetch --tags
+    git checkout v0.1.0
     make install
     make all
 
-## check the upgraded version:
+## check the new comdex version:
 
     comdex version
 
-## copy the upgraded comdex version to cosmovisor upgraded directory
+## copy the new comdex(v0.1.0) binary to cosmovisor upgrades directory
 
     cp $GOPATH/bin/comdex ~/.comdex/cosmovisor/upgrades/v0.1.0/bin
 
