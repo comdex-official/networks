@@ -43,13 +43,14 @@ If the software version does not match, then please check your $PATH to ensure t
 
 2. Copy the cosmovisor binary to Go path bin directory IF NOT INSTALLED AT ($GOPATH/bin/cosmovisor)
 
-``shell
+```shell
     cp cosmovisor/cosmovisor $GOPATH/bin/cosmovisor
 ```
 
 ## Set up folder structure
 
 ## Create the required directories
+
 ```shell
     mkdir -p ~/.comdex/cosmovisor
     mkdir -p ~/.comdex/cosmovisor/genesis
@@ -85,7 +86,9 @@ If the software version does not match, then please check your $PATH to ensure t
 
 ## Copy the current(v0.0.7) comdex binary into the cosmovisor/genesis folder
 
+```shell
     cp $GOPATH/bin/comdex ~/.comdex/cosmovisor/genesis/bin
+```
 
 ## To check your work, ensure the version of cosmovisor and comdex should be same:
 
