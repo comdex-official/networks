@@ -7,25 +7,25 @@
 * Checkout below tag to update the chain( this is a one time manual step, other upgrades will be done using cosmovisor).
 
 ```shell
-cd comdex
-git fetch --tags
-git checkout v0.0.7
+    cd comdex
+    git fetch --tags
+    git checkout v0.0.7
 ```
 * Install
 ```shell
-make all
+    make all
 ```
 
 * Verify version
 ```shell
-comdex version
+    comdex version
 ```
 ## Verify Your Installation
 
 Verify that everything is OK. If you get something like the following, you've successfully installed comdex on your system.
 
 ```shell
-v0.0.7
+    v0.0.7
 ```
 If the software version does not match, then please check your $PATH to ensure the correct comdex is installed.
 
@@ -35,20 +35,25 @@ If the software version does not match, then please check your $PATH to ensure t
 
 1. Install the latest version of cosmovisor,using the below command:
 
+```shell
     go install github.com/cosmos/cosmos-sdk/cosmovisor/cmd/cosmovisor@v1.0.0
+```
 
-2. Copy the cosmovisor binary to Go path bin directory.
+2. Copy the cosmovisor binary to Go path bin directory IF NOT INSTALLED AT ($GOPATH/bin/cosmovisor)
 
+``shell
     cp cosmovisor/cosmovisor $GOPATH/bin/cosmovisor
+```
 
 ## Set up folder structure
 
 ## Create the required directories
-
+```shell
     mkdir -p ~/.comdex/cosmovisor
     mkdir -p ~/.comdex/cosmovisor/genesis
     mkdir -p ~/.comdex/cosmovisor/genesis/bin
     mkdir -p ~/.comdex/cosmovisor/upgrades
+```    
 
 ## Cosmovisor expects a certain folder structure:
 
@@ -65,6 +70,7 @@ If the software version does not match, then please check your $PATH to ensure t
 
 ## Set up the environment variables:
 
+```shell
     echo "# Setup Cosmovisor" >> ~/.profile
     echo "export DAEMON_NAME=comdex" >> ~/.profile
     echo "export DAEMON_HOME=$HOME/.comdex" >> ~/.profile
@@ -73,6 +79,7 @@ If the software version does not match, then please check your $PATH to ensure t
     echo "export DAEMON_RESTART_AFTER_UPGRADE=true" >> ~/.profile
     echo "export UNSAFE_SKIP_BACKUP=true" >> ~/.profile
     source ~/.profile
+```    
 
 ## Copy the current(v0.0.7) comdex binary into the cosmovisor/genesis folder
 
@@ -80,8 +87,10 @@ If the software version does not match, then please check your $PATH to ensure t
 
 ## To check your work, ensure the version of cosmovisor and comdex should be same:
 
+```shell
     cosmovisor version
     comdex version
+```    
 
 # Set Up Cosmovisor Service
 
@@ -89,10 +98,13 @@ If the software version does not match, then please check your $PATH to ensure t
 
 ## create the service file
 
+```shell
     sudo nano /etc/systemd/system/cosmovisor.service
+```    
 
 ## Change the contents of the below to match your setup - cosmovisor is likely at ~/go/bin/cosmovisor regardless of which installation path you took above, but it's worth checking.
 
+```shell
     [Unit]
     Description=cosmovisor
     After=network-online.target
@@ -109,30 +121,42 @@ If the software version does not match, then please check your $PATH to ensure t
     Environment="DAEMON_LOG_BUFFER_SIZE=512"
     [Install]
     WantedBy=multi-user.target
+```    
 
 ## Finally, enable the service and start it.
 
+```shell
     sudo -S systemctl daemon-reload
     sudo -S systemctl enable cosmovisor
+```
 
 ## Start the Comdex chain Using Cosmovisor
 
+```shell
     sudo systemctl start cosmovisor
+```
 
 ## Check it is running using
 
+```shell
     sudo systemctl status cosmovisor
+```
 
 ## To view logs of the service
 
+```shell
     journalctl -u cosmovisor -f
+```
 
 ## To stop cosmovisor using
 
+```shell
     sudo systemctl stop cosmovisor
+````
 
 # Create the updated Comdex binary of v0.1.0
 
+```shell
     mkdir -p ~/.comdex/cosmovisor/upgrades/v0.1.0/bin
     cd $HOME/comdex
     git pull
@@ -140,12 +164,21 @@ If the software version does not match, then please check your $PATH to ensure t
     git checkout v0.1.0
     make install
     make all
+```
 
 ## check the new comdex version:
 
+```shell
     comdex version
+```
 
+## Verify the comdex current version
+
+```shell
+    v0.1.0
+```
 ## copy the new comdex(v0.1.0) binary to cosmovisor upgrades directory
 
+```shell
     cp $GOPATH/bin/comdex ~/.comdex/cosmovisor/upgrades/v0.1.0/bin
-
+```
