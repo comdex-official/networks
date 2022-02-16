@@ -1,4 +1,6 @@
-# Steps to upgrade comdex chain ( This is to fix the oracle module in testnet)
+# Steps to upgrade comdex chain
+
+# Step -1 : Below steps are to fix the oracle module in testnet, other upgrades will be done using cosmovisor.
 
 * stop the comdex chain
 
