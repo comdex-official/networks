@@ -4,7 +4,11 @@
 
 * stop the comdex chain
 
-* Go to comdex 
+* Go to comdex directory if present else clone the repository
+
+```shell
+https://github.com/comdex-official/comdex.git
+```
 
 * Checkout below tag to update the chain( this is a one time manual step, other upgrades will be done using cosmovisor).
 
