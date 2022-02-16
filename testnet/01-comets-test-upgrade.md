@@ -22,9 +22,9 @@
 ```shell
     comdex version
 ```
-## Verify Your Installation
+* Verify Your Installation
 
-Verify that everything is OK. If you get something like the following, you've successfully installed comdex on your system.
+If you get something like the following, you've successfully installed comdex on your system.
 
 ```shell
     v0.0.7
