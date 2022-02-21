@@ -1,4 +1,4 @@
-# Steps to upgrade comdex chain
+# Steps to upgrade comdex chain (comdex-1)
 
 # Step -1 : All upgrades will be done using cosmovisor.
 
