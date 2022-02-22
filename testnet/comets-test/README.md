@@ -27,7 +27,7 @@
 
    Append the below lines to the file ${HOME}/.bashrc and execute the command source ${HOME}/.bashrc to reflect in the current Terminal session
    ```shell
-   export GOROOT=/usr/lib/go
+   export GOROOT=/usr/local/go
    export GOPATH=${HOME}/go
    export GOBIN=${GOPATH}/bin
    export PATH=${PATH}:${GOROOT}/bin:${GOBIN}
