@@ -136,6 +136,16 @@
 
 ```shell
     mkdir -p ~/.comdex/cosmovisor/upgrades/v0.1.1/bin
+```
+* Go to comdex directory if present else clone the repository
+
+```shell
+    https://github.com/comdex-official/comdex.git
+```
+
+* Follow these steps if comdex repo already present
+
+```shell
     cd $HOME/comdex
     git pull
     git fetch --tags
