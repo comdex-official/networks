@@ -140,7 +140,7 @@
     git pull
     git fetch --tags
     git checkout v0.1.1
-    make all
+    go mod vendor
     make install
 ```
 
