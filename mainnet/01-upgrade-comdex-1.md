@@ -141,7 +141,6 @@
     git fetch --tags
     git checkout v0.1.1
     make install
-    make all
 ```
 
 ## check the new comdex version:
