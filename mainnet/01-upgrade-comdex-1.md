@@ -55,7 +55,8 @@
     echo "export DAEMON_RESTART_AFTER_UPGRADE=true" >> ~/.profile
     echo "export UNSAFE_SKIP_BACKUP=false" >> ~/.profile
     source ~/.profile
-```    
+```   
+#### NOTE: You may use UNSAFE_SKIP_BACKUP=true if you wish to skip backup, backup takes a decent amount of time and public snapshots of old states are available. 
 
 ## Copy the current(v0.0.4) comdex binary into the cosmovisor/genesis folder
 
