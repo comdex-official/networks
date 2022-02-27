@@ -217,9 +217,9 @@ curl -s https://rpc.comdex.one/status | \
 
 ##### Set options in config.toml
 
-* Set seeds in config.toml. Seeds node provide list of peers on which there is a snapshots.
+* Set persistent-peers in config.toml. Seeds node provide list of peers on which there is a snapshots.
 ```
-seeds = "08ab4552a74dd7e211fc79432918d35818a67189@52.69.58.231:26656,449a0f1b7dafc142cf23a1f6166bbbf035edfb10@13.232.85.66:26656,5b27a6d4cf33909c0e5b217789e7455e261941d1@15.222.29.207:26656"
+persistent_peers = "086122c105c4d6e9152bf34558fe49e624ff87fe@13.235.40.129:26656,6ac3ae94528a63f73f5554913927d9d532992288@13.229.39.55:26656,6c1e652e2d9ebf303958e27d939d6167b7528366@99.80.214.210:26656"
 ```
 
 * Set trust_height and trust_hash values from rpc/status output:
