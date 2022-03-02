@@ -18,9 +18,9 @@ or
 
 - Check if your validator and sentry nodes (if sentry architecture) followed is synced up to the latest block height
 
-```comdex status``` 
+   ```comdex status``` 
 
-If `'catching_up':false`, it has reached the latest block height and in sync with the chain
+   If `'catching_up':false`, it has reached the latest block height and in sync with the chain
 
 # Create Validator
 
