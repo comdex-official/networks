@@ -20,7 +20,7 @@ or
 
 ```comdex status``` 
 
-If 'catching_up':false, it has reached the latest block height and in sync with the chain
+If `'catching_up':false`, it has reached the latest block height and in sync with the chain
 
 # Create Validator
 
@@ -44,17 +44,17 @@ comdex tx staking create-validator \
 If you need further explanation for each of these command flags:
 
 
-the `amount` flag is the amount you will place in your own validator in ucmdx (in the example, 10000000ucmdx is 10cmdx)
-the `pubkey` is the validator public key
-the `moniker` is a human readable name you choose for your validator
-the `security-contact` is an email your delegates are able to contact you at
-the `chain-id` is whatever chain-id you are working with (in the comdex mainnet case it is comdex-1)
-the `commission-rate` is the rate you will charge your delegates (in the example above, 2 percent)
-the `commission-max-rate` is the most you are allowed to charge your delegates (in the example above, 5 percent)
-the` commission-max-change-rate` is how much you can increase your commission rate in a 24 hour period (in the example above, 1 percent per day until reaching the max rate)
-the `from` flag is the KEY_NAME you created when initializing the key on your keyring
-the `gas-prices` is the amount of gas used to send this create-validator transactiom
-the `node` is the RPC endpoint which are using for interacting with the chain
+- `amount` flag is the amount you will place in your own validator in ucmdx (in the example, 10000000ucmdx is 10cmdx)
+- `pubkey` is the validator public key
+- `moniker` is a human readable name you choose for your validator
+- `security-contact` is an email your delegates are able to contact you at
+- `chain-id` is whatever chain-id you are working with (in the comdex mainnet case it is comdex-1)
+- `commission-rate` is the rate you will charge your delegates (in the example above, 2 percent)
+- `commission-max-rate` is the most you are allowed to charge your delegates (in the example above, 5 percent)
+- `commission-max-change-rate` is how much you can increase your commission rate in a 24 hour period (in the example above, 1 percent per day until reaching the max rate)
+- `from` flag is the KEY_NAME you created when initializing the key on your keyring
+- `gas-prices` is the amount of gas used to send this create-validator transactiom
+- `node` is the RPC endpoint which are using for interacting with the chain
 
 # Edit Validator
 
