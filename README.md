@@ -4,6 +4,7 @@
   * [TestNet](https://github.com/comdex-official/networks/tree/main/testnet/comets-test)
 
 * **Main Net** 
+  * [Join Main Net as validator](https://github.com/comdex-official/networks/blob/main/mainnet/02-validator-post-gentx.md)
   * [MainNet](https://github.com/comdex-official/networks/tree/main/mainnet/comdex-1)
 
 * **Mainet Explorer**
