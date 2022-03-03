@@ -158,7 +158,7 @@
 ## check the new comdex version:
 
 ```shell
-    comdex version
+    $GOPATH/bin/comdex version
 ```
 
 ## Verify the comdex current version
