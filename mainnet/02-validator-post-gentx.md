@@ -40,7 +40,7 @@ git clone https://github.com/comdex-official/comdex.git
 ```shell
 cd comdex
 git fetch --tags
-git checkout v0.0.4)
+git checkout v0.0.4
 go mod vendor
 ```
 * Install
@@ -144,7 +144,7 @@ aef35f45db2d9f5590baa088c27883ac3d5e0b33@3.108.102.92:26656,7ca14a1d156299999eba
 ```   
 #### NOTE: You may use UNSAFE_SKIP_BACKUP=true if you wish to skip backup, backup takes a decent amount of time and public snapshots of old states are available. 
 
-## Copy the current(v0.1.1) comdex binary into the cosmovisor/genesis folder
+## Copy the current(v0.0.4) comdex binary into the cosmovisor/genesis folder
 
 ```shell
     cp $GOPATH/bin/comdex ~/.comdex/cosmovisor/genesis/bin
