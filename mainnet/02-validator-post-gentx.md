@@ -245,7 +245,7 @@ Refer this for more [info](https://polkachu.com/tendermint_snapshots/comdex) and
 
 ## Archival snapshots
 
-* Download the archives from our servers. Edit the URL suffix for downloading latest snapshot based on the given format (ie.,comdex-1-archive-YYYY/MM/DD.tar.gz)
+* Download the archives from our servers (updated Monday on every week). Edit the URL suffix for downloading latest snapshot based on the given format (ie.,comdex-1-archive-YYYY/MM/DD.tar.gz)
 
 For example :
 ```
