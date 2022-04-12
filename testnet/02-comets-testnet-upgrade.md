@@ -1,41 +1,6 @@
 # Steps to upgrade comdex chain
 
-# Step -1 : Below steps are to fix the oracle module in testnet, other upgrades will be done using cosmovisor.
-
-* stop the comdex chain
-
-* Go to comdex directory if present else clone the repository
-
-```shell
-https://github.com/comdex-official/comdex.git
-```
-
-* Checkout below tag to update the chain( this is a one time manual step, other upgrades will be done using cosmovisor).
-
-```shell
-    cd comdex
-    git fetch --tags
-    git checkout v0.1.0
-```
-* Install
-```shell
-    make all
-```
-
-* Verify version
-```shell
-    comdex version
-```
-* Verify Your Installation
-
-If you get something like the following, you've successfully installed comdex on your system.
-
-```shell
-    v0.1.0
-```
-If the software version does not match, then please check your $PATH to ensure the correct comdex is installed.
-
-* Further follow the cosmovisor setup guide. LAST UPGRADE WAS DONE THROUGH COSMOVISOR HENCE SHOULD BE ALREADY THERE)
+* Follow the cosmovisor setup guide. LAST UPGRADE WAS DONE THROUGH COSMOVISOR HENCE SHOULD BE ALREADY THERE.
 
 # Setup Cosmovisor (IF NOT ALREADY DONE)
 
