@@ -180,7 +180,7 @@ comdex tx staking create-validator \
 ```
 
 ## Version
-This chain is currently running on Comdex [v0.0.2](https://github.com/comdex-official/comdex/releases/tag/v0.1.0)
+This chain is currently running on Comdex [v0.1.0](https://github.com/comdex-official/comdex/releases/tag/v0.1.0)
 
 >Note: If your node is running on an older version of the application, please update it to this version at the earliest to avoid being exposed to security vulnerabilities /defects.
 
