@@ -4,11 +4,11 @@ This is a detailed step-by-step guide for setting up a Comdex validator. Please 
 
 ## Hardware Requirements
 * **Minimal**
-    * 4 GB RAM
+    * 8 GB RAM
     * 100 GB SSD
     * 3.2 x4 GHz CPU
 * **Recommended**
-    * 8 GB RAM
+    * 16 GB RAM
     * 1 TB NVME SSD
     * 3.2 GHz x4 GHz CPU
 
