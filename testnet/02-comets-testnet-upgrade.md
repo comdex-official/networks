@@ -1,6 +1,6 @@
 # Steps to upgrade comdex chain
 
-* Follow the cosmovisor setup guide. LAST UPGRADE WAS DONE THROUGH COSMOVISOR HENCE SHOULD BE ALREADY PRESENT, IF YES GO TO [NEXT STEPS](#cosmovisor-installed) 
+* Follow the cosmovisor setup guide. LAST UPGRADE WAS DONE THROUGH COSMOVISOR HENCE SHOULD BE ALREADY PRESENT, IF YES GO TO [NEXT STEPS](#cosmovisor-already-installed) 
 
 # Setup Cosmovisor (IF NOT ALREADY DONE)
 
@@ -76,7 +76,7 @@
     sudo nano /etc/systemd/system/cosmovisor.service
 ```    
 
-# [IF COSMOVISOR ALREADY INSTALLED](#cosmovisor-installed)
+# COSMOVISOR ALREADY INSTALLED
 
 ## Change the contents of the below to match your setup - cosmovisor is likely at ~/go/bin/cosmovisor regardless of which installation path you took above, but it's worth checking.
 
