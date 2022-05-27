@@ -130,14 +130,14 @@
     sudo systemctl stop cosmovisor
 ````
 
-# Create the updated Comdex binary of v0.1.2
+# Create the updated Comdex binary of v1.0.0
 
 ```shell
-    mkdir -p ~/.comdex/cosmovisor/upgrades/v0.1.2/bin
+    mkdir -p ~/.comdex/cosmovisor/upgrades/v1.0.0/bin
     cd $HOME/comdex
     git pull
     git fetch --tags
-    git checkout v0.1.2
+    git checkout v1.0.0
     make install
     make all
 ```
@@ -153,8 +153,8 @@
 ```shell
     v0.1.0
 ```
-## copy the new comdex(v0.1.2) binary to cosmovisor upgrades directory
+## copy the new comdex(v1.0.0) binary to cosmovisor upgrades directory
 
 ```shell
-    cp $GOPATH/bin/comdex ~/.comdex/cosmovisor/upgrades/v0.1.2/bin
+    cp $GOPATH/bin/comdex ~/.comdex/cosmovisor/upgrades/v1.0.0/bin
 ```
