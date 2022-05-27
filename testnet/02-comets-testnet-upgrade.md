@@ -1,5 +1,8 @@
 # Steps to upgrade comdex chain [ UPGRADE DATE NOT YET FINALISED, PLEASE DO NOT REFER THIS]
 
+### Release notes - https://github.com/comdex-official/comdex/releases/tag/v1.0.0
+
+
 * Follow the cosmovisor setup guide. LAST UPGRADE WAS DONE THROUGH COSMOVISOR HENCE SHOULD BE ALREADY PRESENT, IF YES GO TO [NEXT STEPS](#cosmovisor-already-installed) 
 
 # Setup Cosmovisor (IF NOT ALREADY DONE)
