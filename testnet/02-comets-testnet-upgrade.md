@@ -157,7 +157,7 @@
 ## Verify the comdex current version
 
 ```shell
-    v0.1.0
+    v1.0.0
 ```
 ## copy the new comdex(v1.0.0) binary to cosmovisor upgrades directory
 
