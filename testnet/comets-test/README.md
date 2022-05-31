@@ -186,6 +186,7 @@ This chain is currently running on Comdex [v0.1.0](https://github.com/comdex-off
 
 ## Explorer
 The explorer for this chain is hosted [TestNet Explorer](https://comets-test.comdex.one/)
+[ping.pub by highlander node](https://testnet.explorer.chaintools.tech/comdex%20(comdex-t))
 
 ## Genesis Time
 The genesis transactions sent before 1200HRS UTC 15th October 2021 will be used to publish the genesis_final.json at 1400HRS UTC 15th October 2021 and then start the chain at 14.30UTC once the quorum is reached.
