@@ -45,7 +45,7 @@ git clone https://github.com/comdex-official/comdex.git
 ```shell
 cd comdex
 git fetch --tags
-git checkout v0.1.0
+git checkout v1.0.0
 ```
 * Install
 ```shell
@@ -150,7 +150,7 @@ persistent_peers = "3659590cd1466671a49421089e55f1392e1cad0e@15.207.189.210:2665
 ```
 [statesync]
 enable = true
-rpc_servers = "https://comets.rpc.comdex.one,https://comets.rpc.comdex.one"
+rpc_servers = "https://comets.rpc.comdex.one:443,https://comets.rpc.comdex.one:443"
 trust_height = 3549879
 trust_hash = "461420F85D8A7A9833B5A1C1E7FCC461AC10247B840C7DD3BB53AC687E3AC0BB"
 trust_period = "168h0m0s"
@@ -180,7 +180,7 @@ comdex tx staking create-validator \
 ```
 
 ## Version
-This chain is currently running on Comdex [v0.1.0](https://github.com/comdex-official/comdex/releases/tag/v0.1.0)
+This chain is currently running on Comdex [v1.0.0](https://github.com/comdex-official/comdex/releases/tag/v1.0.0)
 
 >Note: If your node is running on an older version of the application, please update it to this version at the earliest to avoid being exposed to security vulnerabilities /defects.
 
