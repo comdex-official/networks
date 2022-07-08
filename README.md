@@ -1,7 +1,7 @@
 # Comdex Network Details
 
 * **Join comdex's test network** 
-  * Current TestNet Version : v1.0.0
+  * Current TestNet Version : v2.0.0
   * [TestNet](https://github.com/comdex-official/networks/tree/main/testnet/comets-test)
  
 
