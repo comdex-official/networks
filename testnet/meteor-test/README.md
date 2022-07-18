@@ -2,22 +2,24 @@
 
 - **Chain-ID**: `meteor-test`
 - **Current Comdex version**: `v2.1.0`
-- **Genesis-file**: [Included in the repository](meteor-test/genesis.json)
+- **Genesis-file**: [Included in the repository](genesis.json)
 
 ## Endpoints
 
-# `meteor.rpc.comdex.one` - RPC Endpoint
-# `meteor.rest.comdex.one` - Rest Endpoint
+- `meteor.rpc.comdex.one` - RPC Endpoint
+- `meteor.rest.comdex.one` - Rest Endpoint
 
 ## Peers
 
-- [HERE](meteor-test/peers.txt)
+- [HERE](peers.txt)
 
 ## Explorers
 
-## Steps to start meteor-test 
+- `meteors-test.comdex.one`
 
-# For migrating existing validators to comets-test -> meteors-test
+# Steps to start meteor-test 
+
+## For migrating existing validators to comets-test -> meteors-test
 
 * Stop the chain
 
