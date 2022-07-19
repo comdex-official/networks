@@ -60,10 +60,16 @@ sudo systemctl start cosmovisor
 ## For new users
 
 * Prerequisites
-  > - go1.17+ required. [ref](https://golang.org/doc/install)
+  > - go1.18+ required. [ref](https://golang.org/doc/install)
   > - git. [ref](https://github.com/git/git)
   > - jq [ref](https://github.com/stedolan/jq)
-  > - Optional requirement: GNU make. [ref](https://www.gnu.org/software/make/manual/html_node/index.html)
+  > - GNU make. [ref](https://www.gnu.org/software/make/manual/html_node/index.html)
+  > - GCC [ref](https://gcc.gnu.org/releases.html)
+  
+* For Debian/Ubuntu based distros
+  - `sudo apt-get update`
+  - `sudo apt install git jq gcc make -y`
+
 
 ## Installation
 
@@ -101,7 +107,7 @@ sudo systemctl start cosmovisor
   b0744029560d65bd5d81dbe055704708a33c3d51594b02ea575cf4b56d7f506e
   ```
 
-* Update the existing peers in `${HOME}/.comdex/config/config.toml
+* Update the existing peers in `${HOME}/.comdex/config/config.toml`
 
   ```shell
   persistent_peers = "4202b41ccc3032011969005a215e1dbe36e3ba23@3.109.138.42:26656,223d534f0fd1daeea3578346ad3e49d9cec973b6@54.204.207.38:26656,efa67d2456e8e22e9b29bd127ed3024cffc7ede1@46.166.163.37:26656,494af55997cbb1df62cff1ed4f35b58c31277f63@46.166.172.230:26656"
