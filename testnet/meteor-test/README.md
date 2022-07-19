@@ -57,3 +57,65 @@ persistent_peers = "4202b41ccc3032011969005a215e1dbe36e3ba23@3.109.138.42:26656,
 sudo systemctl start cosmovisor
 ```
 
+## For new users
+
+* Prerequisites
+  > - go1.17+ required. [ref](https://golang.org/doc/install)
+  > - git. [ref](https://github.com/git/git)
+  > - jq [ref](https://github.com/stedolan/jq)
+  > - Optional requirement: GNU make. [ref](https://www.gnu.org/software/make/manual/html_node/index.html)
+
+## Installation
+
+* Clone git repository
+  ```shell
+  git clone https://github.com/comdex-official/comdex.git
+  ```
+* Checkout latest tag
+  ```shell
+  cd comdex
+  git fetch --tags
+  git checkout v2.1.0
+  ```
+* Install
+  ```shell
+  make all
+  ```
+  
+* Intialize the node
+
+  ```shell
+  comdex init {{NODE_NAME}} --chain-id meteor-test
+  ```
+* Download the latest genesis and replace it
+
+  ```shell
+  cd ${HOME}/.comdex/config
+  rm genesis.json
+  wget https://raw.githubusercontent.com/comdex-official/networks/main/testnet/meteor-test/genesis.json
+  sha256sum genesis.json
+  ```
+* Verify the genesis hash 
+
+  ```shell
+  b0744029560d65bd5d81dbe055704708a33c3d51594b02ea575cf4b56d7f506e
+  ```
+
+* Update the existing peers in `${HOME}/.comdex/config/config.toml
+
+  ```shell
+  persistent_peers = "4202b41ccc3032011969005a215e1dbe36e3ba23@3.109.138.42:26656,223d534f0fd1daeea3578346ad3e49d9cec973b6@54.204.207.38:26656,efa67d2456e8e22e9b29bd127ed3024cffc7ede1@46.166.163.37:26656,494af55997cbb1df62cff1ed4f35b58c31277f63@46.166.172.230:26656"
+  ```
+
+* Start the node/service
+
+  ```shell
+   comdex start
+  ```
+  
+* For creating service / cosmovisor -> [ref](https://github.com/comdex-official/networks/blob/main/testnet/cosmovisor-setup.md)
+  
+  
+
+
+
