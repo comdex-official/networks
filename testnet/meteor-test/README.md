@@ -85,7 +85,7 @@ sudo systemctl start cosmovisor
   ```
 * Install
   ```shell
-  make all
+  make install
   ```
   
 * Intialize the node
