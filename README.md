@@ -3,9 +3,12 @@
 * **Join comdex's test network** 
   * Current TestNet Version : v2.0.0
   * [TestNet](https://github.com/comdex-official/networks/tree/main/testnet/comets-test)
+  
+* **Mainet Explorer**
+  * [BigDipper](http://meteor-explorer.comdex.one)
  
 
-* **Main Net** 
+* **Test Net** 
   * Current Main Net Version : v0.1.1
   * [Join Main Net as validator](https://github.com/comdex-official/networks/blob/main/mainnet/02-validator-post-gentx.md)
   * [MainNet](https://github.com/comdex-official/networks/tree/main/mainnet/comdex-1)
