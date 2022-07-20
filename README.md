@@ -1,13 +1,13 @@
 # Comdex Network Details
 
 * **Join comdex's test network** 
-  * Current Test Net Version : v2.0.0
+  * Current Test Net Version : v2.1.0
   * [TestNet](https://github.com/comdex-official/networks/tree/main/testnet/comets-test)
   
- Comets-test has been retired and migrated to meteor-testnet 
+* comets-test has been retired and migrated to meteor-test (public release note will be released on 21 july 2022)
   
-* ** TestNet Explorer**
-  * [BigDipper](http://meteor-explorer.comdex.one)
+* **TestNet Explorer**
+  * [Meteor TestNet](http://meteor-explorer.comdex.one)
  
 
 * **Main Net** 
@@ -21,3 +21,4 @@
   * [Look.Chill](https://look.chillvalidation.com/comdex)
   * [Atomscan](https://atomscan.com/comdex)
   * [ZenChainLabs](https://comdex.zenscan.io/)
+  * [BigDipper](http://comdex.bigdipper.live)
