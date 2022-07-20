@@ -4,7 +4,7 @@
   * Current Test Net Version : v2.1.0
   * [Test Net Document](https://github.com/comdex-official/networks/tree/main/testnet/meteor-test)
   
-* comets-test has been retired and migrated to meteor-test (public release note will be released on 21 july 2022)
+* comets-test has been retired and migrated to meteor-test (public release note will be released by 22 july 2022)
   
 * **TestNet Explorer**
   * [Meteor TestNet](http://meteor-explorer.comdex.one)
