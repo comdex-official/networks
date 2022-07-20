@@ -77,23 +77,25 @@ source ~/.profile
 ## Change the contents of the below to match your setup - cosmovisor is likely at ~/go/bin/cosmovisor regardless of which installation path you took above, but it's worth checking.
 
 ```shell
-    [Unit]
-    Description=cosmovisor
-    After=network-online.target
-    [Service]
-    User=ubuntu
-    ExecStart=/home/ubuntu/go/bin/cosmovisor start
-    Restart=always
-    RestartSec=3
-    LimitNOFILE=4096
-    Environment="DAEMON_NAME=comdex"
-    Environment="DAEMON_HOME=/home/ubuntu/.comdex"
-    Environment="DAEMON_ALLOW_DOWNLOAD_BINARIES=false"
-    Environment="DAEMON_RESTART_AFTER_UPGRADE=true"
-    Environment="DAEMON_LOG_BUFFER_SIZE=512"
-    Environment="UNSAFE_SKIP_BACKUP=true"
-    [Install]
-    WantedBy=multi-user.target
+[Unit]
+Description=cosmovisor
+After=network-online.target
+
+[Service]
+User=ubuntu
+ExecStart=/home/ubuntu/go/bin/cosmovisor start
+Restart=always
+RestartSec=3
+LimitNOFILE=4096
+Environment="DAEMON_NAME=comdex"
+Environment="DAEMON_HOME=/home/ubuntu/.comdex"
+Environment="DAEMON_ALLOW_DOWNLOAD_BINARIES=false"
+Environment="DAEMON_RESTART_AFTER_UPGRADE=true"
+Environment="DAEMON_LOG_BUFFER_SIZE=512"
+Environment="UNSAFE_SKIP_BACKUP=true"
+
+[Install]
+WantedBy=multi-user.target
 ```    
 
 ## Finally, enable the service and start it.
