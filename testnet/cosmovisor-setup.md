@@ -39,13 +39,13 @@
 ## Set up the environment variables:
 
 ```shell
-    echo "# Setup Cosmovisor" >> ~/.profile
-    echo "export DAEMON_NAME=comdex" >> ~/.profile
-    echo "export DAEMON_HOME=$HOME/.comdex" >> ~/.profile
-    echo "export DAEMON_ALLOW_DOWNLOAD_BINARIES=false" >> ~/.profile
-    echo "export DAEMON_LOG_BUFFER_SIZE=512" >> ~/.profile
-    echo "export DAEMON_RESTART_AFTER_UPGRADE=true" >> ~/.profile
-    echo "export UNSAFE_SKIP_BACKUP=true" >> ~/.profile
+echo "# Setup Cosmovisor" >> ~/.profile
+echo "export DAEMON_NAME=comdex" >> ~/.profile
+echo "export DAEMON_HOME=$HOME/.comdex" >> ~/.profile
+echo "export DAEMON_ALLOW_DOWNLOAD_BINARIES=false" >> ~/.profile
+echo "export DAEMON_LOG_BUFFER_SIZE=512" >> ~/.profile
+echo "export DAEMON_RESTART_AFTER_UPGRADE=true" >> ~/.profile
+echo "export UNSAFE_SKIP_BACKUP=true" >> ~/.profile
     source ~/.profile
 ```    
 
