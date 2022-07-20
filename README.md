@@ -4,6 +4,8 @@
   * Current Test Net Version : v2.0.0
   * [TestNet](https://github.com/comdex-official/networks/tree/main/testnet/comets-test)
   
+ Comets-test has been retired and migrated to meteor-testnet 
+  
 * ** TestNet Explorer**
   * [BigDipper](http://meteor-explorer.comdex.one)
  
