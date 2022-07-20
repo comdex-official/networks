@@ -2,7 +2,7 @@
 
 * **Join comdex's test network** 
   * Current Test Net Version : v2.1.0
-  * [TestNet](https://github.com/comdex-official/networks/tree/main/testnet/comets-test)
+  * [Test Net Document](https://github.com/comdex-official/networks/tree/main/testnet/meteor-test)
   
 * comets-test has been retired and migrated to meteor-test (public release note will be released on 21 july 2022)
   
@@ -13,7 +13,7 @@
 * **Main Net** 
   * Current Main Net Version : v0.1.1
   * [Join Main Net as validator](https://github.com/comdex-official/networks/blob/main/mainnet/02-validator-post-gentx.md)
-  * [MainNet](https://github.com/comdex-official/networks/tree/main/mainnet/comdex-1)
+  * [MainNet Document](https://github.com/comdex-official/networks/tree/main/mainnet/comdex-1)
 
 * **Main Net Explorer**
   * [Mintscan](https://www.mintscan.io/comdex/)
