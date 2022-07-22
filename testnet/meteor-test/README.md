@@ -6,8 +6,8 @@
 
 ## Endpoints
 
-- `meteor.rpc.comdex.one` - RPC Endpoint
-- `meteor.rest.comdex.one` - Rest Endpoint
+- [meteor.rpc.comdex.one](https://meteor.rpc.comdex.one:443) - RPC Endpoint
+- [meteor.rest.comdex.one](https://meteor.rest.comdex.one:443) - Rest Endpoint
 
 ## Peers
 
@@ -15,7 +15,7 @@
 
 ## Explorers
 
-- `meteors-test.comdex.one`
+- [meteors-test.comdex.one](https://meteors-test.comdex.one)
 
 # Steps to start meteor-test 
 
@@ -123,11 +123,11 @@ sudo systemctl start cosmovisor
   
 * Restore the snapshot
 
-```shell
-cd ${HOME}/.comdex/
-wget https://binaries-comdex.s3.ap-south-1.amazonaws.com/data.tar.lz4
-lz4 -d data.tar.lz4 | tar xf -
-```
+  ```shell
+  cd ${HOME}/.comdex/
+  wget https://binaries-comdex.s3.ap-south-1.amazonaws.com/data.tar.lz4
+  lz4 -d data.tar.lz4 | tar xf -
+  ```
 
 * Start the node/service
 
