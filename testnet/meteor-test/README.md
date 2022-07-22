@@ -54,9 +54,10 @@ persistent_peers = "4202b41ccc3032011969005a215e1dbe36e3ba23@3.109.138.42:26656,
 * Restore the snapshot
 
 ```shell
-cd ${HOME}/.comdex/config/
+cd ${HOME}/.comdex/
 wget https://binaries-comdex.s3.ap-south-1.amazonaws.com/data.tar.lz4
 lz4 -d data.tar.lz4 | tar xf -
+```
 
 * Start the service
 
