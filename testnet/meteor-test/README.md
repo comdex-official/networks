@@ -15,7 +15,7 @@
 
 ## Explorers
 
-- [meteors-test.comdex.one](https://meteors-test.comdex.one)
+- [meteor-explorer.comdex.one](https://meteors-test.comdex.one)
 
 # Steps to start meteor-test 
 
