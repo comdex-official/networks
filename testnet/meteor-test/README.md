@@ -120,6 +120,14 @@ sudo systemctl start cosmovisor
   ```shell
   persistent_peers = "4202b41ccc3032011969005a215e1dbe36e3ba23@3.109.138.42:26656,223d534f0fd1daeea3578346ad3e49d9cec973b6@54.204.207.38:26656,efa67d2456e8e22e9b29bd127ed3024cffc7ede1@46.166.163.37:26656,494af55997cbb1df62cff1ed4f35b58c31277f63@46.166.172.230:26656"
   ```
+  
+* Restore the snapshot
+
+```shell
+cd ${HOME}/.comdex/
+wget https://binaries-comdex.s3.ap-south-1.amazonaws.com/data.tar.lz4
+lz4 -d data.tar.lz4 | tar xf -
+```
 
 * Start the node/service
 
