@@ -82,16 +82,19 @@ sudo systemctl start cosmovisor
 ## Installation
 
 * Clone git repository
+
   ```shell
   git clone https://github.com/comdex-official/comdex.git
   ```
 * Checkout latest tag
+
   ```shell
   cd comdex
   git fetch --tags
   git checkout v2.1.0
   ```
 * Install
+
   ```shell
   make install
   ```
@@ -121,14 +124,33 @@ sudo systemctl start cosmovisor
   persistent_peers = "4202b41ccc3032011969005a215e1dbe36e3ba23@3.109.138.42:26656,223d534f0fd1daeea3578346ad3e49d9cec973b6@54.204.207.38:26656,efa67d2456e8e22e9b29bd127ed3024cffc7ede1@46.166.163.37:26656,494af55997cbb1df62cff1ed4f35b58c31277f63@46.166.172.230:26656"
   ```
   
-* Restore the snapshot
+* Statesync Reference, for snapshot, refer the steps above :
 
-  ```shell
-  cd ${HOME}/.comdex/
-  wget https://binaries-comdex.s3.ap-south-1.amazonaws.com/data.tar.lz4
-  lz4 -d data.tar.lz4 | tar xf -
-  ```
+    ```
+    curl -s https://meteor.rpc.comdex.one/status | \ 
+     jq '.result .sync_info | {trust_height: .latest_block_height, trust_hash: .latest_block_hash} | values'
+    ```
 
+  - Example output:
+  
+    ```
+    {
+      "trust_height": "3549879",
+      "trust_hash": "461420F85D8A7A9833B5A1C1E7FCC461AC10247B840C7DD3BB53AC687E3AC0BB"
+    }
+    ```
+
+  - Set trust_height and trust_hash values from RPC/status output in `$(HOME)/.comdex/config.toml`
+  
+    ```
+    [statesync]
+    enable = true
+    rpc_servers = "https://meteor.rpc.comdex.one:443,https://meteor.rpc.comdex.one:443"
+    trust_height = 3549879
+    trust_hash = "461420F85D8A7A9833B5A1C1E7FCC461AC10247B840C7DD3BB53AC687E3AC0BB"
+    trust_period = "168h0m0s"
+    ```
+    
 * Start the node/service
 
   ```shell
@@ -136,7 +158,6 @@ sudo systemctl start cosmovisor
   ```
   
 * For creating service / cosmovisor -> [ref](https://github.com/comdex-official/networks/blob/main/testnet/cosmovisor-setup.md)
-  
   
 
 
