@@ -1,10 +1,9 @@
 # Comdex Network Details
 
 * **Join comdex's test network** 
-  * Current Test Net Version : v2.1.0
+  * Current Test Net Version : v3.0.0
   * [Test Net Document](https://github.com/comdex-official/networks/tree/main/testnet/meteor-test)
   
-* comets-test has been retired and migrated to meteor-test (public release note will be released by 22 july 2022)
   
 * **TestNet Explorer**
   * [Meteor TestNet](http://meteor-explorer.comdex.one)
