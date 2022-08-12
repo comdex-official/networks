@@ -6,7 +6,7 @@
   
   
 * **TestNet Explorer**
-  * [Meteor TestNet](http://meteor-explorer.comdex.one)
+  * [Meteor TestNet](http://meteor-explorer.comdex.one/comdex-testnet)
  
 
 * **Main Net** 
