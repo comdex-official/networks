@@ -2,7 +2,7 @@
 
 * **Join comdex's test network** 
   * Current Test Net Version : v3.1.0
-  * [Test Net Document](https://github.com/comdex-official/networks/tree/main/testnet/meteor-test)
+  * [Test Net Document](https://meteor-explorer.comdex.one/comdex-testnet)
   
   
 * **TestNet Explorer**
