@@ -17,6 +17,11 @@
 
 - [meteor-explorer.comdex.one](https://meteor-explorer.comdex.one)
 
+## Recommended Specifications:
+   * 4 Core CPU
+   * 16GB or more RAM
+   * 400GB SSD (3000+ iops)
+
 # Steps to start meteor-test 
 
 ## For migrating existing validators to comets-test -> meteors-test
@@ -86,13 +91,15 @@ sudo systemctl start cosmovisor
   ```shell
   git clone https://github.com/comdex-official/comdex.git
   ```
+  
 * Checkout latest tag
 
   ```shell
   cd comdex
   git fetch --tags
-  git checkout v2.1.0
+  git checkout v3.1.0
   ```
+  
 * Install
 
   ```shell
@@ -104,6 +111,7 @@ sudo systemctl start cosmovisor
   ```shell
   comdex init {{NODE_NAME}} --chain-id meteor-test
   ```
+  
 * Download the latest genesis and replace it
 
   ```shell
@@ -112,6 +120,7 @@ sudo systemctl start cosmovisor
   wget https://raw.githubusercontent.com/comdex-official/networks/main/testnet/meteor-test/genesis.json
   sha256sum genesis.json
   ```
+  
 * Verify the genesis hash 
 
   ```shell
@@ -121,10 +130,18 @@ sudo systemctl start cosmovisor
 * Update the existing peers in `${HOME}/.comdex/config/config.toml`
 
   ```shell
-  persistent_peers = "4202b41ccc3032011969005a215e1dbe36e3ba23@3.109.138.42:26656,223d534f0fd1daeea3578346ad3e49d9cec973b6@54.204.207.38:26656,efa67d2456e8e22e9b29bd127ed3024cffc7ede1@46.166.163.37:26656,494af55997cbb1df62cff1ed4f35b58c31277f63@46.166.172.230:26656"
+  persistent_peers = "4202b41ccc3032011969005a215e1dbe36e3ba23@65.2.136.12:26656,223d534f0fd1daeea3578346ad3e49d9cec973b6@54.166.39.27:26656,efa67d2456e8e22e9b29bd127ed3024cffc7ede1@46.166.163.37:26656,494af55997cbb1df62cff1ed4f35b58c31277f63@46.166.172.230:26656""
   ```
   
-* Statesync Reference, for snapshot, refer the steps above :
+* Snapshot recovery
+
+  ```shell
+  cd ${HOME}/.comdex/
+  wget https://msnap.comdex.one/meteor/data.tar.lz4
+  lz4 -d data.tar.lz4 | tar xf -
+  ```
+
+* Advanced users, prefer statesync. Go with snapshots for first timers: (NOT NEEDED IF SNAPSHOT RECOVERY USED)
 
     ```
     curl -s https://meteor.rpc.comdex.one/status | \ 
