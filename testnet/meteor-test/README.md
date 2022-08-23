@@ -97,7 +97,7 @@ sudo systemctl start cosmovisor
   ```shell
   cd comdex
   git fetch --tags
-  git checkout v3.1.0
+  git checkout v4.0.0
   ```
   
 * Install
