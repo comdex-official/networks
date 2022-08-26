@@ -60,7 +60,7 @@ persistent_peers = "4202b41ccc3032011969005a215e1dbe36e3ba23@65.2.136.12:26656,2
 
 ```shell
 cd ${HOME}/.comdex/
-wget https://binaries-comdex.s3.ap-south-1.amazonaws.com/data.tar.lz4
+wget https://msnap.comdex.one/meteor/data.tar.lz4
 lz4 -d data.tar.lz4 | tar xf -
 ```
 
