@@ -1,7 +1,7 @@
 ## meteor-test Testnet Details
 
 - **Chain-ID**: `meteor-test`
-- **Current Comdex version**: `v4.1.0`
+- **Current Comdex version**: `v4.2.0`
 - **Genesis-file**: [Included in the repository](genesis.json)
 
 ## Endpoints
@@ -97,7 +97,7 @@ sudo systemctl start cosmovisor
   ```shell
   cd comdex
   git fetch --tags
-  git checkout v4.1.0
+  git checkout v4.2.0
   ```
   
 * Install
