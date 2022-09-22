@@ -1,7 +1,7 @@
 ## meteor-test Testnet Details
 
 - **Chain-ID**: `meteor-test`
-- **Current Comdex version**: `v4.2.0`
+- **Current Comdex version**: `v4.3.0`
 - **Genesis-file**: [Included in the repository](genesis.json)
 
 ## Endpoints
