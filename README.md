@@ -1,7 +1,7 @@
 # Comdex Network Details
 
 * **Join comdex's test network** 
-  * Current Test Net Version : v4.2.0
+  * Current Test Net Version : v4.3.0
   * [Test Net Document](https://github.com/comdex-official/networks/tree/main/testnet/meteor-test)
   
   
