@@ -6,9 +6,8 @@ cd comdex
 git fetch --tags && git checkout v0.1.3
 go mod vendor
 make install
-  # this will return commit 996939cd711d1c71276f347d27bbc25672dad401
 comdex version --long
-
+  # this will return commit 996939cd711d1c71276f347d27bbc25672dad401
 
 sudo systemctl stop cosmovisor
 
