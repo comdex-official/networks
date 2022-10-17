@@ -36,11 +36,11 @@ This is a detailed step-by-step guide for setting up a Comdex validator. Please 
 ```shell
 git clone https://github.com/comdex-official/comdex.git
 ```
-* Checkout latest tag (comdex-1 is runing on v0.1.1)
+* Checkout latest tag (comdex-1 is runing on v0.1.3)
 ```shell
 cd comdex
 git fetch --tags
-git checkout v0.1.1
+git checkout v0.1.3
 go mod vendor
 ```
 * Install
