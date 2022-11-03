@@ -1,13 +1,13 @@
 ## meteor-test Testnet Details
 
 - **Chain-ID**: `meteor-test`
-- **Current Comdex version**: `v4.3.0`
+- **Current Comdex version**: `v5.0.0.beta`
 - **Genesis-file**: [Included in the repository](genesis.json)
 
 ## Endpoints
 
-- [meteor.rpc.comdex.one](https://meteor.rpc.comdex.one:443) - RPC Endpoint
-- [meteor.rest.comdex.one](https://meteor.rest.comdex.one:443) - Rest Endpoint
+- [meteor-rpc.zenscape.one](https://meteor-rpc.zenscape.one:443) - RPC Endpoint
+- [meteor-rest.zenscape.one](https://meteor-rest.zenscape.one:443) - Rest Endpoint
 
 ## Peers
 
@@ -60,8 +60,8 @@ persistent_peers = "4202b41ccc3032011969005a215e1dbe36e3ba23@65.2.136.12:26656,2
 
 ```shell
 cd ${HOME}/.comdex/
-wget https://msnap.comdex.one/meteor/data.tar.lz4
-lz4 -d data.tar.lz4 | tar xf -
+wget https://snapshot.zenscape.one/comdex-testnet/meteor-pruned-5723785.tar.lz4
+lz4 -d meteor-pruned-5723785.tar.lz4 | tar xf -
 ```
 
 * Start the service
@@ -97,7 +97,7 @@ sudo systemctl start cosmovisor
   ```shell
   cd comdex
   git fetch --tags
-  git checkout v4.2.0
+  git checkout v5.0.0.beta
   ```
   
 * Install
@@ -137,14 +137,14 @@ sudo systemctl start cosmovisor
 
   ```shell
   cd ${HOME}/.comdex/
-  wget https://msnap.comdex.one/meteor/data.tar.lz4
-  lz4 -d data.tar.lz4 | tar xf -
+  wget https://snapshot.zenscape.one/comdex-testnet/meteor-pruned-5723785.tar.lz4
+  lz4 -d meteor-pruned-5723785.tar.lz4 | tar xf -
   ```
 
 * Advanced users, prefer statesync. Go with snapshots for first timers: (NOT NEEDED IF SNAPSHOT RECOVERY USED)
 
     ```
-    curl -s https://meteor.rpc.comdex.one/status | \ 
+    curl -s https://meteor-rpc.zenscape.one/status | \ 
      jq '.result .sync_info | {trust_height: .latest_block_height, trust_hash: .latest_block_hash} | values'
     ```
 
@@ -162,7 +162,7 @@ sudo systemctl start cosmovisor
     ```
     [statesync]
     enable = true
-    rpc_servers = "https://meteor.rpc.comdex.one:443,https://meteor.rpc.comdex.one:443"
+    rpc_servers = "https://meteor-rpc.zenscape.one:443,https://meteor-rpc.zenscape.one:443"
     trust_height = 3549879
     trust_hash = "461420F85D8A7A9833B5A1C1E7FCC461AC10247B840C7DD3BB53AC687E3AC0BB"
     trust_period = "168h0m0s"
