@@ -9,6 +9,7 @@
 - Don't forget to Backup your ~/.comdex/data/priv_validator_state.json file before replacing your data dir with the snapshot and place the file back before starting the validator.
 ```bash
   cp ~/.comdex/data/priv_validator_state.json ~/.comdex/priv_validator_state.json.bak
+```
 ## Extract the data
 ```bash
   lz4 -d comdex-1_20221117_default.tar.lz4 | tar -xvf -
