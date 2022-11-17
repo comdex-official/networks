@@ -6,6 +6,8 @@
  - [Mirror #1]https://quicksync.ccvalidators.com/SNAPSHOTS/comdex-1_20221117_default.tar.lz4)
  - [Mirror #2]https://snapshot.zenscape.one/comdex/cryptocrew/comdex-1_20221117_default.tar.lz4
 
+## Stop the chain
+
 - Don't forget to Backup your ~/.comdex/data/priv_validator_state.json file before replacing your data dir with the snapshot and place the file back before starting the validator.
 ```bash
   cp ~/.comdex/data/priv_validator_state.json ~/.comdex/priv_validator_state.json.bak
@@ -36,6 +38,8 @@ pruning = "nothing"
 ```bash
   cp ~/.comdex/priv_validator_state.json.bak ~/.comdex/data/priv_validator_state.json
 ```
+
+## Start the chain
 
 ## Start the node and update it the information on #🪐validators-zone discord channel
 
