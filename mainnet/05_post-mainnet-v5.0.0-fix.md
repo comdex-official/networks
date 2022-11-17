@@ -38,3 +38,6 @@ pruning = "nothing"
 ```
 
 ## Start the node and update it the information on #🪐validators-zone discord channel
+
+### Validators can use this snapshot, it was provided by CrpytoCrew (Fresh snapshot - statesync from 0.1.3, taken before the upgrade height)
+### For RPC, we will providing a ```pruning = default``` snapshot soon from scratch, you can wait and sync your node with that snapshot
