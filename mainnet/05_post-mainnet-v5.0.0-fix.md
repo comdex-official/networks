@@ -34,7 +34,7 @@ Verify that the pruning is set to "nothing" (We want to be extra safe and we wil
 pruning = "nothing"
 ```
 
-## Replace your priv_validator_state.json which you took a backup before in the restored backup
+## Replace your priv_validator_state.json from the backup
 ```bash
   cp ~/.comdex/priv_validator_state.json.bak ~/.comdex/data/priv_validator_state.json
 ```
