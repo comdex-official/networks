@@ -2,13 +2,13 @@
 
 ## Backup your priv_validator_state.json
 
-### In case you need a fresh snapshot you can download it from
+### In case you need a fresh snapshot, you can download it from
  - [Mirror #1]https://quicksync.ccvalidators.com/SNAPSHOTS/comdex-1_20221117_default.tar.lz4)
  - [Mirror #2]https://snapshot.zenscape.one/comdex/cryptocrew/comdex-1_20221117_default.tar.lz4
 
 ## Stop the chain
 
-- Don't forget to Backup your ~/.comdex/data/priv_validator_state.json file before replacing your data dir with the snapshot and place the file back before starting the validator.
+- Don't forget to backup your ~/.comdex/data/priv_validator_state.json file before replacing your data dir with the snapshot and place the file back before starting the validator.
 ```bash
   cp ~/.comdex/data/priv_validator_state.json ~/.comdex/priv_validator_state.json.bak
 ```
@@ -34,7 +34,7 @@ Verify that the pruning is set to "nothing" (We want to be extra safe and we wil
 pruning = "nothing"
 ```
 
-## Replace your own priv_validator_state.json which you took backup before in the restored backup
+## Replace your priv_validator_state.json which you took a backup before in the restored backup
 ```bash
   cp ~/.comdex/priv_validator_state.json.bak ~/.comdex/data/priv_validator_state.json
 ```
@@ -43,5 +43,5 @@ pruning = "nothing"
 
 ## Start the node and update it the information on #🪐validators-zone discord channel
 
-### Validators can use this snapshot, it was provided by CrpytoCrew (Fresh snapshot - statesync from 0.1.3, taken before the upgrade height)
-### For RPC, we will providing a ```pruning = default``` snapshot soon from scratch, you can wait and sync your node with that snapshot
+### Validators can use this snapshot, provided by CrpytoCrew (Fresh snapshot - statesync from 0.1.3, taken before the upgrade height)
+### For RPC, we will provide a ```pruning = default``` snapshot soon from scratch; you can wait and sync your node with that snapshot
