@@ -15,7 +15,7 @@
 
 ## Explorers
 
-- [meteor-explorer.comdex.one](https://testnet-explorer.comdex.one)
+- [testnet-explorer.comdex.one](https://testnet-explorer.comdex.one)
 
 ## Recommended Specifications:
    * 4 Core CPU
