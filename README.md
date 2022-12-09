@@ -2,7 +2,7 @@
 
 
 * **Main Net** 
-  * Current Main Net Version : v5.0.0
+  * Current Main Net Version : v6.0.0 (please use v6.0.1 tag)
   * [Join Main Net as validator](https://github.com/comdex-official/networks/blob/main/mainnet/02-validator-post-gentx.md)
   * [MainNet Document](https://github.com/comdex-official/networks/tree/main/mainnet/comdex-1)
 
