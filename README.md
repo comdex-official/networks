@@ -15,11 +15,11 @@
   * [BigDipper](http://comdex.bigdipper.live)
 
 * **Join comdex's test network** 
-  * Current Test Net Version : v5.0.0.beta
-  * [Test Net Document](https://github.com/comdex-official/networks/tree/main/testnet/meteor-test)
+  * Current Test Net Version : v6.0.0.beta
+  * [Test Net Document](https://github.com/comdex-official/networks/tree/main/testnet/testnet-2/README.md)
   
   
 * **TestNet Explorer**
-  * [Meteor TestNet](http://meteor-explorer.comdex.one/comdex-testnet)
+  * [Comdex TestNet2](https://test2-explorer.comdex.one)
  
 
