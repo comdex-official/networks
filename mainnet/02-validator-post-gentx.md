@@ -18,7 +18,7 @@ This is a detailed step-by-step guide for setting up a Comdex validator. Please 
     * Linux(x86_64)
 
 ## Installation Steps
->Prerequisite: go1.17+ required. [ref](https://golang.org/doc/install)
+>Prerequisite: go1.19+ required. [ref](https://golang.org/doc/install)
 
    Append the below lines to the file ${HOME}/.bashrc and execute the command source ${HOME}/.bashrc to reflect in the current Terminal session
    ```shell
@@ -36,11 +36,11 @@ This is a detailed step-by-step guide for setting up a Comdex validator. Please 
 ```shell
 git clone https://github.com/comdex-official/comdex.git
 ```
-* Checkout latest tag (comdex-1 is runing on v0.1.3)
+* Checkout latest tag (comdex-1 is runing on v6.0.2)
 ```shell
 cd comdex
 git fetch --tags
-git checkout v0.1.3
+git checkout v6.0.2
 go mod vendor
 ```
 * Install
@@ -144,7 +144,7 @@ aef35f45db2d9f5590baa088c27883ac3d5e0b33@3.108.102.92:26656,7ca14a1d156299999eba
 ```   
 #### NOTE: You may use UNSAFE_SKIP_BACKUP=true if you wish to skip backup, backup takes a decent amount of time and public snapshots of old states are available. 
 
-## Copy the current(v0.1.1) comdex binary into the cosmovisor/genesis folder
+## Copy the current(v6.0.2) comdex binary into the cosmovisor/genesis folder
 
 ```shell
     cp $GOPATH/bin/comdex ~/.comdex/cosmovisor/genesis/bin
