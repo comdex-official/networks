@@ -45,7 +45,7 @@ go mod vendor
 ```
 * Install
 ```shell
-make all
+make install
 ```
 
 ## Initialize your node
@@ -294,7 +294,7 @@ comdex tx staking create-validator \
   --moniker=' ' \ 
   --chain-id=comdex-1 \
   --commission-rate="0.02" \
-  --commission-max-rate="0.05" \
+  --commission-max-rate="0.010" \
   --commission-max-change-rate="0.01" \
   --min-self-delegation="1000000" \
   --gas="auto" \
