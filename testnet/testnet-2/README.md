@@ -15,7 +15,7 @@
 
 ## Explorers
 
-- [testnet-explorer.comdex.one](https://testnet-explorer.comdex.one)
+- [https://test2-explorer.comdex.one/comdex-test2](https://test2-explorer.comdex.one/comdex-test2)
 
 ## Recommended Specifications:
    * 4 Core CPU
