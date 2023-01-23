@@ -100,8 +100,8 @@
   
     ```
     {
-      "trust_height": "57857",
-      "trust_hash": "461420F85D8A7A9833B5A1C1E7FCC461AC10247B840C7DD3BB53AC687E3AC0BB"
+      "trust_height": "820000",
+      "trust_hash": "01f7e85f9b7df173ddae4edfd8a2c211452914fc1f98e649eb586617bbb3e284"
     }
     ```
 
@@ -111,10 +111,11 @@
     [statesync]
     enable = true
     rpc_servers = "https://test2-rpc.comdex.one:443,https://test2-rpc.comdex.one:443"
-    trust_height = 57857
-    trust_hash = "461420F85D8A7A9833B5A1C1E7FCC461AC10247B840C7DD3BB53AC687E3AC0BB"
-    trust_period = "168h0m0s"
+    trust_height = 820000
+    trust_hash = "01f7e85f9b7df173ddae4edfd8a2c211452914fc1f98e649eb586617bbb3e284"
+    trust_period = "168h"  # 2/3 of unbonding time
     ```
+    ### Latest statesync details are available at https://test2-explorer.comdex.one/comdex-test2/statesync
     
 * Start the node/service
 
