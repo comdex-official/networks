@@ -115,7 +115,7 @@
     trust_hash = "01f7e85f9b7df173ddae4edfd8a2c211452914fc1f98e649eb586617bbb3e284"
     trust_period = "168h"  # 2/3 of unbonding time
     ```
-    ### Latest statesync details are available at https://test2-explorer.comdex.one/comdex-test2/statesync
+    ##### Latest statesync details are available at https://test2-explorer.comdex.one/comdex-test2/statesync
     
 * Start the node/service
 
