@@ -1,7 +1,7 @@
 ## meteor-test Testnet Details
 
 - **Chain-ID**: `comdex-test2`
-- **Current Comdex version**: `v7.0.0`
+- **Current Comdex version**: `v8.0.0`
 - **Genesis-file**: [Included in the repository](genesis.json)
 
 ## Endpoints
@@ -52,7 +52,7 @@
   ```shell
   cd comdex
   git fetch --tags
-  git checkout v7.0.0
+  git checkout v8.0.0
   ```
   
 * Install
