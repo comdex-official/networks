@@ -15,7 +15,7 @@
   * [BigDipper](http://comdex.bigdipper.live)
 
 * **Join comdex's test network** 
-  * Current Test Net Version : v8.0.0
+  * Current Test Net Version : v8.1.0.beta
   * [Test Net Document](https://github.com/comdex-official/networks/tree/main/testnet/testnet-2/README.md)
   
   
