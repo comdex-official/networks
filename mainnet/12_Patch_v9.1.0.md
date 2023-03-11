@@ -53,7 +53,7 @@
   name: comdex
    server_name: comdex
    version: v9.1.0
-   commit: 
+   commit: c283128fa53bb5842436cb8cf9c938412e46483c
    build_tags: netgo,ledger
    go: go version go1.19.3 darwin/amd64
 
