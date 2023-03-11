@@ -2,11 +2,11 @@
 
 ## Please follow instructions from the Step-1 below.
 
-### Upgrade time : Anytime after BlockHeight
+### Upgrade time : Anytime after current BlockHeight
 
 ### Please update this sheet as per instructions
 
-   [https://docs.google.com/spreadsheets/d/1MExGqk_2cYtBd1o1mLKubUO7VabetfplZseJ1SjKzyU/edit#gid=0](https://docs.google.com/spreadsheets/d/1MExGqk_2cYtBd1o1mLKubUO7VabetfplZseJ1SjKzyU/edit#gid=0)
+   [https://docs.google.com/spreadsheets/d/1yMOkegdepibvNjL22wyUbypp349i80r63Ym2CSuTIqo/edit#gid=620464714](https://docs.google.com/spreadsheets/d/1yMOkegdepibvNjL22wyUbypp349i80r63Ym2CSuTIqo/edit#gid=620464714)
     
 # Now halt the chain and please follow the below upgrade steps, 
 
