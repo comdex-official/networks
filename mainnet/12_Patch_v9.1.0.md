@@ -44,7 +44,7 @@
 ```shell
    cosmovisor version
    # Output should be
-   9.0.0
+   Mainnet-v9.0.0
 ```
 
 ## Check the new comdex version, verify the latest commit hash
