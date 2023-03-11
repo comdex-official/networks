@@ -78,3 +78,13 @@
 ```shell
    sudo systemctl start cosmovisor
 ```
+
+## Steps to recover node via snapshot in case of app hash, recover your node using below steps.
+
+```shell
+   sudo systemctl stop cosmovisor
+   comdex tendermint reset-state
+   cd ${HOME}/.comdex/
+   wget https://msnap.comdex.one/meteor/data.tar.lz4
+   lz4 -d data.tar.lz4 | tar xf -
+```
