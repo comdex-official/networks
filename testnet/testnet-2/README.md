@@ -58,6 +58,7 @@
 * Install
 
   ```shell
+  go mod vendor
   make install
   ```
   
