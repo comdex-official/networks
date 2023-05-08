@@ -2,7 +2,7 @@
 
 ## Backup your priv_validator_state.json
 
-### In case you need a fresh snapshot, you can download it from
+### In case you need a fresh snapshot, you can download it from [ Links expired : refer to new ones]
  - [Mirror #1]https://quicksync.ccvalidators.com/SNAPSHOTS/comdex-1_20221117_default.tar.lz4)
  - [Mirror #2]https://snapshot.zenscape.one/comdex/cryptocrew/comdex-1_20221117_default.tar.lz4
 
