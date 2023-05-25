@@ -3,10 +3,6 @@
 ## Please follow instructions from the Step-1 below.
 
 ### Upgrade time : Anytime after current BlockHeight
-
-### Please update this sheet as per instructions
-
-   [https://docs.google.com/spreadsheets/d/10li9AWyLWY3sGKzFqa7swgr6SHeeyKjUeeJjScTtDaw/edit#gid=1131825723](https://docs.google.com/spreadsheets/d/10li9AWyLWY3sGKzFqa7swgr6SHeeyKjUeeJjScTtDaw/edit#gid=1131825723)
     
 # Now halt the chain and please follow the below upgrade steps, 
 
@@ -82,5 +78,9 @@
 ```shell
    sudo systemctl start cosmovisor
 ```
+
+### Please update this sheet once pathc is applied
+
+[https://docs.google.com/spreadsheets/d/10li9AWyLWY3sGKzFqa7swgr6SHeeyKjUeeJjScTtDaw/edit#gid=1131825723](https://docs.google.com/spreadsheets/d/10li9AWyLWY3sGKzFqa7swgr6SHeeyKjUeeJjScTtDaw/edit#gid=1131825723)
 
 All the communications will done in comdex validator group [validator-zone](https://discord.com/channels/890929797318967416/891998323416907786)
