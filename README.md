@@ -2,7 +2,7 @@
 
 
 * **Main Net** 
-  * Current Main Net Version : Mainnet-v9.0.0
+  * Current Main Net Version : v9.1.2
   * [Join Main Net as validator](https://github.com/comdex-official/networks/blob/main/mainnet/02-validator-post-gentx.md)
   * [MainNet Document](https://github.com/comdex-official/networks/tree/main/mainnet/comdex-1)
 
@@ -15,7 +15,7 @@
   * [BigDipper](http://comdex.bigdipper.live)
 
 * **Join comdex's test network** 
-  * Current Test Net Version : v10.1.1
+  * Current Test Net Version : v11.3.0
   * [Test Net Document](https://github.com/comdex-official/networks/tree/main/testnet/testnet-2/README.md)
   
   
