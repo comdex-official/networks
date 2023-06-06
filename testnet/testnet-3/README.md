@@ -6,8 +6,8 @@
 
 ## Endpoints
 
-- [test2-rpc.comdex.one](https://test2-rpc.comdex.one:443) - RPC Endpoint
-- [test2-rest.comdex.one](https://test2-rest.comdex.one:443) - Rest Endpoint
+- [test3-rpc.comdex.one](https://test3-rpc.comdex.one:443) - RPC Endpoint
+- [test3-rest.comdex.one](https://test3-rest.comdex.one:443) - Rest Endpoint
 
 ## Peers
 
