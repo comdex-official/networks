@@ -6,8 +6,8 @@
 
 ## Endpoints
 
-- [test2-rpc.comdex.one](https://test2-rpc.comdex.one:443) - RPC Endpoint
-- [test2-rest.comdex.one](https://test2-rest.comdex.one:443) - Rest Endpoint
+- [test3-rpc.comdex.one](https://test3-rpc.comdex.one:443) - RPC Endpoint
+- [test3-rest.comdex.one](https://test3-rest.comdex.one:443) - Rest Endpoint
 
 ## Peers
 
@@ -15,7 +15,7 @@
 
 ## Explorers
 
-- [https://test2-explorer.comdex.one/comdex-test2](https://test2-explorer.comdex.one/comdex-test2)
+- [https://test3-explorer.comdex.one/comdex-test3](https://test3-explorer.comdex.one/comdex-test3)
 
 ## Recommended Specifications:
    * 4 Core CPU
