@@ -16,10 +16,10 @@
 
 * **Join comdex's test network** 
   * Current Test Net Version : v11.4.0
-  * [Test Net Document](https://github.com/comdex-official/networks/tree/main/testnet/testnet-2/README.md)
+  * [Test Net Document](https://github.com/comdex-official/networks/tree/main/testnet/testnet-3/README.md)
   
   
 * **TestNet Explorer**
-  * [Comdex TestNet2](https://test2-explorer.comdex.one)
+  * [Comdex TestNet3](https://test3-explorer.comdex.one)
  
 
