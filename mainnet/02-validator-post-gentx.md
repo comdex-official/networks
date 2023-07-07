@@ -36,11 +36,11 @@ This is a detailed step-by-step guide for setting up a Comdex validator. Please 
 ```shell
 git clone https://github.com/comdex-official/comdex.git
 ```
-* Checkout latest tag (comdex-1 is runing on v6.0.2)
+* Checkout latest tag (comdex-1 is runing on v11.5.1)
 ```shell
 cd comdex
 git fetch --tags
-git checkout v6.0.2
+git checkout v11.5.1
 go mod vendor
 ```
 * Install
@@ -84,7 +84,7 @@ f7fb364f9a73c1e294deb7c99d0e630fd849e1ae@3.110.67.238:26656,c71be7ba7eddac04723b
 
 * Copy below node as `seeds` in `${HOME}/.comdex/config/config.toml`
 ```shell
-aef35f45db2d9f5590baa088c27883ac3d5e0b33@3.108.102.92:26656,7ca14a1d156299999eba9c394ca060368022d52f@54.194.178.110:26656
+bca2cf752ee34472c42ab96503fd10ef25d921c1@46.166.172.232:2014
 ```
 
 * Copy below value as `minimum-gas-prices` in ${HOME}/.comdex/config/app.toml
@@ -144,7 +144,7 @@ aef35f45db2d9f5590baa088c27883ac3d5e0b33@3.108.102.92:26656,7ca14a1d156299999eba
 ```   
 #### NOTE: You may use UNSAFE_SKIP_BACKUP=true if you wish to skip backup, backup takes a decent amount of time and public snapshots of old states are available. 
 
-## Copy the current(v6.0.2) comdex binary into the cosmovisor/genesis folder
+## Copy the current(v11.5.1) comdex binary into the cosmovisor/genesis folder
 
 ```shell
     cp $GOPATH/bin/comdex ~/.comdex/cosmovisor/genesis/bin
@@ -184,6 +184,7 @@ aef35f45db2d9f5590baa088c27883ac3d5e0b33@3.108.102.92:26656,7ca14a1d156299999eba
     Environment="DAEMON_ALLOW_DOWNLOAD_BINARIES=false"
     Environment="DAEMON_RESTART_AFTER_UPGRADE=true"
     Environment="DAEMON_LOG_BUFFER_SIZE=512"
+    Environment="UNSAFE_SKIP_BACKUP=true"
     [Install]
     WantedBy=multi-user.target
 ```    
