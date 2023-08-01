@@ -13,6 +13,7 @@
   * [Atomscan](https://atomscan.com/comdex)
   * [ZenChainLabs](https://comdex.zenscan.io/)
   * [BigDipper](http://comdex.bigdipper.live)
+  * [Stakeflow](https://stakeflow.io/comdex)
 
 * **Join comdex's test network** 
   * Current Test Net Version : v11.4.0
@@ -21,5 +22,6 @@
   
 * **TestNet Explorer**
   * [Comdex TestNet3](https://test3-explorer.comdex.one)
+  * [Stakeflow](https://stakeflow.io/comdex-testnet/)
  
 
