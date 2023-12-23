@@ -16,7 +16,7 @@
   * [Stakeflow](https://stakeflow.io/comdex)
 
 * **Join comdex's test network** 
-  * Current Test Net Version : v11.4.0
+  * Current Test Net Version : v13.1.0
   * [Test Net Document](https://github.com/comdex-official/networks/tree/main/testnet/testnet-3/README.md)
   
   
