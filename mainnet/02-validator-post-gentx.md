@@ -89,7 +89,7 @@ bca2cf752ee34472c42ab96503fd10ef25d921c1@46.166.172.232:2014
 
 * Copy below value as `minimum-gas-prices` in ${HOME}/.comdex/config/app.toml
 ```shell
-0.025ucmdx
+2ucmdx
 ```
 
 # Setup Cosmovisor
@@ -299,7 +299,7 @@ comdex tx staking create-validator \
   --commission-max-change-rate="0.01" \
   --min-self-delegation="1000000" \
   --gas="auto" \
-  --gas-prices="0.025ucmdx" \
+  --gas-prices="2ucmdx" \
   --from=(yourkeyname) \
   --node=https://rpc.comdex.one:443 \
   -–gas-adjustment="1.15"
@@ -330,7 +330,7 @@ comdex tx staking edit-validator
   --details="To the moon!" \
   --chain-id=<chain_id> \
   --gas="auto" \
-  --gas-prices="0.0025ucmdx" \
+  --gas-prices="2ucmdx" \
   --from=<key_name> \
   --commission-rate="0.12"
 ```
