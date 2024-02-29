@@ -18,7 +18,7 @@ This is a detailed step-by-step guide for setting up a Comdex validator. Please 
     * Linux(x86_64)
 
 ## Installation Steps
->Prerequisite: go1.19+ required. [ref](https://golang.org/doc/install)
+>Prerequisite: go1.20+ required. [ref](https://golang.org/doc/install)
 
    Append the below lines to the file ${HOME}/.bashrc and execute the command source ${HOME}/.bashrc to reflect in the current Terminal session
    ```shell
@@ -36,11 +36,11 @@ This is a detailed step-by-step guide for setting up a Comdex validator. Please 
 ```shell
 git clone https://github.com/comdex-official/comdex.git
 ```
-* Checkout latest tag (comdex-1 is runing on v11.5.1)
+* Checkout latest tag (comdex-1 is runing on v13.4.0)
 ```shell
 cd comdex
 git fetch --tags
-git checkout v11.5.1
+git checkout v13.4.0
 go mod vendor
 ```
 * Install
