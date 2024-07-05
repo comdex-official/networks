@@ -7,7 +7,7 @@ Comdex's launch on the Replicated Security Testnet will be a little different fr
 * Comdex side: The Comdex team is running their own testnet (chain-id: comdex-testnet-1). That testnet will perform a software upgrade and at the upgrade height (shortly after the spawn time) it will transition to the provider chain’s validator set.
 * Provider side: There will be a consumer-addition proposal for the comdex chain. Shortly after the spawn time, we will receive the CCV state. This CCV state will be used to patch the original comdex chain’s genesis file.
 
-### What do you need to do to participate in the launch on Wednesday?
+### What do you need to do to participate in the launch on Tuesday?
 See the table below for a breakdown of steps you'll need to follow throughout the process. 
 
 ## ⚠️  Complete STEP 1 (join comdex testnet with a full node) ASAP ⚠️
