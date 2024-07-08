@@ -18,7 +18,7 @@ You can manually join comdex-test3 using these notes:
 * Version: v14.0.0
 * Joining instructions: https://github.com/comdex-official/networks/blob/main/testnet/testnet-3/README.md
  
-## ⚠️  Complete STEP 2 (Opt in Tx on Provider Chain Before the Spawn Time - TBD) ⚠️
+## STEP 2 (Opt in Tx on Provider Chain Before the Spawn Time - TBD)
 
 ## IMPORTANT: ⚠️ **If you did not use the key assignment feature before spawn time, do not use it until the chain is live, stable and receiving VSCPackets from the provider! **⚠️
 
@@ -50,7 +50,10 @@ Read more on [Key Assignment](https://github.com/cosmos/interchain-security/blob
 
 
 
-## ⚠️  Complete STEP 3 (Transitioning existing validator node -) ⚠️
+##  STEP 3 On the day of upgrade (Transitioning existing validator node ) if you are transitioning a non-validator node please skip to STEP-4
+
+<details><summary>Detailed steps for transitioning comdex node from validator on Comdex testnet to validator on consumer chain</summary>
+<br>
 
 Download v15.0.0 Binary
 ```shell
@@ -79,9 +82,9 @@ Start the node/service
 ```shell
 comdex start
 ```
+</details>
 
-
-## ⚠️  Complete STEP 4 (Transitioning existing validator node -) ⚠️
+## STEP 4 Transitioning existing non-validator node
 
 <details><summary>Detailed steps for transitioning comdex node from non-validator on Comdex testnet to validator on consumer chain</summary>
 <br>
@@ -121,9 +124,9 @@ sudo service comdex restart && journalctl -u comdex -f -o cat
 
 | # | When? | Provider side | Comdex side |
 | -- | --- | ----- | ---- |
-| 1 | Now | | Join the Comdex testnet `comdex-testnet-1` with the pre-transition binary (commit hash `TODO`) as a full node (not validator) and sync to the tip of the chain (link to instructions below). |
+| 1 | Now | | Join the Comdex testnet `comdex-test3` with the pre-transition binary (tag v14.0.0) as a full node (not validator) and sync to the tip of the chain (link to instructions below). |
 | 2 | Now until software upgrade proposal passes on Comdex | | Build (or download) the target (post-transition) Comdex binary. <br><br>If you are using Cosmovisor, place place it in Cosmovisor `/upgrades/<upgrade-name>/bin` directory.<br><br>If you are not using Cosmovisor, be ready to manually switch your binary at the upgrade halt height. |
-| 3 | Now until spawn time (15:00 UTC) | Submit assign-consensus-key for comdex-testnet-1 with the keys on your full node (**note: make sure to do this before spawn time!)** | |
+| 3 | Now until spawn time (15:00 UTC) | Submit assign-consensus-key for comdex-test3 with the keys on your full node (**note: make sure to do this before spawn time!)** | |
 | 4 | During voting period for  consumer-addition proposal on provider | You don’t have to do anything. Optionally, you may vote for the consumer-addition proposal | |
 | 5 | During voting period for software upgrade on Comdex | | You don’t have to do anything. |
 | 6 | After spawn time | | Place the newly generated “genesis” file (containing only the ccv state) in the ⚠️ `$HOME/.comdex/config directory` ⚠️ Comdex will provide this.<br><br>Do NOT replace the existing genesis file. |
