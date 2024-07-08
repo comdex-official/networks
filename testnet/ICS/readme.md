@@ -109,5 +109,5 @@ sudo service comdex restart && journalctl -u comdex -f -o cat
 | 3 | Now until spawn time (15:00 UTC) | Submit assign-consensus-key for comdex-testnet-1 with the keys on your full node (**note: make sure to do this before spawn time!)** | |
 | 4 | During voting period for  consumer-addition proposal on provider | You don’t have to do anything. Optionally, you may vote for the consumer-addition proposal | |
 | 5 | During voting period for software upgrade on Comdex | | You don’t have to do anything. |
-| 6 | After spawn time | | Place the newly generated “genesis” file (containing only the ccv state) in the ⚠️ `$HOME/.sovereign/config directory` ⚠️ Comdex will provide this.<br><br>Do NOT replace the existing genesis file. |
+| 6 | After spawn time | | Place the newly generated “genesis” file (containing only the ccv state) in the ⚠️ `$HOME/.comdex/config directory` ⚠️ Comdex will provide this.<br><br>Do NOT replace the existing genesis file. |
 | 7 | When the software upgrade height is reached | | At the halt height, your node will halt.<br><br>Please upgrade to the  binary and ensure your genesis file has the CCV state from the provider chain |
