@@ -1,4 +1,4 @@
-# `Document in progress` Date - 16th July 2024 . Time TBD
+# `Document in progress` Date - 16th July 2024 (Tuesday) . 14:00 UTC
 
 Comdex's launch on the Replicated Security Testnet will be a little different from previous consumer chain launches. Previous chain launches spawned a new chain from a fresh genesis state, but Comdex already exists as a sovereign chain.
 
