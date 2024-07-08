@@ -1,4 +1,7 @@
-# `Document in progress` Date - 16th July 2024 (Tuesday) . 14:00 UTC
+# `Document in progress` 
+# Spawn Time - TBD
+# Upgrade Date - 16th July 2024 (Tuesday)  14:00 UTC
+# CCV.json file to be shared post spawn time
 
 Comdex's launch on the Replicated Security Testnet will be a little different from previous consumer chain launches. Previous chain launches spawned a new chain from a fresh genesis state, but Comdex already exists as a sovereign chain.
 
@@ -10,8 +13,8 @@ Comdex's launch on the Replicated Security Testnet will be a little different fr
 ### What do you need to do to participate in the launch on Tuesday?
 See the table below for a breakdown of steps you'll need to follow throughout the process. 
 
-## STEP 1 (join comdex testnet with a full node) - Complete this step ASAP
-Follow along with Comdex's block explorer here: https://test3-explorer.comdex.one/comdex-test3
+## STEP 1 (join comdex testnet with a full node or as a validator node, if you wish to use existing comdex priv keys) - Complete this step ASAP
+Follow along with Comdex's block explorer here: [Testnet Explorer](https://test3-explorer.comdex.one/comdex-test3)
 
 You can manually join comdex-test3 using these notes:
 * Chain ID: comdex-test3
