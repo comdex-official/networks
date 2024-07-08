@@ -60,9 +60,9 @@ make install
 replace the binary
 
 ```sh
-mkdir -p $HOME/.sovereign/config
+mkdir -p $HOME/.comdex/config
 
-curl -L TODO genesis url -o $HOME/.sovereign/config/genesis.json
+curl -L TODO genesis url -o $HOME/.comdex/config/genesis.json
 ```
 </details>
 
@@ -77,7 +77,7 @@ git pull
 git checkout ::TODO commithash
 make install
 
-#Should be v115.0.0
+#Should be v15.0.0
 comdex version
 ```
 
@@ -89,8 +89,8 @@ cp $HOME/go/bin/comdex $HOME/.comdex/cosmovisor/upgrades/v15/bin/
 
 Download new Sovereign genesis
 ```
-mkdir -p $HOME/.sovereign/config/
-wget -O $HOME/.sovereign/config/genesis.json TODO genesis
+mkdir -p $HOME/.comdex/config/
+wget -O $HOME/.comdex/config/genesis.json TODO genesis
 ```
 
 Restart the Service
