@@ -10,7 +10,7 @@ Comdex's launch on the Replicated Security Testnet will be a little different fr
 ### What do you need to do to participate in the launch on Tuesday?
 See the table below for a breakdown of steps you'll need to follow throughout the process. 
 
-## ⚠️  Complete STEP 1 (join comdex testnet with a full node) ASAP ⚠️
+## STEP 1 (join comdex testnet with a full node) - Complete this step ASAP
 Follow along with Comdex's block explorer here: https://test3-explorer.comdex.one/comdex-test3
 
 You can manually join comdex-test3 using these notes:
