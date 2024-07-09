@@ -1,7 +1,7 @@
-## meteor-test Testnet Details
+## comdex-test3 Testnet Details
 
 - **Chain-ID**: `comdex-test3`
-- **Current Comdex version**: `v11.3.0`
+- **Current Comdex version**: `v14.0.0`
 - **Genesis-file**: [Included in the repository](genesis.json)
 
 ## Endpoints
@@ -25,7 +25,7 @@
 ## For joining the testnet
 
 * Prerequisites
-  > - go1.19+ required. [ref](https://golang.org/doc/install)
+  > - go1.21+ required. [ref](https://golang.org/doc/install)
   > - git. [ref](https://github.com/git/git)
   > - jq [ref](https://github.com/stedolan/jq)
   > - GNU make. [ref](https://www.gnu.org/software/make/manual/html_node/index.html)
@@ -52,7 +52,7 @@
   ```shell
   cd comdex
   git fetch --tags
-  git checkout v11.3.0
+  git checkout v14.0.0
   ```
   
 * Install
