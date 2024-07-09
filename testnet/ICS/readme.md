@@ -1,6 +1,6 @@
 # `Document in progress` upgrade version - v15.0.0
 # Spawn Time - TBD
-# Upgrade Date - 16th July 2024 (Tuesday)  14:00 UTC
+# Upgrade Date - 16th July 2024 (Tuesday)  15:00 UTC
 # CCV.json file to be shared post spawn time
 
 Comdex's launch on the Replicated Security Testnet will be a little different from previous consumer chain launches. Previous chain launches spawned a new chain from a fresh genesis state, but Comdex already exists as a sovereign chain.
