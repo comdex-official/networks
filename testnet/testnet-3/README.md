@@ -86,7 +86,7 @@
 * Update the existing peers in `${HOME}/.comdex/config/config.toml` and gas-prices in `${HOME}/.comdex/config/app.toml`
 
   ```shell
-  peers="f041d89a657c2e8c7bcb6f03707f52f460b87aad@188.214.134.123:26656"
+  peers="8df6bd8c97822de7e65743fa13af6cb9d505de07@46.166.172.243:26656,dc271ed63533affc1ed9a33e56fb9f5906a2ad64@5.199.163.67:26656,1505424d58e0bd49a85cbf013a1469eebbbbb4db@5.199.163.68:26656,6a5a7e9d6d36b64d6b836c250e65232446d098f8@149.56.36.207:26656,94173b71b3719112d30bcc290289c935152febb1@188.214.134.116:26656"
   sed -i.bak -e "s/^persistent_peers *=.*/persistent_peers = \"$peers\"/" $HOME/.comdex/config/config.toml
   sed -i.bak 's/minimum-gas-prices =.*/minimum-gas-prices = "0.025ucmdx"/' $HOME/.comdex/config/app.toml
   ```
