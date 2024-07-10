@@ -18,7 +18,7 @@ Follow along with Comdex's block explorer here: [Testnet Explorer](https://test3
 
 You can manually join comdex-test3 using these notes:
 * Chain ID: comdex-test3
-* Version: v14.0.0
+* [Faucet](https://faucet.comdex.one/)
 * Joining instructions: https://github.com/comdex-official/networks/blob/main/testnet/testnet-3/README.md
  
 ## STEP 2 (Opt in Tx on Provider Chain Before the Spawn Time - TBD)
