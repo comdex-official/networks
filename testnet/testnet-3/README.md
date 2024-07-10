@@ -16,7 +16,7 @@
 
 ## Explorers
 
-- [https://test3-explorer.comdex.one/comdex-test3](https://test3-explorer.comdex.one/comdex-test3)
+- [https://explorer.comdex.one/comdex-test3](https://explorer.comdex.one/comdex-test3)
 
 ## Recommended Specifications:
    * 4 Core CPU
@@ -81,7 +81,7 @@
 * Verify the genesis hash 
 
   ```shell
-  0902d507eeb852c4c5293fb9482282c48b18e1b278e76750e8c134cffed2ff65  genesis.json
+  ffa04afce848dd0716af119a7f848ec9532668e5f9b648fd170cec03023c6de0  genesis.json
   ```
 
 * Update the existing peers in `${HOME}/.comdex/config/config.toml` and gas-prices in `${HOME}/.comdex/config/app.toml`
@@ -94,33 +94,34 @@
   
 * If you are an existing validator from testnet-2, kindly use your same priv_validator_key.json.
 
-<!-- * Statesync 
+* Statesync 
 
     ```
-    curl -s https://test2-rpc.comdex.one/status | jq '.result .sync_info | {trust_height: .latest_block_height, trust_hash: .latest_block_hash} | values'
+    curl -s https://test3-rpc.comdex.one/status | jq '.result .sync_info | {trust_height: .latest_block_height, trust_hash: .latest_block_hash} | values'
     ```
 
   - Example output:
   
     ```
     {
-      "trust_height": "820000",
-      "trust_hash": "01f7e85f9b7df173ddae4edfd8a2c211452914fc1f98e649eb586617bbb3e284"
+      "trust_height": "12854000",
+      "trust_hash": "32945FD94C426805227973CAFC113AA147B1CF7F37D6282C36191BCC5216C275"
     }
     ```
 
   - Set trust_height and trust_hash values from RPC/status output in `$(HOME)/.comdex/config.toml`
   
     ```
-    [statesync]
+    [state-sync]
     enable = true
-    rpc_servers = "https://test2-rpc.comdex.one:443,https://test2-rpc.comdex.one:443"
-    trust_height = 820000
-    trust_hash = "01f7e85f9b7df173ddae4edfd8a2c211452914fc1f98e649eb586617bbb3e284"
-    trust_period = "168h"  # 2/3 of unbonding time
+    rpc_servers = "https://test3-rpc.comdex.one:443,https://test3-rpc.comdex.one:443"
+    trust_height = 12854000 
+    trust_hash = "32945FD94C426805227973CAFC113AA147B1CF7F37D6282C36191BCC5216C275"
+    # 2/3 of unbonding time
+    trust_period = "168h"
     ```
-    ##### Latest statesync details are available at https://test2-explorer.comdex.one/comdex-test2/statesync
-     -->
+    ##### Latest statesync details are available at https://explorer.comdex.one/comdex-test3/statesync
+    
 * Start the node/service
 
   ```shell
