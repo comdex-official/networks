@@ -21,7 +21,7 @@ You can manually join comdex-test3 using these notes:
 * [Faucet](https://faucet.comdex.one/)
 * Joining instructions: https://github.com/comdex-official/networks/blob/main/testnet/testnet-3/README.md
  
-## STEP 2 (Opt in Tx on Provider Chain Before the Spawn Time - TBD)
+## STEP 2 (Opt in Tx on Provider Chain Before the Spawn Time - 16th July 2024 (Tuesday)  15:00 UTC)
 
 ## IMPORTANT: ⚠️ **If you did not use the key assignment feature before spawn time, do not use it until the chain is live, stable and receiving VSCPackets from the provider! **⚠️
 
