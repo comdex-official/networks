@@ -1,5 +1,5 @@
 # Comdex Testnet joining ICS (PSS, sovereign transition) upgrade version - v15.0.0
-# Spawn Time - TBD
+# Spawn Time - 16th July 2024 (Tuesday)  15:00 UTC
 # Upgrade Date - 16th July 2024 (Tuesday)  15:00 UTC
 # CCV.json file to be shared post spawn time
 
