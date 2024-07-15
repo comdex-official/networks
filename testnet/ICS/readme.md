@@ -41,6 +41,7 @@ If you do not wish to reuse the private validator key from your provider chain, 
 	# do this step on the provider machine
 	# you should have a key available on the provider that you can use to sign the key assignment transaction
 	$ COMDEX_KEY='{"@type":"/cosmos.crypto.ed25519.PubKey","key":"qVifseOYMsfeKnzSHlkEb+0ZZeuZrVPJ7sqMZJHAbBc="}'
+	$ gaiad tx provider opt-in comdex-test3 $COMDEX_KEY --from <tx-signer> --chain-id <provider-chain-id>
 	$ gaiad tx provider assign-consensus-key comdex-test3 $COMDEX_KEY --from <tx-signer> --home <home_dir> --gas 900000 -y -o json
 	
 	# confirm your key has been assigned
