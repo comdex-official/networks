@@ -3,6 +3,7 @@
 - **Chain-ID**: `comdex-test-4`
 - **Current Comdex version**: `v14.1.0`
 - **Genesis-file**: [Included in the repository](genesis.json)
+- [Faucet](https://faucet.comdex.one/)
 
 
 ## Endpoints
