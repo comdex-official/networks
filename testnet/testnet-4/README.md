@@ -104,7 +104,7 @@
   ```shell
   peers="04b2689981bc7053a23684ca61924eadcab651bb@188.214.134.115:26656,1c5bd1a2ea0fcd2fc734ee77668bdead8cf9cff8@46.166.172.246:26656,5b028a30122c20fd8e68b16a34d404cfd7aaa896@46.166.172.245:26656,ba14a9a147728aaf126dc486e44e3ebf3fe99da3@46.166.172.243:26656"
   sed -i.bak -e "s/^persistent_peers *=.*/persistent_peers = \"$peers\"/" $HOME/.comdex/config/config.toml
-  sed -i.bak 's/minimum-gas-prices =.*/minimum-gas-prices = "0.025ucmdx"/' $HOME/.comdex/config/app.toml
+  sed -i.bak 's/minimum-gas-prices =.*/minimum-gas-prices = "2ucmdx"/' $HOME/.comdex/config/app.toml
   ```
   
 * Statesync 
