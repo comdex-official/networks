@@ -71,7 +71,9 @@ comdex version
 ```
 
 Download and Copy the ccv.json file [It will be shared after Spawn Time]
-
+```shell
+wget -O $HOME/.comdex/config/ccv.json https://raw.githubusercontent.com/comdex-official/networks/main/testnet/ICS/ccv.json
+```
 
 Make directories in cosmovisor and copy binaries
 ```shell
