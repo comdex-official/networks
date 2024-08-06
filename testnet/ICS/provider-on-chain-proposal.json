@@ -10,16 +10,16 @@
     "metadata": "NA",
     // Proposed chain-id of the new consumer chain.
     // Must be unique from all other consumer chain ids of the executing provider chain.
-    "chain_id": "comdex-test3",
+    "chain_id": "comdex-test-4",
     // Initial height of new consumer chain.
     "initial_height" : {
-        "revision_number": 1,
-        "revision_number": 12951054,
+        "revision_number": 4,
+        "revision_number": 196005,
     },
     // Time on the provider chain at which the consumer chain genesis is finalized and all validators
     // will be responsible for starting their consumer chain validator node.
     // Time should arrive before the upgrade height
-    "spawn_time": "2024-07-16T15:00:00Z",
+    "spawn_time": "2024-08-06T15:00:00Z",
     // Unbonding period for the consumer chain.
     // It should should be smaller than that of the provider.
     "unbonding_period": 1209600000000000,
@@ -31,7 +31,7 @@
     // The fraction of tokens allocated to the consumer redistribution address during distribution events.
     // The fraction is a string representing a decimal number. For example "0.75" would represent 75%.
     // The reward amount distributed to the provider is calculated as: 1 - consumer_redistribution_fraction.
-    "consumer_redistribution_fraction": "0.85",
+    "consumer_redistribution_fraction": "0.70",
     // BlocksPerDistributionTransmission is the number of blocks between IBC token transfers from the consumer chain to the provider chain.
     // eg. send rewards to the provider every 1000 blocks
     "blocks_per_distribution_transmission": 100,
@@ -45,12 +45,33 @@
 	// Note that transfer_channel_id is the ID of the channel end on the consumer chain.
     // it is most relevant for chains performing a standalone to consumer changeover
     // in order to maintain the existing ibc transfer channel
-    "distribution_transmission_channel": "channel-25"  // NOTE: use existing transfer channel if available
+    "distribution_transmission_channel": "channel-1",  // NOTE: use existing transfer channel if available
     // Corresponds to the percentage of validators that have to validate the chain under the Top N case.
     // For example, 53 corresponds to a Top 53% chain, meaning that the top 53% provider validators by voting power
     // have to validate the proposed consumer chain. top_N can either be 0 or any value in [50, 100].
     // A chain can join with top_N == 0 as an Opt In chain, or with top_N ∈ [50, 100] as a Top N chain.
     "top_N": 0,
     //Proposal deposit
-    "deposit": "100000000uatom"
+    "deposit": "100000000uatom",
+    // Corresponds to the maximum power (percentage-wise) a validator can have on the consumer chain. For instance, if
+    // `validators_power_cap` is set to 32, it means that no validator can have more than 32% of the voting power on the
+    // consumer chain. Note that this might not be feasible. For example, think of a consumer chain with only
+    // 5 validators and with `validators_power_cap` set to 10%. In such a scenario, at least one validator would need
+    // to have more than 20% of the total voting power. Therefore, `validators_power_cap` operates on a best-effort basis.
+    "validators_power_cap": 16,
+    // Corresponds to the maximum number of validators that can validate a consumer chain.
+    // Only applicable to Opt In chains. Setting `validator_set_cap` on a Top N chain is a no-op.
+    "validator_set_cap": 8,
+    // Corresponds to a list of provider consensus addresses of validators that are the ONLY ones that can validate
+    // the consumer chain.
+    "allowlist": [
+        "cosmosvalcons1dz8a62yq6v68n4fzdg5qgq48rdkp5nw2v7vdjm",
+        "cosmosvalcons1lpa76ftn3lhlxlanzksdetvr4wf783a9922ve6",
+        "cosmosvalcons1a7sz6zycd4enhha0xes9v0kusajnt9y8yl09vp",
+        "cosmosvalcons1v4rsa90uypn7sc479wz5m4e6ytgtrs3kvzm5dz",
+        "cosmosvalcons17r78httup2vg3ur9u2yphp4cw7g4g7k4pu9w2z",
+        "cosmosvalcons153mpmyhg56nevgvpd52kg9qy73mz275glels0e",
+        "cosmosvalcons1q7eghlew94rwp8fz0umanwjn89q5pz6l6nj6mt",
+        "cosmosvalcons1r7ute0l6wd7kvtey9y8vvfemcmsj79xzaann4f"
+    ]
 }
