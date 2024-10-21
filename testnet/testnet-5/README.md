@@ -90,7 +90,7 @@
   ```shell
   cd ${HOME}/.comdex/config
   rm genesis.json
-  wget https://raw.githubusercontent.com/comdex-official/networks/main/testnet/testnet-4/genesis.json
+  wget https://raw.githubusercontent.com/comdex-official/networks/main/testnet/testnet-5/genesis.json
   sha256sum genesis.json
   ```
   
