@@ -1,0 +1,500 @@
+{
+    "genesis_time": "2024-10-21T14:27:16.456362716Z",
+    "chain_id": "comdex-test-5",
+    "initial_height": "1",
+    "consensus_params": {
+        "block": {
+            "max_bytes": "22020096",
+            "max_gas": "-1"
+        },
+        "evidence": {
+            "max_age_num_blocks": "100000",
+            "max_age_duration": "172800000000000",
+            "max_bytes": "1048576"
+        },
+        "validator": {
+            "pub_key_types": [
+                "ed25519"
+            ]
+        },
+        "version": {
+            "app": "0"
+        }
+    },
+    "app_hash": "",
+    "app_state": {
+        "07-tendermint": null,
+        "assetv1": {
+            "assets": [],
+            "pairs": [],
+            "appData": [],
+            "extendedPairVault": [],
+            "params": {
+                "asset_regisration_fee": {
+                    "denom": "ucmdx",
+                    "amount": "100000000"
+                }
+            }
+        },
+        "auctionV1": {
+            "surplusAuction": [],
+            "debtAuction": [],
+            "dutchAuction": [],
+            "protocolStatistics": [],
+            "auctionParams": [],
+            "dutchLendAuction": [],
+            "params": {},
+            "UserBiddingID": "0"
+        },
+        "auctionmev": {
+            "params": {
+                "max_bundle_size": 2,
+                "escrow_account_address": "oFs/vznlCvzv2QJJ//f9MGyZo2Q=",
+                "reserve_fee": {
+                    "denom": "ucmdx",
+                    "amount": "1"
+                },
+                "min_bid_increment": {
+                    "denom": "ucmdx",
+                    "amount": "1"
+                },
+                "front_running_protection": true,
+                "proposer_fee": "0.000000000000000000"
+            }
+        },
+        "auctionsV2": {
+            "auction": [],
+            "auctionParams": {
+                "auction_duration_seconds": "0",
+                "step": "0",
+                "withdrawal_fee": "0",
+                "closing_fee": "0",
+                "min_usd_value_left": "0",
+                "bid_factor": "0",
+                "liquidation_penalty": "0",
+                "auction_bonus": "0"
+            },
+            "auctionFeesCollectionFromLimitBidTx": [],
+            "params": {},
+            "AuctionId": "0",
+            "UserBiddingID": "0"
+        },
+        "auth": {
+            "params": {
+                "max_memo_characters": "256",
+                "tx_sig_limit": "7",
+                "tx_size_cost_per_byte": "10",
+                "sig_verify_cost_ed25519": "590",
+                "sig_verify_cost_secp256k1": "1000"
+            },
+            "accounts": [
+                {
+                    "@type": "/cosmos.auth.v1beta1.BaseAccount",
+                    "address": "comdex1gfkghf0e6jrea3kpgfpcnkah8gdgmdyt2awryk",
+                    "pub_key": null,
+                    "account_number": "0",
+                    "sequence": "0"
+                }
+            ]
+        },
+        "authz": {
+            "authorization": []
+        },
+        "bandoracleV1": {
+            "params": {},
+            "port_id": "bandoracleV1",
+            "flag": false
+        },
+        "bank": {
+            "params": {
+                "send_enabled": [],
+                "default_send_enabled": true
+            },
+            "balances": [
+                {
+                    "address": "comdex1gfkghf0e6jrea3kpgfpcnkah8gdgmdyt2awryk",
+                    "coins": [
+                        {
+                            "denom": "ucmdx",
+                            "amount": "200000000000000"
+                        }
+                    ]
+                }
+            ],
+            "supply": [
+                {
+                    "denom": "ucmdx",
+                    "amount": "200000000000000"
+                }
+            ],
+            "denom_metadata": [],
+            "send_enabled": []
+        },
+        "capability": {
+            "index": "1",
+            "owners": []
+        },
+        "collectorV1": {
+            "netFeeCollectedData": [],
+            "appIdToAssetCollectorMapping": [],
+            "collectorLookup": [],
+            "collectorAuctionLookupTable": [],
+            "appToDenomsMapping": [],
+            "params": {}
+        },
+        "consensus": null,
+        "crisis": {
+            "constant_fee": {
+                "denom": "ucmdx",
+                "amount": "1000"
+            }
+        },
+        "distribution": {
+            "params": {
+                "community_tax": "0.020000000000000000",
+                "base_proposer_reward": "0.000000000000000000",
+                "bonus_proposer_reward": "0.000000000000000000",
+                "withdraw_addr_enabled": true
+            },
+            "fee_pool": {
+                "community_pool": []
+            },
+            "delegator_withdraw_infos": [],
+            "previous_proposer": "",
+            "outstanding_rewards": [],
+            "validator_accumulated_commissions": [],
+            "validator_historical_rewards": [],
+            "validator_current_rewards": [],
+            "delegator_starting_infos": [],
+            "validator_slash_events": []
+        },
+        "esmV1": {
+            "eSMTriggerParams": [],
+            "currentDepositStats": [],
+            "eSMStatus": [],
+            "killSwitchParams": [],
+            "usersDepositMapping": [],
+            "dataAfterCoolOff": [],
+            "params": {
+                "admin": [
+                    "comdex1tadhnvwa0sqzwr3m60f7dsjw4ua77qsz3ptcyw"
+                ]
+            }
+        },
+        "evidence": {
+            "evidence": []
+        },
+        "feeibc": {
+            "identified_fees": [],
+            "fee_enabled_channels": [],
+            "registered_payees": [],
+            "registered_counterparty_payees": [],
+            "forward_relayers": []
+        },
+        "genutil": {
+            "gen_txs": [
+                {
+                    "body": {
+                        "messages": [
+                            {
+                                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                                "description": {
+                                    "moniker": "comdex-testnet-foundation-in",
+                                    "identity": "",
+                                    "website": "",
+                                    "security_contact": "",
+                                    "details": ""
+                                },
+                                "commission": {
+                                    "rate": "0.100000000000000000",
+                                    "max_rate": "0.200000000000000000",
+                                    "max_change_rate": "0.010000000000000000"
+                                },
+                                "min_self_delegation": "1",
+                                "delegator_address": "comdex1gfkghf0e6jrea3kpgfpcnkah8gdgmdyt2awryk",
+                                "validator_address": "comdexvaloper1gfkghf0e6jrea3kpgfpcnkah8gdgmdyte2536h",
+                                "pubkey": {
+                                    "@type": "/cosmos.crypto.ed25519.PubKey",
+                                    "key": "/Ysq76QewVfYsLV0tABX/KbPM/Zt4PHYns/SUmrrpy4="
+                                },
+                                "value": {
+                                    "denom": "ucmdx",
+                                    "amount": "1000000000"
+                                }
+                            }
+                        ],
+                        "memo": "a6e44afd9bbb24133c85a343a65e26dac6e82734@46.166.172.246:26656",
+                        "timeout_height": "0",
+                        "extension_options": [],
+                        "non_critical_extension_options": []
+                    },
+                    "auth_info": {
+                        "signer_infos": [
+                            {
+                                "public_key": {
+                                    "@type": "/cosmos.crypto.secp256k1.PubKey",
+                                    "key": "A5FyVAJGhkc3iBkRXpyKohdjZsMAREaINuGLvmH/c5e9"
+                                },
+                                "mode_info": {
+                                    "single": {
+                                        "mode": "SIGN_MODE_DIRECT"
+                                    }
+                                },
+                                "sequence": "0"
+                            }
+                        ],
+                        "fee": {
+                            "amount": [],
+                            "gas_limit": "200000",
+                            "payer": "",
+                            "granter": ""
+                        },
+                        "tip": null
+                    },
+                    "signatures": [
+                        "9t4tYbb9aBFfv7valfnvRvjfMxlQJ+Cxv0hn3ATHt6or8Od71ZQZpVxTLZIsNesvnlJHxi5EmY0xANq9/9dQ4g=="
+                    ]
+                }
+            ]
+        },
+        "gov": {
+            "starting_proposal_id": "1",
+            "deposits": [],
+            "votes": [],
+            "proposals": [],
+            "deposit_params": null,
+            "voting_params": null,
+            "tally_params": null,
+            "params": {
+                "min_deposit": [
+                    {
+                        "denom": "ucmdx",
+                        "amount": "10000000"
+                    }
+                ],
+                "max_deposit_period": "20s",
+                "voting_period": "20s",
+                "quorum": "0",
+                "threshold": "0",
+                "veto_threshold": "0",
+                "min_initial_deposit_ratio": "0.000000000000000000",
+                "burn_vote_quorum": false,
+                "burn_proposal_deposit_prevote": false,
+                "burn_vote_veto": true
+            }
+        },
+        "ibc": {
+            "client_genesis": {
+                "clients": [],
+                "clients_consensus": [],
+                "clients_metadata": [],
+                "params": {
+                    "allowed_clients": [
+                        "06-solomachine",
+                        "07-tendermint",
+                        "09-localhost"
+                    ]
+                },
+                "create_localhost": false,
+                "next_client_sequence": "0"
+            },
+            "connection_genesis": {
+                "connections": [],
+                "client_connection_paths": [],
+                "next_connection_sequence": "0",
+                "params": {
+                    "max_expected_time_per_block": "30000000000"
+                }
+            },
+            "channel_genesis": {
+                "channels": [],
+                "acknowledgements": [],
+                "commitments": [],
+                "receipts": [],
+                "send_sequences": [],
+                "recv_sequences": [],
+                "ack_sequences": [],
+                "next_channel_sequence": "0"
+            }
+        },
+        "ibchooks": {},
+        "interchainaccounts": {
+            "controller_genesis_state": {
+                "active_channels": [],
+                "interchain_accounts": [],
+                "ports": [],
+                "params": {
+                    "controller_enabled": true
+                }
+            },
+            "host_genesis_state": {
+                "active_channels": [],
+                "interchain_accounts": [],
+                "port": "icahost",
+                "params": {
+                    "host_enabled": true,
+                    "allow_messages": [
+                        "*"
+                    ]
+                }
+            }
+        },
+        "interchainquery": {
+            "host_port": "icqhost",
+            "params": {
+                "host_enabled": true,
+                "allow_queries": []
+            }
+        },
+        "lendV2": {
+            "borrowAsset": [],
+            "borrowInterestTracker": [],
+            "lendAsset": [],
+            "pool": [],
+            "assetToPairMapping": [],
+            "poolAssetLBMapping": [],
+            "lendRewardsTracker": [],
+            "userAssetLendBorrowMapping": [],
+            "reserveBuybackAssetData": [],
+            "extended_Pair": [],
+            "auctionParams": [],
+            "assetRatesParams": [],
+            "modBal": {
+                "fund_module_balance": []
+            },
+            "reserveBal": {
+                "fund_reserve_balance": []
+            },
+            "allReserveStats": [],
+            "poolDepreciate": {
+                "individual_pool_depreciate": []
+            }
+        },
+        "liquidationV1": {
+            "lockedVault": [],
+            "whitelistedApps": [],
+            "params": {
+                "liquidation_batch_size": "200"
+            }
+        },
+        "liquidationsV2": {
+            "lockedVault": [],
+            "liquidationWhiteListing": [],
+            "appReserveFunds": [],
+            "params": {
+                "liquidation_batch_size": "200"
+            }
+        },
+        "liquidityV1": {
+            "params": {},
+            "app_genesis_state": []
+        },
+        "lockerV1": {
+            "lockers": [],
+            "lockerProductAssetMapping": [],
+            "lockerTotalRewardsByAssetAppWise": [],
+            "lockerLookupTable": [],
+            "userLockerAssetMapping": [],
+            "params": {}
+        },
+        "marketV1": {
+            "time_weighted_average": []
+        },
+        "mint": {
+            "minter": {
+                "inflation": "0.130000000000000000",
+                "annual_provisions": "0.000000000000000000"
+            },
+            "params": {
+                "mint_denom": "ucmdx",
+                "inflation_rate_change": "0.130000000000000000",
+                "inflation_max": "0.200000000000000000",
+                "inflation_min": "0.070000000000000000",
+                "goal_bonded": "0.670000000000000000",
+                "blocks_per_year": "6311520"
+            }
+        },
+        "packetfowardmiddleware": {
+            "params": {
+                "fee_percentage": "0.000000000000000000"
+            },
+            "in_flight_packets": {}
+        },
+        "params": null,
+        "rewardsV1": {
+            "internal_rewards": [],
+            "locker_rewards_tracker": [],
+            "vault_interest_tracker": [],
+            "locker_external_rewards": [],
+            "vault_external_rewards": [],
+            "appIDs": [],
+            "epochInfo": [],
+            "gauge": [],
+            "gaugeByTriggerDuration": [],
+            "params": {},
+            "lendExternalRewards": []
+        },
+        "slashing": {
+            "params": {
+                "signed_blocks_window": "100",
+                "min_signed_per_window": "0.500000000000000000",
+                "downtime_jail_duration": "600s",
+                "slash_fraction_double_sign": "0.050000000000000000",
+                "slash_fraction_downtime": "0.010000000000000000"
+            },
+            "signing_infos": [],
+            "missed_blocks": []
+        },
+        "staking": {
+            "params": {
+                "unbonding_time": "1814400s",
+                "max_validators": 100,
+                "max_entries": 7,
+                "historical_entries": 10000,
+                "bond_denom": "ucmdx",
+                "min_commission_rate": "0.000000000000000000"
+            },
+            "last_total_power": "0",
+            "last_validator_powers": [],
+            "validators": [],
+            "delegations": [],
+            "unbonding_delegations": [],
+            "redelegations": [],
+            "exported": false
+        },
+        "tokenmint": {
+            "tokenMint": [],
+            "params": {}
+        },
+        "transfer": {
+            "port_id": "transfer",
+            "denom_traces": [],
+            "params": {
+                "send_enabled": true,
+                "receive_enabled": true
+            },
+            "total_escrowed": []
+        },
+        "upgrade": {},
+        "vaultV1": {
+            "vaults": [],
+            "stableMintVault": [],
+            "appExtendedPairVaultMapping": [],
+            "userVaultAssetMapping": [],
+            "lengthOfVaults": "0"
+        },
+        "vesting": {},
+        "wasm": {
+            "params": {
+                "code_upload_access": {
+                    "permission": "Everybody",
+                    "addresses": []
+                },
+                "instantiate_default_permission": "Everybody"
+            },
+            "codes": [],
+            "contracts": [],
+            "sequences": []
+        }
+    }
+}
