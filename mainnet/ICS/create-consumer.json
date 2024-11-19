@@ -1,0 +1,47 @@
+{
+    "chain_id": "comdex-1",
+    "metadata": {
+        "name": "Comdex",
+        "description": "Comdex is an asset issuance and RWA aggregation chain secured by the Cosmos Hub. It enables users across the Cosmos ecosystem to diversify into RWA yields through a unified, secure platform that bridges traditional finance with DeFi.",
+        "metadata": "{ \"forge_json_url\": \"https://raw.githubusercontent.com/CryptoDungeon/file-repo/refs/heads/main/forge.json\", \"stage\": \"prelaunch\"}"
+    },
+    "initialization_parameters": {
+        "initial_height": {
+            "revision_number": 1,
+            "revision_height": 1
+        },
+        "genesis_hash": "",
+        "binary_hash": "",
+        "spawn_time": "2815-10-21T07:28:00Z",
+        "unbonding_period": 1728000000000000,
+        "ccv_timeout_period": 2419200000000000,
+        "transfer_timeout_period": 3600000000000,
+        "consumer_redistribution_fraction": "0.7",
+        "blocks_per_distribution_transmission": 1000,
+        "historical_entries": 10000,
+        "distribution_transmission_channel": "channel-37"
+    },
+    "power_shaping_parameters": {
+        "top_N": 0,
+        "validators_power_cap": 20,
+        "validator_set_cap": 0,
+        "allowlist": [
+            "cosmosvalcons1y4z96r4n205s2z43rmrpjl2aeds3npkm9akset",
+            "cosmosvalcons1jufcrrd9gze26sxd82ppse03eg5g5xa2gplt6p",
+            "cosmosvalcons1c5e86exd7jsyhcfqdejltdsagjfrvv8xv22368",
+            "cosmosvalcons1m7fg8k39k2tyym5hgwrpf5wx9hqsr8vywuyrtm",
+            "cosmosvalcons1d65x8dzt5d5lww0x2k2hwrdtjtyf4ysjdyv245",
+            "cosmosvalcons1h0j4akdjustw9vmuzwa7a8xku7hrz3ck4nxh09",
+            "cosmosvalcons16hkujdp3fjymgk2jvg8fexftrhysrpzzzmrweg",
+            "cosmosvalcons19wd9t5alj0tnwhwjq7m4chk562u3my2xwt72qg"
+        ],
+        "denylist": [],
+        "min_stake": 0,
+        "allow_inactive_vals": true
+    },
+    "allowlisted_reward_denoms": {
+        "denoms": [
+            "ibc/D3FB6378599E31A4BD5965173BF6CE873DD2FD5270F8ABD8769765BEF2E0EA5D"
+        ]
+    }
+}

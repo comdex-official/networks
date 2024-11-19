@@ -2,7 +2,7 @@
 
 
 * **Main Net** 
-  * Current Main Net Version : v13.4.0
+  * Current Main Net Version : v14.1.0
   * [Join Main Net as validator](https://github.com/comdex-official/networks/blob/main/mainnet/02-validator-post-gentx.md)
   * [MainNet Document](https://github.com/comdex-official/networks/tree/main/mainnet/comdex-1)
 
@@ -16,7 +16,7 @@
   * [Stakeflow](https://stakeflow.io/comdex)
 
 * **Join comdex's test network** 
-  * Current Test Net Version : v13.1.0
+  * Current Test Net Version : v14.1.0
   * [Test Net Document](https://github.com/comdex-official/networks/tree/main/testnet/testnet-3/README.md)
   
   
