@@ -1,6 +1,6 @@
-# Comdex Sovereign Chain joining ICS (PSS, sovereign transition) upgrade version - v15.2.0
-# Spawn Time - xxth November 2024 (xxxxday)  xx:xx UTC
-# Upgrade Date - xxth November 2024 (xxxxday)  xx:xx  UTC
+# Comdex Sovereign Chain joining ICS (PSS, sovereign transition) upgrade version - v15.3.0
+# Spawn Time - 5th December 2024 (xxxxday)  xx:xx UTC
+# Upgrade Date - 5th December 2024 (xxxxday)  xx:xx  UTC
 # CCV.json file to be shared post spawn time
 
 Comdex's launch on the Replicated Security will be a little different from previous consumer chain launches. Previous chain launches spawned a new chain from a fresh genesis state, but Comdex already exists as a sovereign chain.
@@ -13,7 +13,7 @@ Comdex's launch on the Replicated Security will be a little different from previ
 ### What do you need to do to participate in the launch on xxxxday?
 See the table below for a breakdown of steps you'll need to follow throughout the process. 
  
-## STEP 1 (Opt in Tx on Hub Chain Before the Update Tx - xxth November 2024 (xxxxday)  xx:xx  UTC)
+## STEP 1 (Opt in Tx on Hub Chain Before the Update Tx - 5th December 2024 (xxxxday)  xx:xx  UTC)
 
 ⚠️ Ensure that the `priv_validator_key.json` on the Comdex node is different from the key that exists on the Hub node.
 
@@ -40,14 +40,14 @@ See the table below for a breakdown of steps you'll need to follow throughout th
 <details><summary>Detailed steps for transitioning comdex node from validator on Comdex Sovereign chain to validator on Comdex Consumer chain</summary>
 <br>
 
-Download v15.2.0 Binary
+Download v15.3.0 Binary
 ```shell
 cd comdex
 git pull
-git checkout v15.2.0
+git checkout v15.3.0
 make install
 
-#Should be v15.2.0
+#Should be v15.3.0
 comdex version
 ```
 
@@ -58,8 +58,8 @@ wget -O $HOME/.comdex/config/ccv.json https://raw.githubusercontent.com/comdex-o
 
 Make directories in cosmovisor and copy binaries
 ```shell
-mkdir -p $HOME/.comdex/cosmovisor/upgrades/v15.2.0/bin/
-cp $HOME/go/bin/comdex $HOME/.comdex/cosmovisor/upgrades/v15.2.0/bin/
+mkdir -p $HOME/.comdex/cosmovisor/upgrades/v15.3.0/bin/
+cp $HOME/go/bin/comdex $HOME/.comdex/cosmovisor/upgrades/v15.3.0/bin/
 ```
 
 Start the node/service
@@ -73,21 +73,21 @@ comdex start
 <br>
 
 
-Download v15.2.0 Binary
+Download v15.3.0 Binary
 ```shell
 cd comdex
 git pull
-git checkout v15.2.0
+git checkout v15.3.0
 make install
 
-#Should be v15.2.0
+#Should be v15.3.0
 comdex version
 ```
 
 Make directories in cosmovisor and copy binaries
 ```
-mkdir -p $HOME/.comdex/cosmovisor/upgrades/v15.2.0/bin/
-cp $HOME/go/bin/comdex $HOME/.comdex/cosmovisor/upgrades/v15.2.0/bin/
+mkdir -p $HOME/.comdex/cosmovisor/upgrades/v15.3.0/bin/
+cp $HOME/go/bin/comdex $HOME/.comdex/cosmovisor/upgrades/v15.3.0/bin/
 ```
 
 Download new Sovereign genesis
