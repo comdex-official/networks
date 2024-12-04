@@ -1,6 +1,6 @@
 # Comdex Sovereign Chain joining ICS (PSS, sovereign transition) upgrade version - v15.3.0
-# Spawn Time - 5th December 2024 (xxxxday)  xx:xx UTC
-# Upgrade Date - 5th December 2024 (xxxxday)  xx:xx  UTC
+# Spawn Time - 9th December 2024 (Monday)  15:30 UTC
+# Upgrade Date - 10th December 2024 (Tuesday)  15:30  UTC
 # CCV.json file to be shared post spawn time
 
 Comdex's launch on the Replicated Security will be a little different from previous consumer chain launches. Previous chain launches spawned a new chain from a fresh genesis state, but Comdex already exists as a sovereign chain.
@@ -10,10 +10,10 @@ Comdex's launch on the Replicated Security will be a little different from previ
 * Comdex Side: The Comdex chain (comdex-1) will undergo a software upgrade and at the upgrade height (TBA) it will transition to the Hub chain’s validator set.
 * Hub Side: There will be a consumer-addition transaction for adding Comdex Sovereign chain as a consumer chain. Spawn time will be updated using the update consumer transaction on the Hub side (Need not be in the future). Once the spawn time is updated, we will receive the CCV state. Then a Reward denom will be added to the received CCV state to get CCV Denom. This CCV Denom will be used to patch the original Comdex chain’s genesis file.
 
-### What do you need to do to participate in the launch on xxxxday?
+### What do you need to do to participate in the launch on Tuesday?
 See the table below for a breakdown of steps you'll need to follow throughout the process. 
  
-## STEP 1 (Opt in Tx on Hub Chain Before the Update Tx - 5th December 2024 (xxxxday)  xx:xx  UTC)
+## STEP 1 (Opt in Tx on Hub Chain Before the Update Tx - 9th December 2024 (Monday)  15:30  UTC)
 
 ⚠️ Ensure that the `priv_validator_key.json` on the Comdex node is different from the key that exists on the Hub node.
 
